@@ -56,3 +56,4 @@ Open items for Zach: verify Kit sending address; downgrade Kit to free before Oc
 - scripts/tierlist_img.py: Pillow 1200x675 tier-list PNGs → /workspace/x-images/<slug>.png (coding, agents, chat, image, video generated).
 - build.py: /badges/{s,a,b,c}-tier.svg, /badge/ explainer page (in sitemap), copy-paste badge snippet on every tool page.
 - ops/outreach-targets.md: 46 small/indie tools with tier + page URL; backlog item 16 added.
+- 13:40 ET: added 31 verified Show HN indie tools (mostly C, Cactus Needle B) to tools.json; appended them with contacts to ops/outreach-targets.md; 9 skipped (mismatch/thin/not AI).

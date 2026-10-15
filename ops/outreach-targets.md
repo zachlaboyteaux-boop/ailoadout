@@ -55,3 +55,42 @@ Pitch angle: "You're rated X-tier on The AI Loadout" + their badge snippet (see 
 | Zotero | C | Education | https://zachlaboyteaux-boop.github.io/ailoadout/tools/zotero/ | https://www.zotero.org |  |
 
 Status column to add as we go: not contacted / contacted / replied / badge live.
+
+
+## Show HN additions (2026-10-15, from Dave's featured-prospects.csv; now listed on the site)
+
+| Tool | Tier | Loadout | Our page | Contact |
+|---|---|---|---|---|
+| Pulse Local | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/pulse-local/ | niz@pulseos.finance |
+| PDFtoMP3 | C | Voice / Audio | https://zachlaboyteaux-boop.github.io/ailoadout/tools/pdftomp3/ | none found (check site) |
+| Agent.reviews | C | AI Agents | https://zachlaboyteaux-boop.github.io/ailoadout/tools/agent-reviews/ | contact@armature.tech |
+| Breadcrumb | C | Productivity | https://zachlaboyteaux-boop.github.io/ailoadout/tools/breadcrumb/ | https://innerloop.works/contact |
+| Lathoa | C | Education | https://zachlaboyteaux-boop.github.io/ailoadout/tools/lathoa/ | hello@lathoa.ai |
+| Scry | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/scry/ | hi@scry.io |
+| OzBrain | C | AI Agents | https://zachlaboyteaux-boop.github.io/ailoadout/tools/ozbrain/ | darius@ozbrain.com |
+| 1667 | C | Writing | https://zachlaboyteaux-boop.github.io/ailoadout/tools/1667/ | none found (check site) |
+| Deltix | C | Coding / Vibe Coding | https://zachlaboyteaux-boop.github.io/ailoadout/tools/deltix/ | support@deltix.ai |
+| Cactus Needle | B | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/cactus-needle/ | founders@cactuscompute.com |
+| Offrun | C | Coding / Vibe Coding | https://zachlaboyteaux-boop.github.io/ailoadout/tools/offrun/ | hello@offrun.dev |
+| Zeph | C | Voice / Audio | https://zachlaboyteaux-boop.github.io/ailoadout/tools/zeph/ | hey@zephclick.com |
+| RxFilmStudio | C | Video | https://zachlaboyteaux-boop.github.io/ailoadout/tools/rxfilmstudio/ | none found (check site) |
+| Academa | C | Education | https://zachlaboyteaux-boop.github.io/ailoadout/tools/academa/ | founders@academa.ai |
+| SubSmith | C | Education | https://zachlaboyteaux-boop.github.io/ailoadout/tools/subsmith/ | none found (check site) |
+| WhoDunnitAI | C | AI in Games | https://zachlaboyteaux-boop.github.io/ailoadout/tools/whodunnitai/ | none found (check site) |
+| Airy | C | Voice / Audio | https://zachlaboyteaux-boop.github.io/ailoadout/tools/airy/ | none found (check site) |
+| Knowable | C | Education | https://zachlaboyteaux-boop.github.io/ailoadout/tools/knowable/ | support@knowable.ca |
+| HOPE | C | Education | https://zachlaboyteaux-boop.github.io/ailoadout/tools/hope/ | david@usehope.app |
+| Polyfork | C | 3D | https://zachlaboyteaux-boop.github.io/ailoadout/tools/polyfork/ | none found (check site) |
+| MarbleOS | C | AI Agents | https://zachlaboyteaux-boop.github.io/ailoadout/tools/marbleos/ | none found (check site) |
+| SKI | C | Coding / Vibe Coding | https://zachlaboyteaux-boop.github.io/ailoadout/tools/ski/ | none found (check site) |
+| Echologue | C | Productivity | https://zachlaboyteaux-boop.github.io/ailoadout/tools/echologue/ | reformic.est@gmail.com |
+| Lullaby Converter | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/lullaby-converter/ | support@lullabyconverter.com |
+| Autograph | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/autograph/ | autographapp@icloud.com |
+| Daydream Studio | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/daydream-studio/ | none found (check site) |
+| Table Canon | C | AI in Games | https://zachlaboyteaux-boop.github.io/ailoadout/tools/table-canon/ | none found (check site) |
+| Shikigami | C | Coding / Vibe Coding | https://zachlaboyteaux-boop.github.io/ailoadout/tools/shikigami/ | none found (check site) |
+| threadfork | C | Productivity | https://zachlaboyteaux-boop.github.io/ailoadout/tools/threadfork/ | sid@threadfork.com |
+| Portraify | C | Image | https://zachlaboyteaux-boop.github.io/ailoadout/tools/portraify/ | none found (check site) |
+| Traccia | C | AI Agents | https://zachlaboyteaux-boop.github.io/ailoadout/tools/traccia/ | founders@traccia.ai |
+
+Skipped from the CSV: Feyn (site now describes custom model training, not background removal; contact is a different domain), Nari Labs (site is a general inference platform, not the described TTS), Tilde Pay (page doesn't match 'agent bank account'), Pi pod and TinyAIArena (near-empty pages), Vimgolf.ai and Layer (not AI tools), GeoImageTagger (SEO photo utility), Monic Theory (thin page; unclear product).

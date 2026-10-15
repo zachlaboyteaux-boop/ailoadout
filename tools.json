@@ -1110,6 +1110,316 @@
    "pricing": "Free + paid storage",
    "tier": "C",
    "slug": "zotero"
+  },
+  {
+   "name": "Pulse Local",
+   "url": "https://pulseos.finance",
+   "category": "Crypto / Finance AI",
+   "rank": 7,
+   "verdict": "Mac budgeting app with AI models that run fully on your machine",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "pulse-local"
+  },
+  {
+   "name": "PDFtoMP3",
+   "url": "https://pdftomp3.com/connect-ai/",
+   "category": "Voice / Audio",
+   "rank": 6,
+   "verdict": "Turns PDFs into audiobooks by connecting your own Codex or Claude plus a speech API key",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "pdftomp3"
+  },
+  {
+   "name": "Agent.reviews",
+   "url": "https://agent.reviews/",
+   "category": "AI Agents",
+   "rank": 7,
+   "verdict": "Directory where coding agents review the software tools they used on real tasks",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "agent-reviews"
+  },
+  {
+   "name": "Breadcrumb",
+   "url": "https://innerloop.works/breadcrumb",
+   "category": "Productivity",
+   "rank": 6,
+   "verdict": "Local, encrypted Mac app that captures your activity as context for AI",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "breadcrumb"
+  },
+  {
+   "name": "Lathoa",
+   "url": "https://lathoa.ai/en",
+   "category": "Education",
+   "rank": 21,
+   "verdict": "Critical-thinking math app for kids 10-14 where the AI robot is wrong on purpose",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "lathoa"
+  },
+  {
+   "name": "Scry",
+   "url": "https://scry.io/",
+   "category": "Research / Search",
+   "rank": 6,
+   "verdict": "Research add-on for ChatGPT or Claude that reads forums, papers, filings and markets for you",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "scry"
+  },
+  {
+   "name": "OzBrain",
+   "url": "https://ozbrain.com",
+   "category": "AI Agents",
+   "rank": 8,
+   "verdict": "Shared knowledge base that Claude, ChatGPT, Cursor and other agents can all read and write",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "ozbrain"
+  },
+  {
+   "name": "1667",
+   "url": "https://1667.ai/",
+   "category": "Writing",
+   "rank": 4,
+   "verdict": "Full-screen terminal app for writing fiction with language models, with a story tree of takes",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "1667"
+  },
+  {
+   "name": "Deltix",
+   "url": "https://app.deltix.ai",
+   "category": "Coding / Vibe Coding",
+   "rank": 10,
+   "verdict": "AI agent that runs plain-English test tasks on your mobile app in a simulator",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "deltix"
+  },
+  {
+   "name": "Cactus Needle",
+   "url": "https://cactuscompute.com/needle",
+   "category": "Open-Source & Local Models",
+   "rank": 9,
+   "verdict": "Tiny 8-29 MB foundation model built for phones, wearables, robots and microcontrollers",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "B",
+   "slug": "cactus-needle"
+  },
+  {
+   "name": "Offrun",
+   "url": "https://offrun.dev/",
+   "category": "Coding / Vibe Coding",
+   "rank": 11,
+   "verdict": "Mac workspace to run several coding agents in parallel, each in its own git worktree",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "offrun"
+  },
+  {
+   "name": "Zeph",
+   "url": "https://zephclick.com",
+   "category": "Voice / Audio",
+   "rank": 7,
+   "verdict": "Voice-first push-to-talk hardware for dictation and talking to your agents",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "zeph"
+  },
+  {
+   "name": "RxFilmStudio",
+   "url": "https://filmstudio.rxlab.app",
+   "category": "Video",
+   "rank": 6,
+   "verdict": "Native macOS app to score, narrate, caption and render films with an AI agent",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "rxfilmstudio"
+  },
+  {
+   "name": "Academa",
+   "url": "https://academa.ai/",
+   "category": "Education",
+   "rank": 22,
+   "verdict": "Library of AI-generated technical lecture videos with chat alongside each video",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "academa"
+  },
+  {
+   "name": "SubSmith",
+   "url": "https://subsmith.app",
+   "category": "Education",
+   "rank": 23,
+   "verdict": "Turns videos into language-learning material with transcripts, instant definitions and Anki export",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "subsmith"
+  },
+  {
+   "name": "WhoDunnitAI",
+   "url": "https://www.whodunnitai.com/",
+   "category": "AI in Games",
+   "rank": 6,
+   "verdict": "Voice-driven murder mystery where you interrogate AI suspects out loud",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "whodunnitai"
+  },
+  {
+   "name": "Airy",
+   "url": "https://airy.so",
+   "category": "Voice / Audio",
+   "rank": 8,
+   "verdict": "Free text-to-speech studio for creators plus a low-cost TTS API",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "airy"
+  },
+  {
+   "name": "Knowable",
+   "url": "https://useknowable.ai/",
+   "category": "Education",
+   "rank": 24,
+   "verdict": "Camera-based AI tutor app that coaches students through textbook problems",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "knowable"
+  },
+  {
+   "name": "HOPE",
+   "url": "https://usehope.app",
+   "category": "Education",
+   "rank": 25,
+   "verdict": "Personalized daily math practice for grades 2-12 with progress shown to parents",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "hope"
+  },
+  {
+   "name": "Polyfork",
+   "url": "https://polyfork.dev/try",
+   "category": "3D",
+   "rank": 7,
+   "verdict": "3D assets defined in code with tweakable knobs for shape, palette and parts",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "polyfork"
+  },
+  {
+   "name": "MarbleOS",
+   "url": "https://marbleos.com/demo",
+   "category": "AI Agents",
+   "rank": 9,
+   "verdict": "Experimental visual workspace for AI agents with visible files, tools and tasks",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "marbleos"
+  },
+  {
+   "name": "SKI",
+   "url": "https://heyski.io/",
+   "category": "Coding / Vibe Coding",
+   "rank": 12,
+   "verdict": "Voice assistant that lets you talk out loud with Claude Code, Cursor, Codex and other agents",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "ski"
+  },
+  {
+   "name": "Echologue",
+   "url": "https://echologue.com/",
+   "category": "Productivity",
+   "rank": 7,
+   "verdict": "Private voice journal you can ask questions about later",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "echologue"
+  },
+  {
+   "name": "Lullaby Converter",
+   "url": "https://lullabyconverter.com",
+   "category": "Music",
+   "rank": 7,
+   "verdict": "AI that turns any song into a music-box lullaby that follows the real tune",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "lullaby-converter"
+  },
+  {
+   "name": "Autograph",
+   "url": "https://autographmusic.com",
+   "category": "Music",
+   "rank": 8,
+   "verdict": "Handwritten music notation app for iPad and Mac that you can also drive with Claude via MCP",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "autograph"
+  },
+  {
+   "name": "Daydream Studio",
+   "url": "https://labs.daydream.live/studio/",
+   "category": "Music",
+   "rank": 9,
+   "verdict": "Virtual recording studio where you book AI session players for your track",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "daydream-studio"
+  },
+  {
+   "name": "Table Canon",
+   "url": "https://tablecanon.app/",
+   "category": "AI in Games",
+   "rank": 7,
+   "verdict": "Turns tabletop RPG session audio into recaps and prep notes for game masters",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "table-canon"
+  },
+  {
+   "name": "Shikigami",
+   "url": "https://shikigami.dev/",
+   "category": "Coding / Vibe Coding",
+   "rank": 13,
+   "verdict": "Agentic IDE that runs Claude Code, Codex and opencode in parallel, each in its own worktree",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "shikigami"
+  },
+  {
+   "name": "threadfork",
+   "url": "https://www.threadfork.com/",
+   "category": "Productivity",
+   "rank": 8,
+   "verdict": "Local-first AI meeting notes on your Mac",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "threadfork"
+  },
+  {
+   "name": "Portraify",
+   "url": "https://portraify.app",
+   "category": "Image",
+   "rank": 7,
+   "verdict": "AI headshot generator that turns a selfie into professional profile photos",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "portraify"
+  },
+  {
+   "name": "Traccia",
+   "url": "https://traccia.ai/",
+   "category": "AI Agents",
+   "rank": 10,
+   "verdict": "Control plane for observability, evaluation and runtime policy on production AI agents",
+   "pricing": "Indie launch; check site for current pricing",
+   "tier": "C",
+   "slug": "traccia"
   }
  ],
  "releases": [
