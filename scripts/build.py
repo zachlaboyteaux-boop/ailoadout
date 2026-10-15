@@ -329,6 +329,28 @@ for b in BEST:
     FULL_BEST.append(f"- {b['title']}: {BASE}/best/{b['slug']}/\n")
     for t in ts: APPEARS.setdefault(id(t), []).append((b["title"], f"{BASE}/best/{b['slug']}/"))
 
+# ---- embeddable tier badges ----
+BADGE_COL = {"S":"#ff5c5c","A":"#ffb347","B":"#7cff6b","C":"#5ac8ff"}
+def badge_svg(k):
+    label = "The AI Loadout"; val = f"Rated {k}-tier"
+    lw, vw = 112, 96
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{lw+vw}" height="28" role="img" aria-label="{val} on {label}">'
+            f'<title>{val} on {label}</title><rect width="{lw}" height="28" rx="6" fill="#0b0d12"/>'
+            f'<rect x="{lw-6}" width="{vw+6}" height="28" rx="6" fill="{BADGE_COL[k]}"/><rect x="{lw-6}" width="6" height="28" fill="{BADGE_COL[k]}"/>'
+            f'<g font-family="Verdana,DejaVu Sans,sans-serif" font-size="12" font-weight="bold">'
+            f'<text x="{lw//2}" y="18" fill="#7cff6b" text-anchor="middle">{label}</text>'
+            f'<text x="{lw+vw//2}" y="18" fill="#000" text-anchor="middle">{val}</text></g></svg>\n')
+os.makedirs("badges", exist_ok=True)
+for k in BADGE_COL:
+    open(f"badges/{k.lower()}-tier.svg","w").write(badge_svg(k))
+def badge_snippet(t, s):
+    k = t.get("tier","C")
+    code = (f'<a href="{BASE}/tools/{s}/" target="_blank" rel="noopener">'
+            f'<img src="{BASE}/badges/{k.lower()}-tier.svg" alt="{e(t["name"])} is rated {k}-tier on The AI Loadout" width="208" height="28"></a>')
+    return (f'<h2>Badge for {e(t["name"])}</h2><p>Listed here? Show it off. Paste this on your site; it links back to this page. '
+            f'<a href="{BASE}/badge/">About badges</a></p><p>{code}</p>'
+            f'<textarea readonly onclick="this.select()" style="width:100%;height:84px;background:#141823;color:#e7eaf2;border:1px solid #232a3a;border-radius:8px;font:13px monospace">{e(code)}</textarea>')
+
 # ---- per-tool pages (built after compare/best so they can link back) ----
 FULL_TOOLS = []
 for t in D["tools"]:
@@ -344,7 +366,7 @@ for t in D["tools"]:
             f'<h1>{e(t["name"])} review: what it\'s best for ({YEAR})</h1>'
             f'<p><b>Verdict:</b> {e(t["verdict"])}.</p><p>{feat(t)}<b>Tier:</b> {badge(t)} &nbsp; <b>Rank:</b> #{t["rank"]} of {len(cats[c])} in the <a href="{BASE}/{SLUG[c]}/">{e(c)} loadout</a>.</p>'
             f'<p><b>Pricing:</b> {e(t["pricing"])}</p><p><a href="{e(t["url"])}" rel="noopener">Visit {e(t["name"])} →</a></p>'
-            f'<h2>Alternatives in the {e(short)} loadout</h2><ul>{alts}</ul>' + appears + '<h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq))
+            f'<h2>Alternatives in the {e(short)} loadout</h2><ul>{alts}</ul>' + appears + '<h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq) + badge_snippet(t, s))
     sa = {"@context":"https://schema.org","@type":"SoftwareApplication","name":t["name"],"url":t["url"],"applicationCategory":c,"operatingSystem":"Web",
           "description":t["verdict"],"dateModified":UP,"review":{"@type":"Review","author":{"@type":"Organization","name":"The AI Loadout"},"reviewBody":t["verdict"]}}
     fq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
@@ -365,6 +387,20 @@ CMP_ITEMS = [(l.split(f"{BASE}/compare/")[1].strip().rstrip("/"), l[2:].split(":
 BEST_ITEMS = [(l.split(f"{BASE}/best/")[1].strip().rstrip("/"), l[2:].split(": "+BASE)[0]) for l in FULL_BEST]
 hub("compare/", f"AI tool comparisons ({YEAR})", "Head-to-head AI tool comparisons with verdicts, tiers and pricing from The AI Loadout's rankings.", "Head-to-head matchups pulled from our loadout rankings: who wins at what, and what is free.", CMP_ITEMS)
 hub("best/", f"Best AI tools guides ({YEAR})", "Best-of AI tool guides by job: free tools, game dev, streamers, students, crypto research, local LLMs and more.", "Short, ranked guides for specific jobs, built only from our loadout rankings.", BEST_ITEMS)
+
+# ---- /badge/ page ----
+body = ('<h1>The AI Loadout badges</h1><p>Every tool we list gets an embeddable badge showing its current tier. '
+  'Each tool page has a copy-paste HTML snippet that links back to that tool\'s page on The AI Loadout.</p>'
+  + "".join(f'<p><img src="{BASE}/badges/{k.lower()}-tier.svg" alt="Rated {k}-tier on The AI Loadout" width="208" height="28"> '
+            f'<code>{BASE}/badges/{k.lower()}-tier.svg</code></p>' for k in "SABC") +
+  '<h2>How to use it</h2><ol><li>Open your tool\'s page from its <a href="' + BASE + '/">loadout</a>.</li>'
+  '<li>Scroll to "Badge for &lt;your tool&gt;" and copy the snippet.</li><li>Paste it in your site footer, README or docs.</li></ol>'
+  '<h2>Rules</h2><ul><li>Badges reflect our editorial tier; if your tier changes, update the snippet (the image URL is per tier).</li>'
+  '<li>Badges are free. A paid <a href="' + BASE + '/submit/">Featured listing</a> does not change a tier.</li>'
+  '<li>Not listed yet? <a href="' + BASE + '/submit/">Submit your tool</a>.</li></ul>')
+os.makedirs("badge", exist_ok=True)
+open("badge/index.html","w").write(page("badge/", "Embeddable tier badges – The AI Loadout", "Free embeddable badges showing your tool's S/A/B/C tier on The AI Loadout, with a copy-paste snippet that links back to your tool page.", body))
+urls.append(f"{BASE}/badge/")
 
 # ---- submit page ----
 PAY_LINK = "https://buy.stripe.com/aFa8wQ0wa5wL6Cy7bPgEg02"  # Stripe Payment Link: Featured Listing $49/mo
