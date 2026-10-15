@@ -94,7 +94,7 @@ COMPARE = [("cursor-vs-claude-code",["Cursor","Claude Code"]),
            ("chatgpt-vs-claude-vs-gemini",["ChatGPT","Claude","Gemini"]),
            ("grok-vs-chatgpt-vs-claude",["Grok","ChatGPT","Claude"]),
            ("midjourney-vs-ideogram-vs-leonardo",["Midjourney","Ideogram","Leonardo.Ai"]),
-           ("runway-vs-sora-vs-veo",["Runway","Sora","Veo (Google Flow)"]),
+           ("runway-vs-veo-vs-kling",[("Runway","Video"),("Veo (Google Flow)","Video"),("Kling AI","Video")]),
            ("lovable-vs-bolt-vs-v0",["Lovable","Bolt.new","v0"]),
            ("perplexity-vs-chatgpt-deep-research-vs-notebooklm",["Perplexity","ChatGPT Deep Research","NotebookLM"]),
            ("ollama-vs-lm-studio",[("Ollama","Open-Source & Local Models"),("LM Studio","Open-Source & Local Models")]),
@@ -117,7 +117,14 @@ COMPARE = [("cursor-vs-claude-code",["Cursor","Claude Code"]),
            ("perplexity-vs-gemini",["Perplexity","Gemini"]),
            ("midjourney-vs-chatgpt-images",[("Midjourney","Image"),("ChatGPT Images","Image")]),
            ("runway-vs-kling",[("Runway","Video"),("Kling AI","Video")]),
-           ("notion-ai-vs-chatgpt",["Notion AI","ChatGPT"])]
+           ("notion-ai-vs-chatgpt",["Notion AI","ChatGPT"]),
+           ("midjourney-vs-nano-banana",[("Midjourney","Image"),("Nano Banana","Image")]),
+           ("midjourney-vs-stable-diffusion",[("Midjourney","Image"),("Stable Diffusion","Image")]),
+           ("chatgpt-vs-deepseek",[("ChatGPT","Chat / Assistants"),("DeepSeek","Chat / Assistants")]),
+           ("claude-vs-deepseek",[("Claude","Chat / Assistants"),("DeepSeek","Chat / Assistants")]),
+           ("chatgpt-vs-copilot",[("ChatGPT","Chat / Assistants"),("Microsoft Copilot","Chat / Assistants")]),
+           ("runway-vs-higgsfield",[("Runway","Video"),("Higgsfield","Video")]),
+           ("elevenlabs-vs-speechify",[("ElevenLabs","Voice / Audio"),("Speechify","Voice / Audio")])]
 FULL_CMP = []
 for s, names in COMPARE:
     ts = []
@@ -265,7 +272,7 @@ BEST = [
     "specs": [("ElevenLabs Music","Music"),("Suno","Music"),("Udio","Music"),("Stable Audio","Music"),("Mubert","Music"),("AIVA","Music")],
     "faqs": [
       ("Can I use AI music on YouTube without a copyright claim?", "It depends on the tool and your plan. Our Music loadout ranks ElevenLabs Music for commercially cleared AI music; Mubert for royalty-free background music for streams. Verify current terms on each site before uploading."),
-      ("Suno or Udio for YouTube?", "Suno ranks #1 for full songs with vocals; Udio #2 for finer control. Commercial rights depend on their plans — check both."),
+      ("Suno or Udio for YouTube?", "Suno ranks #1 for full songs with vocals. Udio (now B-tier) has disabled all downloads on every plan since its UMG deal, so you cannot export tracks for YouTube. Commercial rights depend on plan; check terms."),
     ],
   },
 ]
