@@ -57,8 +57,8 @@ def page(path, title, desc, body, extra=""):
 <meta property="og:type" content="article"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}/og.png"><meta name="twitter:image" content="{BASE}/og.png">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}">
 <meta property="article:modified_time" content="{UP}">{ld(ORG)}{extra}<style>{CSS}</style></head><body><div class="w">
-<nav><a href="{BASE}/">← The AI Loadout</a>{"".join(f'<a href="{BASE}/{s}/">{e(c)}</a>' for c,s in SLUG.items() if c in cats)}</nav>
-{body}{SIGNUP}<p class="m"><a href="{BASE}/submit/">Submit a tool</a> · <a href="{BASE}/sponsor/">Sponsor / advertise</a></p><p class="m">Last updated {UP}. Rankings are editorial; pricing changes often, check each tool's site.</p></div>{GOATCOUNTER}</body></html>'''
+<nav><a href="{BASE}/">← The AI Loadout</a><a href="{BASE}/new/">🆕 New</a><a href="{BASE}/newsletter/">Newsletter</a>{"".join(f'<a href="{BASE}/{s}/">{e(c)}</a>' for c,s in SLUG.items() if c in cats)}</nav>
+{body}{SIGNUP}<p class="m"><a href="{BASE}/submit/">Submit a tool</a> · <a href="{BASE}/sponsor/">Sponsor / advertise</a> · <a href="{BASE}/badge/">Tier badges</a> · <a href="{BASE}/newsletter/">Newsletter</a></p><p class="m">Last updated {UP}. Rankings are editorial; pricing changes often, check each tool's site.</p></div>{GOATCOUNTER}</body></html>'''
 urls = [BASE+"/"]
 for c, ts in cats.items():
     s = SLUG.get(c, c.lower().replace(" ", "-").replace("/", ""))
@@ -394,7 +394,7 @@ body = ('<h1>The AI Loadout badges</h1><p>Every tool we list gets an embeddable 
   + "".join(f'<p><img src="{BASE}/badges/{k.lower()}-tier.svg" alt="Rated {k}-tier on The AI Loadout" width="208" height="28"> '
             f'<code>{BASE}/badges/{k.lower()}-tier.svg</code></p>' for k in "SABC") +
   '<h2>How to use it</h2><ol><li>Open your tool\'s page from its <a href="' + BASE + '/">loadout</a>.</li>'
-  '<li>Scroll to "Badge for &lt;your tool&gt;" and copy the snippet.</li><li>Paste it in your site footer, README or docs.</li></ol>'
+  '<li>Scroll to "Badge for <your tool>" and copy the snippet.</li><li>Paste it in your site footer, README or docs.</li></ol>'
   '<h2>Rules</h2><ul><li>Badges reflect our editorial tier; if your tier changes, update the snippet (the image URL is per tier).</li>'
   '<li>Badges are free. A paid <a href="' + BASE + '/submit/">Featured listing</a> does not change a tier.</li>'
   '<li>Not listed yet? <a href="' + BASE + '/submit/">Submit your tool</a>.</li></ul>')
@@ -443,12 +443,53 @@ sponsor_body = (
 os.makedirs("sponsor", exist_ok=True)
 open("sponsor/index.html","w").write(page("sponsor/", "Sponsor / advertise – The AI Loadout", "Sponsor The AI Loadout: Featured listings, newsletter slots, and partner mentions for AI tools. Early partners welcome.", sponsor_body))
 urls.append(f"{BASE}/sponsor/")
+# ---- data-driven counts (tools can be ranked in several loadouts) ----
+N_RANK = len(D["tools"])
+N_UNIQUE = len({t["name"].strip().lower() for t in D["tools"]})
+N_LOAD = len(cats)
+COUNTS = f"{N_UNIQUE} AI tools ranked S/A/B/C across {N_LOAD} use-case loadouts ({N_RANK} rankings, since some tools appear in more than one loadout)"
+# ---- /new/ : New Releases feed ----
+rels = sorted(D["releases"], key=lambda r: r.get("date",""), reverse=True)
+rel_lis = "".join(f'<li><b><a href="{e(r["url"])}" rel="noopener">{e(r["name"])}</a></b> <span class="m">({e(r.get("date",""))}{" · " + e(r["source"]) if r.get("source") else ""})</span><br>{e(r["what"])}</li>' for r in rels)
+body = (crumbs([("Home", BASE+"/"), ("New releases", None)]) + stamp() +
+  f'<h1>🆕 New <span>AI releases</span></h1><p>The latest AI model and tool launches worth knowing about, newest first, each linked to its source. Updated twice a day. For the ranked picks, see our {N_LOAD} loadouts on the <a href="{BASE}/">home page</a>.</p><ol>{rel_lis}</ol>'
+  f'<p class="m">Want these in your inbox? <a href="{BASE}/newsletter/">Get the weekly newsletter</a>.</p>')
+os.makedirs("new", exist_ok=True)
+newest = rels[0]["name"] if rels else ""
+open("new/index.html","w").write(page("new/", f"New AI releases ({YEAR}) – The AI Loadout", f"The newest AI model and tool launches, with sources, updated twice a day. Latest: {newest}.", body, ld({"@context":"https://schema.org","@type":"ItemList","name":"New AI releases","itemListElement":[{"@type":"ListItem","position":i+1,"name":r["name"],"url":r["url"]} for i,r in enumerate(rels)]}) + ld(crumb_ld([("Home", BASE+"/"), ("New releases", None)]))))
+urls.append(f"{BASE}/new/")
+# ---- /newsletter/ ----
+body = (crumbs([("Home", BASE+"/"), ("Newsletter", None)]) +
+  '<h1>The AI Loadout <span>Weekly</span></h1><p>One free email every Sunday morning. Each issue covers:</p><ul>'
+  '<li><b>New drops:</b> the AI launches from the past week that actually matter, with sources.</li>'
+  '<li><b>Tier moves:</b> tools that moved up or down our S/A/B/C rankings, and why.</li>'
+  '<li><b>Equip now:</b> one loadout pick worth trying this week.</li></ul>'
+  f'<p>It is built from the same data as the site: {e(COUNTS)}. No spam; unsubscribe in one click.</p>'
+  f'<p class="m">Prefer the web? The <a href="{BASE}/new/">New releases</a> page is updated twice a day.</p>')
+os.makedirs("newsletter", exist_ok=True)
+open("newsletter/index.html","w").write(page("newsletter/", "The AI Loadout Weekly newsletter – The AI Loadout", "A free weekly email: the AI launches that matter, tier moves in our S/A/B/C rankings, and one tool to equip now.", body, ld(crumb_ld([("Home", BASE+"/"), ("Newsletter", None)]))))
+urls.append(f"{BASE}/newsletter/")
+# ---- /badges/ : index of badge images, pointing to /badge/ ----
+body = (crumbs([("Home", BASE+"/"), ("Badges", None)]) +
+  f'<h1>Tier <span>badge</span> images</h1><p>These are the badge image files. For the copy-paste embed snippet and rules, see <a href="{BASE}/badge/">the badge page</a>.</p>' +
+  "".join(f'<p><img src="{BASE}/badges/{k.lower()}-tier.svg" alt="Rated {k}-tier on The AI Loadout" height="28"> <code>{BASE}/badges/{k.lower()}-tier.svg</code></p>' for k in "SABC"))
+open("badges/index.html","w").write(page("badges/", "Tier badge images – The AI Loadout", "S, A, B and C tier badge images for The AI Loadout. Get the embed snippet on the badge page.", body))
+urls.append(f"{BASE}/badges/")
 # home page JSON-LD + analytics + footer guide links
 idx = open("index.html").read()
+import re as _hre
 mark = "<!--LD-->"
 block = mark + ld({"@context":"https://schema.org","@type":"WebSite","name":"The AI Loadout","url":BASE+"/","dateModified":UP}) + ld(ORG) +     ld({"@context":"https://schema.org","@type":"ItemList","name":"AI tool loadouts","itemListElement":[{"@type":"ListItem","position":i+1,"name":c,"url":f"{BASE}/{SLUG[c]}/"} for i,c in enumerate(cats)]}) + mark
 if mark in idx: idx = idx.split(mark)[0] + block + idx.split(mark)[2]
 else: idx = idx.replace("<style>", block + "<style>", 1)
+HOME_DESC = f"The AI Loadout: {COUNTS}, plus the newest AI releases."
+idx = _hre.sub(r'(<meta name="description" content=")[^"]*(")', lambda m: m.group(1)+e(HOME_DESC)+m.group(2), idx, count=1)
+idx = _hre.sub(r'(<meta property="og:description" content=")[^"]*(")', lambda m: m.group(1)+e(HOME_DESC)+m.group(2), idx, count=1)
+idx = _hre.sub(r'(<meta name="twitter:description" content=")[^"]*(")', lambda m: m.group(1)+e(f"{N_UNIQUE} AI tools ranked S/A/B/C for every job, plus fresh drops.")+m.group(2), idx, count=1)
+HEAD_P = f'<p>Pick your mission, get the gear. <!--COUNTS-->{N_UNIQUE} AI tools ranked into S/A/B/C tiers across {N_LOAD} loadouts ({N_RANK} rankings)<!--/COUNTS-->, plus fresh drops.</p>'
+idx = _hre.sub(r'(<header><h1>The AI <span>Loadout</span></h1>)<p>.*?</p>', lambda m: m.group(1)+HEAD_P, idx, count=1, flags=_hre.S)
+if '<a href="new/">' not in idx:
+    idx = idx.replace('<a href="sponsor/">Sponsor / advertise</a></p><h2>🆕 New Releases</h2>', '<a href="sponsor/">Sponsor / advertise</a> · <a href="newsletter/">📬 Newsletter</a> · <a href="badge/">Tier badges</a></p><h2>🆕 New Releases <a href="new/" style="font-size:14px">see all</a></h2>', 1)
 if "ailoadout.goatcounter.com/count" not in idx:
     idx = idx.replace("</body>", GOATCOUNTER + "</body>", 1)
 # Keep homepage footer compare + best links in sync with generated pages
@@ -468,13 +509,13 @@ open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset x
     "".join(f"<url><loc>{u}</loc><lastmod>{UP}</lastmod><changefreq>daily</changefreq></url>\n" for u in urls+[BASE+"/llms.txt"]) + "</urlset>\n")
 bots = ["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-User","Claude-SearchBot","PerplexityBot","Perplexity-User","Google-Extended"]
 open("robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + "User-agent: *\nAllow: /\nDisallow: /dashboard/\n\n" + f"Sitemap: {BASE}/sitemap.xml\n")
-L = [f"# The AI Loadout\n\n> A free directory of AI tools ranked by use case (\"loadouts\"), plus a feed of new AI releases. Last updated {UP}.\n\n## Loadouts\n"]
+L = [f"# The AI Loadout\n\n> A free directory of AI tools ranked by use case (\"loadouts\"), plus a feed of new AI releases. {COUNTS}. Last updated {UP}.\n\n## Pages\n- [New AI releases]({BASE}/new/)\n- [Weekly newsletter]({BASE}/newsletter/)\n- [Tier badges]({BASE}/badge/)\n\n## Loadouts\n"]
 L += [f"- [Best AI tools for {c.split(' /')[0]}]({BASE}/{SLUG[c]}/): #1 {ts[0]['name']} — {ts[0]['verdict']}\n" for c,ts in cats.items()]
 L += ["\n## Comparisons\n"] + [f"- [{t}]({BASE}/compare/{sl}/)\n" for sl,t in CMP_ITEMS]
 L += ["\n## Best-of guides\n"] + [f"- [{t}]({BASE}/best/{sl}/)\n" for sl,t in BEST_ITEMS]
 L += [f"\n## Data\n- [tools.json]({BASE}/tools.json): machine-readable list of all tools and releases\n- [llms-full.txt]({BASE}/llms-full.txt): full directory as text\n"]
 open("llms.txt","w").write("".join(L))
-F = [f"# The AI Loadout — full directory\n\nLast updated {UP}. Source: {BASE}/\n"]
+F = [f"# The AI Loadout — full directory\n\n{COUNTS}. Last updated {UP}. Source: {BASE}/\n"]
 for c, ts in cats.items():
     F.append(f"\n## {c} ({BASE}/{SLUG[c]}/)\n" + "".join(f"{t['rank']}. {t['name']} ({t['url']}) — {t['verdict']}. Pricing: {t['pricing']}\n" for t in ts))
 F.append("\n## Tool pages\n" + "".join(FULL_TOOLS)); F.append("\n## Comparisons\n" + "".join(FULL_CMP)); F.append("\n## Best-of guides\n" + "".join(FULL_BEST))
