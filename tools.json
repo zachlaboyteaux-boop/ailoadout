@@ -616,7 +616,7 @@
    "url": "https://www.blockadelabs.com",
    "category": "3D",
    "rank": 5,
-   "verdict": "Best for 360\u00b0 skyboxes and environments",
+   "verdict": "Best for 360° skyboxes and environments",
    "pricing": "Free tier + paid",
    "tier": "B",
    "slug": "blockade-labs-skybox"
@@ -1420,6 +1420,206 @@
    "pricing": "Indie launch; check site for current pricing",
    "tier": "C",
    "slug": "traccia"
+  },
+  {
+   "name": "Opolyo",
+   "url": "https://opolyo.com/",
+   "category": "3D",
+   "rank": 8,
+   "verdict": "Photo or text prompt to a closed, textured 3D model in one to three minutes; image-to-STL for 3D printing",
+   "pricing": "Free version available; check site for current pricing",
+   "tier": "C",
+   "slug": "opolyo"
+  },
+  {
+   "name": "ArchVizr",
+   "url": "https://www.archvizr.com/",
+   "category": "3D",
+   "rank": 9,
+   "verdict": "Upload a SketchUp, Revit or CAD export and get a photoreal architectural render in seconds",
+   "pricing": "First render free; check site for current pricing",
+   "tier": "C",
+   "slug": "archvizr"
+  },
+  {
+   "name": "CAD Scene",
+   "url": "https://cadscene.com/",
+   "category": "3D",
+   "rank": 10,
+   "verdict": "Architect-built AI rendering: turns CAD/model views into photoreal architectural images",
+   "pricing": "First renders free; check site for current pricing",
+   "tier": "C",
+   "slug": "cad-scene"
+  },
+  {
+   "name": "Prompt2CAD",
+   "url": "https://prompt2cad.com/",
+   "category": "3D",
+   "rank": 11,
+   "verdict": "Describe a part or piece of furniture in plain language and get editable parametric CAD, cut lists and exports",
+   "pricing": "Free trial with 160 credits, then pay-as-you-go",
+   "tier": "B",
+   "slug": "prompt2cad"
+  },
+  {
+   "name": "Sprite Fusion",
+   "url": "https://www.spritefusion.com/pixel-art-generator",
+   "category": "Game Dev",
+   "rank": 6,
+   "verdict": "AI pixel-art generator, animator and tilemap editor that exports straight to game engines",
+   "pricing": "check site for current pricing",
+   "tier": "B",
+   "slug": "sprite-fusion"
+  },
+  {
+   "name": "Recastia",
+   "url": "https://recastia.com/",
+   "category": "Video",
+   "rank": 7,
+   "verdict": "Turns one PDF into a video, slides, flipbook, podcast or landing page",
+   "pricing": "check site for current pricing",
+   "tier": "C",
+   "slug": "recastia"
+  },
+  {
+   "name": "explain.ink",
+   "url": "https://explain.ink/",
+   "category": "Video",
+   "rank": 8,
+   "verdict": "Hand-drawn whiteboard explainer videos from a topic, script or document",
+   "pricing": "check site for current pricing",
+   "tier": "C",
+   "slug": "explain-ink"
+  },
+  {
+   "name": "Esseeoh",
+   "url": "https://www.esseeoh.com/",
+   "category": "Streamers / Creators",
+   "rank": 7,
+   "verdict": "Auto-clips long YouTube uploads into Shorts with AI-scored titles and auto-publishing",
+   "pricing": "check site for current pricing",
+   "tier": "C",
+   "slug": "esseeoh"
+  },
+  {
+   "name": "Reelyze",
+   "url": "https://getreelyze.com/",
+   "category": "Streamers / Creators",
+   "rank": 8,
+   "verdict": "AI reel analyzer for Instagram, TikTok and Shorts that shows where viewers drop off and what to make next",
+   "pricing": "check site for current pricing",
+   "tier": "C",
+   "slug": "reelyze"
+  },
+  {
+   "name": "Sekondo",
+   "url": "https://sekondo.app/en/",
+   "category": "Streamers / Creators",
+   "rank": 9,
+   "verdict": "Connects ChatGPT or Claude to Photoshop, Premiere, After Effects and other Adobe apps so you edit by talking",
+   "pricing": "7-day free trial; check site for current pricing",
+   "tier": "C",
+   "slug": "sekondo"
+  },
+  {
+   "name": "Vidfora",
+   "url": "https://vidfora.com/",
+   "category": "Streamers / Creators",
+   "rank": 10,
+   "verdict": "Finds YouTube outlier videos in your niche and helps turn them into your next idea",
+   "pricing": "Free plan; check site for current pricing",
+   "tier": "C",
+   "slug": "vidfora"
+  },
+  {
+   "name": "SchedPilot",
+   "url": "https://schedpilot.com/",
+   "category": "Streamers / Creators",
+   "rank": 11,
+   "verdict": "Social media scheduler built for AI agents, with MCP for Claude, ChatGPT, Cursor and more",
+   "pricing": "Free trial; check site for current pricing",
+   "tier": "C",
+   "slug": "schedpilot"
+  },
+  {
+   "name": "SpotScribe",
+   "url": "https://spotscribe.io/",
+   "category": "Streamers / Creators",
+   "rank": 12,
+   "verdict": "Pulls transcripts from Spotify and other podcasts, with AI summaries and chat-with-episode",
+   "pricing": "Free to start; check site for current pricing",
+   "tier": "C",
+   "slug": "spotscribe"
+  },
+  {
+   "name": "Songbrain",
+   "url": "https://www.songbrain.ai/",
+   "category": "Music",
+   "rank": 10,
+   "verdict": "Scores your song's strongest moments and renders ready-to-post music video clips",
+   "pricing": "Free analysis + 7 reels; check site for current pricing",
+   "tier": "C",
+   "slug": "songbrain"
+  },
+  {
+   "name": "ToneMirror",
+   "url": "https://www.tonemirror.so/",
+   "category": "Music",
+   "rank": 11,
+   "verdict": "Matches any song's guitar or bass tone to the amp, pickups and pedals you actually own",
+   "pricing": "check site for current pricing",
+   "tier": "C",
+   "slug": "tonemirror"
+  },
+  {
+   "name": "VocalDock",
+   "url": "https://vocaldock.com/",
+   "category": "Music",
+   "rank": 12,
+   "verdict": "Vocal remover, stem splitter, noise remover, voice clone and free BPM/key tools in the browser",
+   "pricing": "Some tools free; check site for current pricing",
+   "tier": "C",
+   "slug": "vocaldock"
+  },
+  {
+   "name": "StudioEditor",
+   "url": "https://studioeditor.io/",
+   "category": "Voice / Audio",
+   "rank": 9,
+   "verdict": "Browser-based audio and video podcast editor with AI enhancement and AutoDuck",
+   "pricing": "Free account with 60 credits; check site for current pricing",
+   "tier": "C",
+   "slug": "studioeditor"
+  },
+  {
+   "name": "Seply",
+   "url": "https://seply.org/",
+   "category": "Voice / Audio",
+   "rank": 10,
+   "verdict": "AI speaker separation that splits a mixed recording into one WAV per speaker, 30+ languages",
+   "pricing": "check site for current pricing",
+   "tier": "C",
+   "slug": "seply"
+  },
+  {
+   "name": "Attache",
+   "url": "https://attache.news/",
+   "category": "Research / Search",
+   "rank": 7,
+   "verdict": "AI news briefing that calls you each morning; ask questions and go deeper by phone",
+   "pricing": "Free week of Premium, then $19.99/mo (up to 10 hrs/month)",
+   "tier": "C",
+   "slug": "attache"
+  },
+  {
+   "name": "Perfectum AI",
+   "url": "https://perfectum.ai/",
+   "category": "Education",
+   "rank": 26,
+   "verdict": "AI-native LMS that builds courses from prompts and docs, with cohorts, certificates and licensing",
+   "pricing": "14-day free trial; check site for current pricing",
+   "tier": "C",
+   "slug": "perfectum-ai"
   }
  ],
  "releases": [

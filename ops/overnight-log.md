@@ -57,3 +57,4 @@ Open items for Zach: verify Kit sending address; downgrade Kit to free before Oc
 - build.py: /badges/{s,a,b,c}-tier.svg, /badge/ explainer page (in sitemap), copy-paste badge snippet on every tool page.
 - ops/outreach-targets.md: 46 small/indie tools with tier + page URL; backlog item 16 added.
 - 13:40 ET: added 31 verified Show HN indie tools (mostly C, Cactus Needle B) to tools.json; appended them with contacts to ops/outreach-targets.md; 9 skipped (mismatch/thin/not AI).
+- ~13:50 ET: vetted Dave's featured-prospects-2.csv (30 BetaList). All sites fetched with curl. Added 20 to tools.json (Prompt2CAD and Sprite Fusion at B, 18 at C) and appended them with contacts to ops/outreach-targets.md. Skipped 10 (wrappers, waitlist/coming soon, not AI, unverifiable). Pricing only where seen on site. Nobody contacted.

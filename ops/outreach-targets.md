@@ -94,3 +94,31 @@ Status column to add as we go: not contacted / contacted / replied / badge live.
 | Traccia | C | AI Agents | https://zachlaboyteaux-boop.github.io/ailoadout/tools/traccia/ | founders@traccia.ai |
 
 Skipped from the CSV: Feyn (site now describes custom model training, not background removal; contact is a different domain), Nari Labs (site is a general inference platform, not the described TTS), Tilde Pay (page doesn't match 'agent bank account'), Pi pod and TinyAIArena (near-empty pages), Vimgolf.ai and Layer (not AI tools), GeoImageTagger (SEO photo utility), Monic Theory (thin page; unclear product).
+
+
+### Batch 2: BetaList launches (Dave, vetted 2026-10-15)
+
+| Tool | Tier | Loadout | Page | Contact |
+|---|---|---|---|---|
+| Opolyo | C | 3D | https://zachlaboyteaux-boop.github.io/ailoadout/tools/opolyo/ | support@opolyo.com |
+| ArchVizr | C | 3D | https://zachlaboyteaux-boop.github.io/ailoadout/tools/archvizr/ | service@archvizr.com |
+| CAD Scene | C | 3D | https://zachlaboyteaux-boop.github.io/ailoadout/tools/cad-scene/ | support@cadscene.com |
+| Prompt2CAD | B | 3D | https://zachlaboyteaux-boop.github.io/ailoadout/tools/prompt2cad/ | support@prompt2cad.com |
+| Sprite Fusion | B | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/sprite-fusion/ | none found (check site) |
+| Recastia | C | Video | https://zachlaboyteaux-boop.github.io/ailoadout/tools/recastia/ | support@recastia.com |
+| explain.ink | C | Video | https://zachlaboyteaux-boop.github.io/ailoadout/tools/explain-ink/ | hello@explain.ink |
+| Esseeoh | C | Streamers / Creators | https://zachlaboyteaux-boop.github.io/ailoadout/tools/esseeoh/ | none found (check site) |
+| Reelyze | C | Streamers / Creators | https://zachlaboyteaux-boop.github.io/ailoadout/tools/reelyze/ | hello@getreelyze.com |
+| Sekondo | C | Streamers / Creators | https://zachlaboyteaux-boop.github.io/ailoadout/tools/sekondo/ | hola@sekondo.app |
+| Vidfora | C | Streamers / Creators | https://zachlaboyteaux-boop.github.io/ailoadout/tools/vidfora/ | hello@vidfora.com |
+| SchedPilot | C | Streamers / Creators | https://zachlaboyteaux-boop.github.io/ailoadout/tools/schedpilot/ | admin@schedpilot.com |
+| SpotScribe | C | Streamers / Creators | https://zachlaboyteaux-boop.github.io/ailoadout/tools/spotscribe/ | support@spotscribe.io |
+| Songbrain | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/songbrain/ | info@songbrain.ai |
+| ToneMirror | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/tonemirror/ | hello@tonemirror.so |
+| VocalDock | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/vocaldock/ | hi@vocaldock.com |
+| StudioEditor | C | Voice / Audio | https://zachlaboyteaux-boop.github.io/ailoadout/tools/studioeditor/ | none found (check site) |
+| Seply | C | Voice / Audio | https://zachlaboyteaux-boop.github.io/ailoadout/tools/seply/ | support@seply.org |
+| Attache | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/attache/ | contact@attache.news |
+| Perfectum AI | C | Education | https://zachlaboyteaux-boop.github.io/ailoadout/tools/perfectum-ai/ | sales@perfectum.ai |
+
+Skipped from batch 2: AI3DGen and Image to 3D Studio (generic image-to-3D wrappers, duplicate Opolyo), Animove AI (Wan 2.2 wrapper), TalkPix AI (multi-model wrapper grab-bag), Animarrow and Vindeo (waitlist only), Zapters (app 'coming soon'), Canovaccio (empty JS shell, can't verify), Titlo (lower-thirds designer, not AI), Egleze (curated podcast news site, not an AI tool).
