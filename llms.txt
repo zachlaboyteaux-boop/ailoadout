@@ -1,0 +1,19 @@
+# The AI Loadout
+
+> A free directory of AI tools ranked by use case ("loadouts"), plus a feed of new AI releases. Last updated 2026-10-14.
+
+## Loadouts
+- [Best AI tools for Coding](https://zachlaboyteaux-boop.github.io/ailoadout/coding/): #1 Cursor — Best all-round AI code editor for shipping real apps fast
+- [Best AI tools for AI Agents](https://zachlaboyteaux-boop.github.io/ailoadout/agents/): #1 ChatGPT Agent — Best general-purpose agent for everyday tasks
+- [Best AI tools for Chat](https://zachlaboyteaux-boop.github.io/ailoadout/chat/): #1 ChatGPT — Best default assistant for almost anything
+- [Best AI tools for Image](https://zachlaboyteaux-boop.github.io/ailoadout/image/): #1 Midjourney — Best pure image quality and style
+- [Best AI tools for Video](https://zachlaboyteaux-boop.github.io/ailoadout/video/): #1 Veo (Google Flow) — Best realism with native audio
+- [Best AI tools for Voice](https://zachlaboyteaux-boop.github.io/ailoadout/voice/): #1 ElevenLabs — Best voices, cloning and dubbing
+- [Best AI tools for Writing](https://zachlaboyteaux-boop.github.io/ailoadout/writing/): #1 Claude — Best natural-sounding long-form writing
+- [Best AI tools for Research](https://zachlaboyteaux-boop.github.io/ailoadout/research/): #1 Perplexity — Best answer engine with sources
+- [Best AI tools for Game Dev](https://zachlaboyteaux-boop.github.io/ailoadout/game-dev/): #1 Rosebud AI — Best for vibe coding browser games from prompts
+- [Best AI tools for Productivity](https://zachlaboyteaux-boop.github.io/ailoadout/productivity/): #1 Granola — Best AI meeting notes without a bot joining
+
+## Data
+- [tools.json](https://zachlaboyteaux-boop.github.io/ailoadout/tools.json): machine-readable list of all tools and releases
+- [llms-full.txt](https://zachlaboyteaux-boop.github.io/ailoadout/llms-full.txt): full directory as text

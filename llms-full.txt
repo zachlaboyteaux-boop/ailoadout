@@ -1,0 +1,83 @@
+# The AI Loadout — full directory
+
+Last updated 2026-10-14. Source: https://zachlaboyteaux-boop.github.io/ailoadout/
+
+## Coding / Vibe Coding (https://zachlaboyteaux-boop.github.io/ailoadout/coding/)
+1. Cursor (https://cursor.com) — Best all-round AI code editor for shipping real apps fast. Pricing: Free tier + paid
+2. Claude Code (https://www.anthropic.com/claude-code) — Best terminal agent for big multi-file changes. Pricing: Paid (Claude plan/API)
+3. OpenAI Codex (https://openai.com/codex/) — Best for delegating coding tasks to cloud agents. Pricing: Included with ChatGPT plans
+4. GitHub Copilot (https://github.com/features/copilot) — Best inside VS Code and GitHub workflows. Pricing: Free tier + paid
+5. Lovable (https://lovable.dev) — Best for idea-to-full-stack app with zero setup. Pricing: Free tier + paid
+6. Bolt.new (https://bolt.new) — Best for instant in-browser prototypes. Pricing: Free tier + paid
+7. v0 (https://v0.app) — Best for polished React/Next.js UIs. Pricing: Free tier + paid
+8. Replit (https://replit.com) — Best for building and hosting in one place. Pricing: Free tier + paid
+
+## AI Agents (https://zachlaboyteaux-boop.github.io/ailoadout/agents/)
+1. ChatGPT Agent (https://chatgpt.com) — Best general-purpose agent for everyday tasks. Pricing: Free tier + paid
+2. Manus (https://manus.im) — Best for long autonomous research and task runs. Pricing: Free credits + paid
+3. n8n (https://n8n.io) — Best for building your own agent workflows (self-hostable). Pricing: Free self-host + paid cloud
+4. Zapier Agents (https://zapier.com/agents) — Best for agents that touch 7,000+ apps. Pricing: Free tier + paid
+5. CrewAI (https://www.crewai.com) — Best framework for multi-agent teams in code. Pricing: Open source + paid cloud
+6. LangGraph (https://www.langchain.com/langgraph) — Best for controllable, stateful agent code. Pricing: Open source
+
+## Chat / Assistants (https://zachlaboyteaux-boop.github.io/ailoadout/chat/)
+1. ChatGPT (https://chatgpt.com) — Best default assistant for almost anything. Pricing: Free tier + paid
+2. Claude (https://claude.ai) — Best for writing, coding and long documents. Pricing: Free tier + paid
+3. Gemini (https://gemini.google.com) — Best if you live in Google apps. Pricing: Free tier + paid
+4. Grok (https://grok.com) — Best for real-time takes from X. Pricing: Free tier + paid
+
+## Image (https://zachlaboyteaux-boop.github.io/ailoadout/image/)
+1. Midjourney (https://www.midjourney.com) — Best pure image quality and style. Pricing: Paid
+2. ChatGPT Images (https://chatgpt.com) — Best for edits and text in images via chat. Pricing: Free tier + paid
+3. Ideogram (https://ideogram.ai) — Best for logos, posters and typography. Pricing: Free tier + paid
+4. Leonardo.Ai (https://leonardo.ai) — Best for game art and consistent assets. Pricing: Free tier + paid
+5. Adobe Firefly (https://firefly.adobe.com) — Best commercially safe images. Pricing: Free tier + paid
+
+## Video (https://zachlaboyteaux-boop.github.io/ailoadout/video/)
+1. Veo (Google Flow) (https://labs.google/flow) — Best realism with native audio. Pricing: Paid (Google AI plans)
+2. Sora (https://sora.com) — Best for creative, cinematic clips. Pricing: Included with ChatGPT plans
+3. Runway (https://runwayml.com) — Best pro editing and video tools. Pricing: Free tier + paid
+4. Kling AI (https://klingai.com) — Best motion quality for the price. Pricing: Free tier + paid
+5. CapCut (https://www.capcut.com) — Best for quick social edits with AI. Pricing: Free tier + paid
+
+## Voice / Audio (https://zachlaboyteaux-boop.github.io/ailoadout/voice/)
+1. ElevenLabs (https://elevenlabs.io) — Best voices, cloning and dubbing. Pricing: Free tier + paid
+2. Suno (https://suno.com) — Best for full songs from a prompt. Pricing: Free tier + paid
+3. Udio (https://www.udio.com) — Best for music with fine control. Pricing: Free tier + paid
+4. Descript (https://www.descript.com) — Best for editing podcasts by editing text. Pricing: Free tier + paid
+
+## Writing (https://zachlaboyteaux-boop.github.io/ailoadout/writing/)
+1. Claude (https://claude.ai) — Best natural-sounding long-form writing. Pricing: Free tier + paid
+2. Grammarly (https://www.grammarly.com) — Best for polishing everything you type. Pricing: Free tier + paid
+3. Notion AI (https://www.notion.com/product/ai) — Best for writing inside your docs and wiki. Pricing: Paid add-on
+
+## Research / Search (https://zachlaboyteaux-boop.github.io/ailoadout/research/)
+1. Perplexity (https://www.perplexity.ai) — Best answer engine with sources. Pricing: Free tier + paid
+2. NotebookLM (https://notebooklm.google.com) — Best for studying your own docs (and audio overviews). Pricing: Free tier + paid
+3. ChatGPT Deep Research (https://chatgpt.com) — Best for multi-page research reports. Pricing: Included with ChatGPT plans
+4. Elicit (https://elicit.com) — Best for academic papers. Pricing: Free tier + paid
+
+## Game Dev (https://zachlaboyteaux-boop.github.io/ailoadout/game-dev/)
+1. Rosebud AI (https://rosebud.ai) — Best for vibe coding browser games from prompts. Pricing: Free tier + paid
+2. Scenario (https://www.scenario.com) — Best for on-style game asset generation. Pricing: Free tier + paid
+3. Meshy (https://www.meshy.ai) — Best text/image to 3D models. Pricing: Free tier + paid
+4. Inworld AI (https://inworld.ai) — Best for AI NPC characters and voices. Pricing: Free tier + paid
+5. Tripo (https://www.tripo3d.ai) — Best fast 3D models for prototyping. Pricing: Free tier + paid
+
+## Productivity (https://zachlaboyteaux-boop.github.io/ailoadout/productivity/)
+1. Granola (https://www.granola.ai) — Best AI meeting notes without a bot joining. Pricing: Free tier + paid
+2. Gamma (https://gamma.app) — Best for decks and docs in seconds. Pricing: Free tier + paid
+3. Otter.ai (https://otter.ai) — Best for transcripts across meeting apps. Pricing: Free tier + paid
+4. Raycast AI (https://www.raycast.com) — Best AI launcher for Mac power users. Pricing: Free tier + paid
+5. Superhuman (https://superhuman.com) — Best AI email client for speed. Pricing: Paid
+
+## New releases
+- 2026-10-13: Gemini 4 Argon (general availability) — Google's frontier model, now in the Gemini app, AI Studio and API with a 1M-token limit (source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)
+- 2026-10-08: Google Gemini Agent for work — Google Cloud agent that answers questions, creates content and writes code at work (source: https://www.reuters.com/business/google-cloud-introduces-gemini-agent-work-ai-race-heats-up-2026-10-08/)
+- 2026-10-07: GPT-6 + Intelligent UI in ChatGPT — GPT-6 comes to all ChatGPT users with interactive, app-like answers (source: https://openai.com/index/gpt-6-for-everyone/)
+- 2026-10-07: Claude Haiku 5.5 — Anthropic's cheapest, fastest small model, tuned for agents and computer/browser use (source: https://www.anthropic.com/claude-haiku-5-5)
+- 2026-09-29: GPT-6.1 Sol — OpenAI DevDay upgrade with strong agentic coding and computer use at lower cost (source: https://openai.com/index/devday-2026-recap/)
+- 2026-09-29: GPT-6 Astra Ultrafast — Faster GPT-6 Astra in the API, ChatGPT Work and Codex (source: https://openai.com/index/devday-2026-recap/)
+- 2026-09-22: GPT-6 Sol & GPT-6 Luna — New GPT-6 family members for everyday and lightweight use (source: https://openai.com/index/gpt-6-astra/)
+- 2026-09: Gemini 3.8 Flash & Gemini 3.8 Live — Fast Gemini model plus expressive real-time voice models (source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/)
+- 2026-09: Gemini app for Windows — Gemini comes to the Windows desktop as a native app (source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/)

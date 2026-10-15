@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Dashboard – The AI Loadout</title>
+<style>body{margin:0;font:15px/1.5 system-ui,sans-serif;background:#0b0d12;color:#e7eaf2}.w{max-width:1000px;margin:auto;padding:20px}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}.c{background:#141823;border:1px solid #232a3a;border-radius:12px;padding:16px}
+.n{font-size:30px;font-weight:800;color:#7cff6b}.off .n{color:#555}.l{color:#8b93a7;font-size:13px}a{color:#5ac8ff}li{margin:4px 0;color:#c8cddb}</style></head>
+<body><div class="w"><h1>📊 The AI Loadout — Dashboard</h1><p class="l">Live stats from the repo. Panels marked "not connected yet" show no numbers until a real source is plugged in.</p>
+<div class="g">
+<div class="c"><div class="n" id="tc">…</div><div class="l">Tools listed</div></div>
+<div class="c"><div class="n" id="cc">…</div><div class="l">Loadouts (categories)</div></div>
+<div class="c"><div class="n" id="rc">…</div><div class="l">New releases tracked</div></div>
+<div class="c"><div class="n" id="up">…</div><div class="l">Data last updated</div></div>
+<div class="c off" id="visitors"><div class="n">—</div><div class="l">Visitors · <b>not connected yet</b><br>Plan: GoatCounter or Cloudflare Web Analytics (free)</div></div>
+<div class="c off"><div class="n">—</div><div class="l">Subscribers · <b>not connected yet</b><br>Plan: Kit</div></div>
+<div class="c off"><div class="n">—</div><div class="l">Revenue · <b>not connected yet</b><br>Plan: Stripe + affiliate programs</div></div>
+<div class="c off"><div class="n">—</div><div class="l">Profit · <b>not connected yet</b><br>Current costs: $0</div></div>
+</div>
+<h2>Update history (last 20 commits)</h2><ul id="h"><li>Loading…</li></ul>
+<p class="l"><a href="../">← Back to site</a></p></div>
+<script>
+// ANALYTICS HOOK: when GoatCounter is set up, add its script tag to index.html and replace the Visitors panel
+// with a fetch to https://YOURCODE.goatcounter.com/counter/TOTAL.json (public counter must be enabled).
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+fetch("../tools.json").then(r=>r.json()).then(d=>{tc.textContent=d.tools.length;cc.textContent=new Set(d.tools.map(t=>t.category)).size;rc.textContent=d.releases.length;up.textContent=d.updated});
+fetch("https://api.github.com/repos/zachlaboyteaux-boop/ailoadout/commits?per_page=20").then(r=>r.json()).then(cs=>{h.innerHTML=cs.map(c=>`<li>${esc(new Date(c.commit.author.date).toLocaleString())} — ${esc(c.commit.message.split("\n")[0])}</li>`).join("")}).catch(()=>h.innerHTML="<li>GitHub API unavailable (rate limit?)</li>");
+</script></body></html>
