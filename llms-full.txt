@@ -71,6 +71,65 @@ Last updated 2026-10-14. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 4. Raycast AI (https://www.raycast.com) — Best AI launcher for Mac power users. Pricing: Free tier + paid
 5. Superhuman (https://superhuman.com) — Best AI email client for speed. Pricing: Paid
 
+## Tool pages
+- Cursor: https://zachlaboyteaux-boop.github.io/ailoadout/tools/cursor/
+- Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/tools/claude-code/
+- OpenAI Codex: https://zachlaboyteaux-boop.github.io/ailoadout/tools/openai-codex/
+- GitHub Copilot: https://zachlaboyteaux-boop.github.io/ailoadout/tools/github-copilot/
+- Lovable: https://zachlaboyteaux-boop.github.io/ailoadout/tools/lovable/
+- Bolt.new: https://zachlaboyteaux-boop.github.io/ailoadout/tools/bolt-new/
+- v0: https://zachlaboyteaux-boop.github.io/ailoadout/tools/v0/
+- Replit: https://zachlaboyteaux-boop.github.io/ailoadout/tools/replit/
+- ChatGPT Agent: https://zachlaboyteaux-boop.github.io/ailoadout/tools/chatgpt-agent/
+- Manus: https://zachlaboyteaux-boop.github.io/ailoadout/tools/manus/
+- n8n: https://zachlaboyteaux-boop.github.io/ailoadout/tools/n8n/
+- Zapier Agents: https://zachlaboyteaux-boop.github.io/ailoadout/tools/zapier-agents/
+- CrewAI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/crewai/
+- LangGraph: https://zachlaboyteaux-boop.github.io/ailoadout/tools/langgraph/
+- ChatGPT: https://zachlaboyteaux-boop.github.io/ailoadout/tools/chatgpt/
+- Claude: https://zachlaboyteaux-boop.github.io/ailoadout/tools/claude/
+- Gemini: https://zachlaboyteaux-boop.github.io/ailoadout/tools/gemini/
+- Grok: https://zachlaboyteaux-boop.github.io/ailoadout/tools/grok/
+- Midjourney: https://zachlaboyteaux-boop.github.io/ailoadout/tools/midjourney/
+- ChatGPT Images: https://zachlaboyteaux-boop.github.io/ailoadout/tools/chatgpt-images/
+- Ideogram: https://zachlaboyteaux-boop.github.io/ailoadout/tools/ideogram/
+- Leonardo.Ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/leonardo-ai/
+- Adobe Firefly: https://zachlaboyteaux-boop.github.io/ailoadout/tools/adobe-firefly/
+- Veo (Google Flow): https://zachlaboyteaux-boop.github.io/ailoadout/tools/veo-google-flow/
+- Sora: https://zachlaboyteaux-boop.github.io/ailoadout/tools/sora/
+- Runway: https://zachlaboyteaux-boop.github.io/ailoadout/tools/runway/
+- Kling AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/kling-ai/
+- CapCut: https://zachlaboyteaux-boop.github.io/ailoadout/tools/capcut/
+- ElevenLabs: https://zachlaboyteaux-boop.github.io/ailoadout/tools/elevenlabs/
+- Suno: https://zachlaboyteaux-boop.github.io/ailoadout/tools/suno/
+- Udio: https://zachlaboyteaux-boop.github.io/ailoadout/tools/udio/
+- Descript: https://zachlaboyteaux-boop.github.io/ailoadout/tools/descript/
+- Claude: https://zachlaboyteaux-boop.github.io/ailoadout/tools/claude-writing/
+- Grammarly: https://zachlaboyteaux-boop.github.io/ailoadout/tools/grammarly/
+- Notion AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/notion-ai/
+- Perplexity: https://zachlaboyteaux-boop.github.io/ailoadout/tools/perplexity/
+- NotebookLM: https://zachlaboyteaux-boop.github.io/ailoadout/tools/notebooklm/
+- ChatGPT Deep Research: https://zachlaboyteaux-boop.github.io/ailoadout/tools/chatgpt-deep-research/
+- Elicit: https://zachlaboyteaux-boop.github.io/ailoadout/tools/elicit/
+- Rosebud AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/rosebud-ai/
+- Scenario: https://zachlaboyteaux-boop.github.io/ailoadout/tools/scenario/
+- Meshy: https://zachlaboyteaux-boop.github.io/ailoadout/tools/meshy/
+- Inworld AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/inworld-ai/
+- Tripo: https://zachlaboyteaux-boop.github.io/ailoadout/tools/tripo/
+- Granola: https://zachlaboyteaux-boop.github.io/ailoadout/tools/granola/
+- Gamma: https://zachlaboyteaux-boop.github.io/ailoadout/tools/gamma/
+- Otter.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/otter-ai/
+- Raycast AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/raycast-ai/
+- Superhuman: https://zachlaboyteaux-boop.github.io/ailoadout/tools/superhuman/
+
+## Comparisons
+- Cursor vs Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-claude-code/
+- ChatGPT vs Claude vs Gemini: https://zachlaboyteaux-boop.github.io/ailoadout/compare/chatgpt-vs-claude-vs-gemini/
+- Midjourney vs Ideogram vs Leonardo.Ai: https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-ideogram-vs-leonardo/
+- Runway vs Sora vs Veo (Google Flow): https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-sora-vs-veo/
+- Lovable vs Bolt.new vs v0: https://zachlaboyteaux-boop.github.io/ailoadout/compare/lovable-vs-bolt-vs-v0/
+- Perplexity vs ChatGPT Deep Research vs NotebookLM: https://zachlaboyteaux-boop.github.io/ailoadout/compare/perplexity-vs-chatgpt-deep-research-vs-notebooklm/
+
 ## New releases
 - 2026-10-13: Gemini 4 Argon (general availability) — Google's frontier model, now in the Gemini app, AI Studio and API with a 1M-token limit (source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)
 - 2026-10-08: Google Gemini Agent for work — Google Cloud agent that answers questions, creates content and writes code at work (source: https://www.reuters.com/business/google-cloud-introduces-gemini-agent-work-ai-race-heats-up-2026-10-08/)
