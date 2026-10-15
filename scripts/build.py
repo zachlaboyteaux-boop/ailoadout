@@ -28,6 +28,7 @@ CSS = "body{margin:0;font:16px/1.6 system-ui,sans-serif;background:#0b0d12;color
 def ld(o): return '<script type="application/ld+json">' + json.dumps(o, ensure_ascii=False) + '</script>'
 ORG = {"@context":"https://schema.org","@type":"Organization","name":"The AI Loadout","url":BASE+"/","logo":BASE+"/favicon.svg"}
 KIT_FORM_ID = 10047964  # Kit form "Newsletter site"
+GOATCOUNTER = '<script data-goatcounter="https://ailoadout.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'  # free analytics; site code from Zach's ailoadout.goatcounter.com
 SIGNUP = f'<form action="https://app.kit.com/forms/{KIT_FORM_ID}/subscriptions" method="post" target="_blank" style="margin:30px 0;padding:18px;border:1px dashed #232a3a;border-radius:12px;text-align:center"><b>Get The AI Loadout Weekly</b><br><span class="m">The AI launches that matter + what to equip now. Free, weekly.</span><br><input type="email" name="email_address" required placeholder="you@example.com" aria-label="Email address" style="padding:12px;border-radius:10px;border:1px solid #232a3a;background:#141823;color:#e7eaf2;font-size:16px;max-width:300px;width:100%"> <button type="submit" style="padding:12px 16px;border-radius:10px;border:0;background:#7cff6b;color:#000;font-weight:700;margin-top:8px">Subscribe</button></form>'
 def page(path, title, desc, body, extra=""):
     url = f"{BASE}/{path}"
@@ -37,7 +38,7 @@ def page(path, title, desc, body, extra=""):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}">
 <meta property="article:modified_time" content="{UP}">{ld(ORG)}{extra}<style>{CSS}</style></head><body><div class="w">
 <nav><a href="{BASE}/">← The AI Loadout</a>{"".join(f'<a href="{BASE}/{s}/">{e(c)}</a>' for c,s in SLUG.items() if c in cats)}</nav>
-{body}{SIGNUP}<p class="m"><a href="{BASE}/submit/">Submit a tool</a> · <a href="{BASE}/sponsor/">Sponsor / advertise</a></p><p class="m">Last updated {UP}. Rankings are editorial; pricing changes often, check each tool's site.</p></div></body></html>'''
+{body}{SIGNUP}<p class="m"><a href="{BASE}/submit/">Submit a tool</a> · <a href="{BASE}/sponsor/">Sponsor / advertise</a></p><p class="m">Last updated {UP}. Rankings are editorial; pricing changes often, check each tool's site.</p></div>{GOATCOUNTER}</body></html>'''
 urls = [BASE+"/"]
 for c, ts in cats.items():
     s = SLUG.get(c, c.lower().replace(" ", "-").replace("/", ""))
@@ -75,18 +76,33 @@ for t in D["tools"]:
     urls.append(f"{BASE}/tools/{s}/")
     FULL_TOOLS.append(f"- {t['name']}: {BASE}/tools/{s}/\n")
 # ---- comparison pages ----
+def find_tool(spec):
+    """spec is a name str, or (name, category) to pick a specific loadout entry."""
+    if isinstance(spec, (list, tuple)) and len(spec) == 2:
+        name, cat = spec
+        m = [t for t in D["tools"] if t["name"] == name and t["category"] == cat]
+        if m: return m[0]
+        m = [t for t in D["tools"] if t["name"] == name]
+        return m[0] if m else None
+    m = [t for t in D["tools"] if t["name"] == spec]
+    return m[0] if m else None
 COMPARE = [("cursor-vs-claude-code",["Cursor","Claude Code"]),
            ("chatgpt-vs-claude-vs-gemini",["ChatGPT","Claude","Gemini"]),
+           ("grok-vs-chatgpt-vs-claude",["Grok","ChatGPT","Claude"]),
            ("midjourney-vs-ideogram-vs-leonardo",["Midjourney","Ideogram","Leonardo.Ai"]),
            ("runway-vs-sora-vs-veo",["Runway","Sora","Veo (Google Flow)"]),
            ("lovable-vs-bolt-vs-v0",["Lovable","Bolt.new","v0"]),
-           ("perplexity-vs-chatgpt-deep-research-vs-notebooklm",["Perplexity","ChatGPT Deep Research","NotebookLM"])]
+           ("perplexity-vs-chatgpt-deep-research-vs-notebooklm",["Perplexity","ChatGPT Deep Research","NotebookLM"]),
+           ("ollama-vs-lm-studio",[("Ollama","Open-Source & Local Models"),("LM Studio","Open-Source & Local Models")]),
+           ("suno-vs-udio",[("Suno","Music"),("Udio","Music")]),
+           ("opusclip-vs-eklipse",["OpusClip","Eklipse"]),
+           ("meshy-vs-tripo-vs-rodin",[("Meshy","3D"),("Tripo","3D"),("Rodin (Hyper3D)","3D")])]
 FULL_CMP = []
 for s, names in COMPARE:
     ts = []
     for n in names:
-        m = [t for t in D["tools"] if t["name"] == n]
-        if m: ts.append(m[0])
+        t = find_tool(n)
+        if t: ts.append(t)
     if len(ts) < 2: continue
     title = " vs ".join(t["name"] for t in ts)
     same = len({t["category"] for t in ts}) == 1
@@ -105,6 +121,122 @@ for s, names in COMPARE:
     os.makedirs(f"compare/{s}", exist_ok=True)
     open(f"compare/{s}/index.html","w").write(page(f"compare/{s}/", f"{title} ({YEAR}): which AI tool should you use? – The AI Loadout", f"{title} compared: best-for verdicts, rankings and pricing. {short_ans}", body, ld(il)+ld(fq)))
     urls.append(f"{BASE}/compare/{s}/"); FULL_CMP.append(f"- {title}: {BASE}/compare/{s}/\n")
+
+# ---- best-of SEO pages (curated from tools.json only; no invented claims) ----
+def tools_by_specs(specs):
+    out = []
+    for spec in specs:
+        t = find_tool(spec)
+        if t: out.append(t)
+    return out
+
+BEST = [
+  {
+    "slug": "best-free-ai-coding-tools",
+    "title": f"Best free AI coding tools in {YEAR}",
+    "desc": f"The best free-tier AI coding tools in {YEAR}, ranked from our Coding loadout.",
+    "intro": "These coding tools have a free tier or free plan in our data. Paid upgrades exist on most; check each site for current limits. Rankings stay editorial.",
+    "specs": [("Cursor","Coding / Vibe Coding"),("GitHub Copilot","Coding / Vibe Coding"),("Lovable","Coding / Vibe Coding"),("Bolt.new","Coding / Vibe Coding"),("v0","Coding / Vibe Coding"),("Replit","Coding / Vibe Coding")],
+    "faqs": [
+      (f"What is the best free AI coding tool in {YEAR}?", "Among free-tier options in our Coding loadout, Cursor ranks #1 overall and has a free tier."),
+      ("Do free tiers stay free forever?", "Pricing changes often. We list what tools.json says today; always confirm on the official site."),
+    ],
+  },
+  {
+    "slug": "best-ai-for-unity-devs",
+    "title": f"Best AI for Unity developers in {YEAR}",
+    "desc": f"AI tools Unity and game developers use for assets, NPCs, and prototyping in {YEAR}.",
+    "intro": "We do not claim official Unity plugins. This page ranks tools from our Game Dev and 3D loadouts that game developers use for AI assets, NPCs, and prompt-to-playable prototypes.",
+    "specs": [("Rosebud AI","Game Dev"),("Scenario","Game Dev"),("Meshy","Game Dev"),("Inworld AI","Game Dev"),("Tripo","Game Dev"),("Rodin (Hyper3D)","3D")],
+    "faqs": [
+      ("What AI should Unity developers start with?", "For prompt-to-playable browser games, Rosebud AI ranks #1 in our Game Dev loadout. For on-style assets, Scenario; for 3D meshes, Meshy."),
+      ("Is this Unity-only?", "No. These tools are useful across game engines; we group them for developers shipping games, including Unity workflows."),
+    ],
+  },
+  {
+    "slug": "best-local-llm-tools",
+    "title": f"Best local LLM tools in {YEAR}",
+    "desc": f"Best tools to run open-source LLMs on your own machine in {YEAR}: Ollama, LM Studio, and more.",
+    "intro": "Run models on your own hardware. We rank runners and UIs from our Open-Source & Local Models loadout. We do not invent VRAM requirements — check each project’s docs for your GPU or CPU.",
+    "specs": [("Ollama","Open-Source & Local Models"),("LM Studio","Open-Source & Local Models"),("Hugging Face","Open-Source & Local Models"),("Open WebUI","Open-Source & Local Models"),("llama.cpp","Open-Source & Local Models"),("Jan","Open-Source & Local Models")],
+    "faqs": [
+      ("What is the best way to run a local LLM?", "Ollama ranks #1 in our local-models loadout for one-command local models. LM Studio is the top GUI desktop app."),
+      ("Will this run on 8GB or 16GB VRAM?", "It depends on the model and quant. Our rankings do not claim specific VRAM sizes — use each tool’s model browser and docs."),
+    ],
+  },
+  {
+    "slug": "best-ai-for-twitch-streamers",
+    "title": f"Best AI for Twitch streamers in {YEAR}",
+    "desc": f"Best AI tools for Twitch streamers and creators in {YEAR}: clipping, captions, and edits.",
+    "intro": "From our Streamers / Creators loadout: AI for highlights, vertical clips, captions, and edits. Built for people who ship content from long streams.",
+    "specs": [("OpusClip","Streamers / Creators"),("Eklipse","Streamers / Creators"),("StreamLadder","Streamers / Creators"),("Captions","Streamers / Creators"),("Descript","Streamers / Creators"),("CapCut","Streamers / Creators")],
+    "faqs": [
+      ("What is the best AI clipper for Twitch?", "OpusClip ranks #1 for turning long videos into shorts. Eklipse ranks #2 and is tuned for Twitch gaming highlights."),
+      ("Is CapCut good enough for free?", "CapCut is C-tier in this loadout as a free all-in-one social editor; stronger clippers sit above it for highlight workflows."),
+    ],
+  },
+  {
+    "slug": "best-ai-for-students",
+    "title": f"Best AI for students in {YEAR}",
+    "desc": f"Best AI study tools for students in {YEAR}, ranked from our Education loadout.",
+    "intro": "Study gear from our Education loadout. Use AI to learn faster — not to skip learning. School policies differ; follow yours.",
+    "specs": [("NotebookLM","Education"),("Khanmigo","Education"),("ChatGPT","Education"),("Duolingo","Education"),("Quizlet","Education")],
+    "faqs": [
+      ("What is the best AI for studying?", "NotebookLM ranks #1 for studying your own notes and sources. Khanmigo ranks #2 as a tutor that guides instead of dumping answers."),
+      ("Is ChatGPT allowed for homework?", "Depends on your school. We rank it as an all-purpose explainer; always follow your academic integrity rules."),
+    ],
+  },
+  {
+    "slug": "best-ai-for-crypto-research",
+    "title": f"Best AI for crypto research in {YEAR}",
+    "desc": f"Best AI tools for crypto and market research in {YEAR}, from our Crypto / Finance loadout.",
+    "intro": "Research and analytics gear from our Crypto / Finance AI loadout. Not financial advice — rankings are editorial opinions for finding information faster.",
+    "specs": [("Perplexity Finance","Crypto / Finance AI"),("Grok","Crypto / Finance AI"),("Nansen","Crypto / Finance AI"),("Arkham Intelligence","Crypto / Finance AI"),("Kaito","Crypto / Finance AI"),("Messari","Crypto / Finance AI")],
+    "faqs": [
+      ("What is the best AI for crypto research?", "Perplexity Finance ranks #1 for quick, sourced answers on markets. Nansen leads on-chain wallet analytics; Messari for research reports."),
+      ("Is this financial advice?", "No. The AI Loadout ranks tools for research workflows. Do your own diligence."),
+    ],
+  },
+  {
+    "slug": "best-ai-music-for-youtube",
+    "title": f"Best AI music for YouTube in {YEAR}",
+    "desc": f"Best AI music tools for YouTube creators in {YEAR}. Licensing still varies — check each tool.",
+    "intro": "Music generators from our Music loadout. Licensing and copyright rules change and differ by plan. In our data, ElevenLabs Music is ranked for commercially cleared AI music; always confirm license terms before you monetize.",
+    "specs": [("ElevenLabs Music","Music"),("Suno","Music"),("Udio","Music"),("Stable Audio","Music"),("Mubert","Music"),("AIVA","Music")],
+    "faqs": [
+      ("Can I use AI music on YouTube without a copyright claim?", "It depends on the tool and your plan. Our Music loadout ranks ElevenLabs Music for commercially cleared AI music; Mubert for royalty-free background music for streams. Verify current terms on each site before uploading."),
+      ("Suno or Udio for YouTube?", "Suno ranks #1 for full songs with vocals; Udio #2 for finer control. Commercial rights depend on their plans — check both."),
+    ],
+  },
+]
+FULL_BEST = []
+for b in BEST:
+    ts = tools_by_specs(b["specs"])
+    # de-dupe by name+category while preserving order
+    seen=set(); uniq=[]
+    for t in ts:
+        k=(t["name"],t["category"])
+        if k in seen: continue
+        seen.add(k); uniq.append(t)
+    ts = uniq
+    if len(ts) < 2: continue
+    lis = "".join(
+        f'<li>{badge(t)} <b><a href="{BASE}/tools/{tslug(t)}/">{e(t["name"])}</a></b>{feat(t)} — {e(t["verdict"])}. '
+        f'<span class="m">{e(t["pricing"])} · <a href="{BASE}/{SLUG.get(t["category"],"")}/">{e(t["category"])}</a> · '
+        f'<a href="{e(t["url"])}" rel="noopener">official site ↗</a></span></li>'
+        for t in ts
+    )
+    faq = b["faqs"]
+    body = (f'<h1>{e(b["title"])}</h1><p>{e(b["intro"])}</p><ol>{lis}</ol><h2>FAQ</h2>'
+            + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq)
+            + f'<p class="m">Pulled from <a href="{BASE}/tools.json">tools.json</a> rankings. Related: <a href="{BASE}/">all loadouts</a>.</p>')
+    il = {"@context":"https://schema.org","@type":"ItemList","name":b["title"],"dateModified":UP,
+          "itemListElement":[{"@type":"ListItem","position":i+1,"name":t["name"],"url":f"{BASE}/tools/{tslug(t)}/","description":t["verdict"]} for i,t in enumerate(ts)]}
+    fq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
+    os.makedirs(f"best/{b['slug']}", exist_ok=True)
+    open(f"best/{b['slug']}/index.html","w").write(page(f"best/{b['slug']}/", f"{b['title']} – The AI Loadout", b["desc"], body, ld(il)+ld(fq)))
+    urls.append(f"{BASE}/best/{b['slug']}/")
+    FULL_BEST.append(f"- {b['title']}: {BASE}/best/{b['slug']}/\n")
 
 # ---- submit page ----
 PAY_LINK = "https://buy.stripe.com/aFa8wQ0wa5wL6Cy7bPgEg02"  # Stripe Payment Link: Featured Listing $49/mo
@@ -147,13 +279,24 @@ sponsor_body = (
 os.makedirs("sponsor", exist_ok=True)
 open("sponsor/index.html","w").write(page("sponsor/", "Sponsor / advertise – The AI Loadout", "Sponsor The AI Loadout: Featured listings, newsletter slots, and partner mentions for AI tools. Early partners welcome.", sponsor_body))
 urls.append(f"{BASE}/sponsor/")
-# home page JSON-LD
+# home page JSON-LD + analytics + footer guide links
 idx = open("index.html").read()
 mark = "<!--LD-->"
-block = mark + ld({"@context":"https://schema.org","@type":"WebSite","name":"The AI Loadout","url":BASE+"/","dateModified":UP}) + ld(ORG) + \
-    ld({"@context":"https://schema.org","@type":"ItemList","name":"AI tool loadouts","itemListElement":[{"@type":"ListItem","position":i+1,"name":c,"url":f"{BASE}/{SLUG[c]}/"} for i,c in enumerate(cats)]}) + mark
+block = mark + ld({"@context":"https://schema.org","@type":"WebSite","name":"The AI Loadout","url":BASE+"/","dateModified":UP}) + ld(ORG) +     ld({"@context":"https://schema.org","@type":"ItemList","name":"AI tool loadouts","itemListElement":[{"@type":"ListItem","position":i+1,"name":c,"url":f"{BASE}/{SLUG[c]}/"} for i,c in enumerate(cats)]}) + mark
 if mark in idx: idx = idx.split(mark)[0] + block + idx.split(mark)[2]
 else: idx = idx.replace("<style>", block + "<style>", 1)
+if "ailoadout.goatcounter.com/count" not in idx:
+    idx = idx.replace("</body>", GOATCOUNTER + "</body>", 1)
+# Keep homepage footer compare + best links in sync with generated pages
+cmp_links = " · ".join(f'<a href="compare/{s}/">{e(names[0] if isinstance(names[0], str) else names[0][0])}…</a>' for s, names in COMPARE)
+# clearer static footer block
+best_links = " · ".join(f'<a href="best/{b["slug"]}/">{e(b["title"].replace(f" in {YEAR}",""))}</a>' for b in BEST)
+footer_guides = f'Compare: {cmp_links}<br>Best guides: {best_links}<br>'
+import re as _re
+idx2 = _re.sub(r"Compare:.*?<br>", footer_guides, idx, count=1, flags=_re.S)
+if idx2 != idx: idx = idx2
+elif "Best guides:" not in idx:
+    idx = idx.replace("Compare:", footer_guides + "Compare:", 1)
 open("index.html","w").write(idx)
 open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"<url><loc>{u}</loc><lastmod>{UP}</lastmod><changefreq>daily</changefreq></url>\n" for u in urls+[BASE+"/llms.txt"]) + "</urlset>\n")
@@ -166,7 +309,7 @@ open("llms.txt","w").write("".join(L))
 F = [f"# The AI Loadout — full directory\n\nLast updated {UP}. Source: {BASE}/\n"]
 for c, ts in cats.items():
     F.append(f"\n## {c} ({BASE}/{SLUG[c]}/)\n" + "".join(f"{t['rank']}. {t['name']} ({t['url']}) — {t['verdict']}. Pricing: {t['pricing']}\n" for t in ts))
-F.append("\n## Tool pages\n" + "".join(FULL_TOOLS)); F.append("\n## Comparisons\n" + "".join(FULL_CMP))
+F.append("\n## Tool pages\n" + "".join(FULL_TOOLS)); F.append("\n## Comparisons\n" + "".join(FULL_CMP)); F.append("\n## Best-of guides\n" + "".join(FULL_BEST))
 F.append("\n## New releases\n" + "".join(f"- {r['date']}: {r['name']} — {r['what']} (source: {r['url']})\n" for r in D["releases"]))
 open("llms-full.txt","w").write("".join(F))
-print(f"built {len(cats)} loadout pages, {len(FULL_TOOLS)} tool pages, {len(FULL_CMP)} comparisons, {len(urls)} sitemap URLs")
+print(f"built {len(cats)} loadout pages, {len(FULL_TOOLS)} tool pages, {len(FULL_CMP)} comparisons, {len(FULL_BEST)} best-of pages, {len(urls)} sitemap URLs")
