@@ -10,7 +10,7 @@ D = json.load(open("tools.json")); UP = D["updated"]; YEAR = UP[:4]
 e = html.escape
 cats = {}
 for t in D["tools"]: cats.setdefault(t["category"], []).append(t)
-for c in cats: cats[c].sort(key=lambda t: t["rank"])
+for c in cats: cats[c].sort(key=lambda t: (not t.get("featured", False), t["rank"]))
 import re
 def slugify(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")
 slugs = {}
@@ -22,6 +22,7 @@ def tslug(t): return slugs[id(t)]
 for t in D["tools"]: t["slug"] = tslug(t)
 json.dump(D, open("tools.json","w"), indent=1)  # write slugs back so the homepage can link to /tools/<slug>/
 TIER_COL = {"S":"#ff5c5c","A":"#ffb347","B":"#7cff6b","C":"#5ac8ff"}
+def feat(t): return ' <span style="display:inline-block;border-radius:6px;padding:0 6px;background:#ffd700;color:#000;font-weight:800;font-size:12px">★ Featured</span>' if t.get("featured") else ""
 def badge(t): return f'<span style="display:inline-block;min-width:22px;text-align:center;font-weight:800;border-radius:6px;padding:0 6px;color:#000;background:{TIER_COL.get(t.get("tier","C"))}">{t.get("tier","")}</span>'
 CSS = "body{margin:0;font:16px/1.6 system-ui,sans-serif;background:#0b0d12;color:#e7eaf2}a{color:#5ac8ff}.w{max-width:860px;margin:auto;padding:20px}h1{letter-spacing:-.5px}h1 span,h2{color:#7cff6b}ol li{margin:10px 0}.m{color:#8b93a7}nav a{margin-right:10px;font-size:14px}"
 def ld(o): return '<script type="application/ld+json">' + json.dumps(o, ensure_ascii=False) + '</script>'
@@ -45,7 +46,7 @@ for c, ts in cats.items():
     faq = [(f"What is the best AI tool for {short.lower()} in {YEAR}?", f"The top-ranked pick is {top['name']}: {top['verdict'].lower()}. Runners-up: " + ", ".join(t['name'] for t in ts[1:3]) + "."),
            (f"Are there free AI tools for {short.lower()}?", "Free tiers or free options: " + (", ".join(t['name'] for t in ts if "free" in t['pricing'].lower() or "open source" in t['pricing'].lower()) or "none in this list") + "."),
            ("How is this list ranked?", f"Editorially by The AI Loadout, based on capability, ease of use and value, and updated as new tools ship. Last updated {UP}.")]
-    lis = "".join(f'<li>{badge(t)} <b><a href="{BASE}/tools/{tslug(t)}/">{e(t["name"])}</a></b> — {e(t["verdict"])}. <span class="m">{e(t["pricing"])} · <a href="{e(t["url"])}" rel="noopener">official site ↗</a></span></li>' for t in ts)
+    lis = "".join(f'<li>{badge(t)} <b><a href="{BASE}/tools/{tslug(t)}/">{e(t["name"])}</a></b>{feat(t)} — {e(t["verdict"])}. <span class="m">{e(t["pricing"])} · <a href="{e(t["url"])}" rel="noopener">official site ↗</a></span></li>' for t in ts)
     body = f'<h1>Best AI tools for <span>{e(short)}</span> in {YEAR}</h1><p>The {e(c)} loadout: {len(ts)} AI tools ranked for this job, with a one-line verdict on what each is best for. Tiers: S = must-equip, A = strong pick, B = great for specific needs, C = situational. Top pick right now: <b>{e(top["name"])}</b> ({top.get("tier","")}-tier).</p><ol>{lis}</ol><h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq)
     il = {"@context":"https://schema.org","@type":"ItemList","name":f"Best AI tools for {short} in {YEAR}","dateModified":UP,
           "itemListElement":[{"@type":"ListItem","position":t["rank"],"name":t["name"],"url":t["url"],"description":t["verdict"]} for t in ts]}
@@ -63,7 +64,7 @@ for t in D["tools"]:
            (f"What are the best alternatives to {t['name']}?", "In the same loadout: " + "; ".join(f"{p['name']} (#{p['rank']}, {p['verdict'].lower()})" for p in peers[:4]) + ".")]
     alts = "".join(f'<li><a href="{BASE}/tools/{tslug(p)}/">{e(p["name"])}</a> (#{p["rank"]}) — {e(p["verdict"])}</li>' for p in peers)
     body = (f'<h1>{e(t["name"])} review: what it\'s best for ({YEAR})</h1>'
-            f'<p><b>Verdict:</b> {e(t["verdict"])}.</p><p><b>Tier:</b> {badge(t)} &nbsp; <b>Rank:</b> #{t["rank"]} of {len(cats[c])} in the <a href="{BASE}/{SLUG[c]}/">{e(c)} loadout</a>.</p>'
+            f'<p><b>Verdict:</b> {e(t["verdict"])}.</p><p>{feat(t)}<b>Tier:</b> {badge(t)} &nbsp; <b>Rank:</b> #{t["rank"]} of {len(cats[c])} in the <a href="{BASE}/{SLUG[c]}/">{e(c)} loadout</a>.</p>'
             f'<p><b>Pricing:</b> {e(t["pricing"])}</p><p><a href="{e(t["url"])}" rel="noopener">Visit {e(t["name"])} →</a></p>'
             f'<h2>Alternatives in the {e(short)} loadout</h2><ul>{alts}</ul><h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq))
     sa = {"@context":"https://schema.org","@type":"SoftwareApplication","name":t["name"],"url":t["url"],"applicationCategory":c,"operatingSystem":"Web",
@@ -104,6 +105,23 @@ for s, names in COMPARE:
     os.makedirs(f"compare/{s}", exist_ok=True)
     open(f"compare/{s}/index.html","w").write(page(f"compare/{s}/", f"{title} ({YEAR}): which AI tool should you use? – The AI Loadout", f"{title} compared: best-for verdicts, rankings and pricing. {short_ans}", body, ld(il)+ld(fq)))
     urls.append(f"{BASE}/compare/{s}/"); FULL_CMP.append(f"- {title}: {BASE}/compare/{s}/\n")
+
+# ---- submit page ----
+PAY_LINK = "https://buy.stripe.com/aFa8wQ0wa5wL6Cy7bPgEg02"  # Stripe Payment Link: Featured Listing $49/mo
+ISSUE = "https://github.com/zachlaboyteaux-boop/ailoadout/issues/new?title=Tool+submission%3A+&body=Tool+name%3A%0ATool+URL%3A%0ALoadout+%28category%29%3A%0AOne-line+pitch%3A%0A"
+body = (f'<h1>Submit your AI tool</h1><p>Built an AI tool? Get it in front of people choosing their loadout. Two ways in:</p>'
+  '<div id="thanks" style="display:none;padding:14px;border:1px solid #7cff6b;border-radius:12px;margin:12px 0"><b>Payment received — thank you!</b> Your Featured listing is being set up and usually goes live within 2 business days. We will reach you at your checkout email if we need anything.</div>'
+  f'<h2>Free listing</h2><ul><li>Open a <a href="{ISSUE}" rel="noopener">submission on GitHub</a> with your tool name, URL, loadout and a one-line pitch.</li>'
+  '<li>We review every submission. If it makes the cut, it gets ranked into a tier (S/A/B/C) on merit.</li><li>No guarantee of inclusion or placement; rankings stay editorial.</li></ul>'
+  f'<h2>★ Featured listing — $49/month</h2><ul><li>Pinned at the top of your tool\'s loadout with a <b>★ Featured</b> badge.</li>'
+  '<li>Included in <b>The AI Loadout Weekly</b> newsletter.</li><li>Your own tool page with FAQ and structured data for search and AI answers.</li>'
+  '<li>Cancel anytime. Featured placement is clearly labeled and does not change your tier, which stays editorial.</li></ul>'
+  f'<p><a href="{PAY_LINK}" rel="noopener" style="display:inline-block;padding:14px 22px;border-radius:10px;background:#7cff6b;color:#000;font-weight:800;text-decoration:none">Get Featured — $49/mo</a></p>'
+  '<p class="m">Checkout is handled securely by Stripe and asks for your tool name and URL.</p>'
+  '<script>if(location.search.indexOf("featured=thanks")>-1)document.getElementById("thanks").style.display="block"</script>')
+os.makedirs("submit", exist_ok=True)
+open("submit/index.html","w").write(page("submit/", "Submit your AI tool – The AI Loadout", "Submit your AI tool to The AI Loadout for free, or get a $49/month Featured listing pinned at the top of its loadout.", body))
+urls.append(f"{BASE}/submit/")
 # home page JSON-LD
 idx = open("index.html").read()
 mark = "<!--LD-->"
