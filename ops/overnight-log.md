@@ -24,3 +24,10 @@ Open items for Zach: verify Kit sending address; downgrade Kit to free before Oc
 - Wrote **marketing drafts** (not posted): `marketing/reddit-drafts.md` (r/vibecoding, r/LocalLLaMA, r/gamedev, r/aivideo), `marketing/hn-show-hn.md`, `marketing/product-hunt-kit.md`, `marketing/tiktok-shorts-scripts.md`. Facts only from tools.json; need Zach OK before any public post.
 - Still open: Kit sending address + free plan before Oct 29; confirm GoatCounter dashboard; custom domain later; Stripe fulfillment webhook optional.
 
+
+## 2026-10-15 ~08:20 ET (daily releases update)
+- Researched launches since newest New Releases date (2026-10-13) + catch-up for missed Muse Wonder (2026-10-12).
+- Added to `releases`: Grok Voice 3.0, Ultramarine 1 Flash, LFM2.5-24B-A2B, Meta Muse Wonder (13 total, under 15 cap).
+- Loadouts: Grok Voice 3.0 → Voice/Audio (A); Muse Wonder → Coding + Chat (A); LFM2.5-24B-A2B → Open-Source & Local (A).
+- Stripe Featured Listing: product live at $49/mo; **0** active subscriptions; no featured flag changes.
+- Newsletter notes appended to `newsletter/drafts/accum.md`.
