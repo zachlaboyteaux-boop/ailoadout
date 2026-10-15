@@ -1,6 +1,6 @@
 # The AI Loadout — full directory
 
-218 AI tools ranked S/A/B/C across 17 use-case loadouts (237 rankings, since some tools appear in more than one loadout). Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout/
+223 AI tools ranked S/A/B/C across 17 use-case loadouts (244 rankings, since some tools appear in more than one loadout). Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout/
 
 ## Coding / Vibe Coding (https://zachlaboyteaux-boop.github.io/ailoadout/coding/)
 1. Cursor (https://cursor.com) — Best all-round AI code editor for shipping real apps fast. Pricing: Free tier + paid
@@ -34,21 +34,25 @@
 2. ChatGPT (https://chatgpt.com) — Best default assistant for almost anything. Pricing: Free tier + paid
 3. Grok (https://grok.com) — Best for real-time takes from X. Pricing: Free tier + paid
 4. Gemini (https://gemini.google.com) — Best if you live in Google apps. Pricing: Free tier + paid
-5. Muse Wonder (https://dev.meta.ai) — Best Meta frontier assistant for agentic coding work. Pricing: Paid (API + Muse Code)
+5. DeepSeek (https://www.deepseek.com) — Best free reasoning chatbot, with open-weights models behind it. Pricing: Free chat; pay-as-you-go API
+6. Muse Wonder (https://dev.meta.ai) — Best Meta frontier assistant for agentic coding work. Pricing: Paid (API + Muse Code)
+7. Microsoft Copilot (https://copilot.microsoft.com) — Best if you live in Windows, Edge and Microsoft 365. Pricing: Free tier + paid (Microsoft 365 plans)
 
 ## Image (https://zachlaboyteaux-boop.github.io/ailoadout/image/)
 1. Midjourney (https://www.midjourney.com) — Best pure image quality and style. Pricing: Paid
-2. ChatGPT Images (https://chatgpt.com) — Best for edits and text in images via chat. Pricing: Free tier + paid
-3. Ideogram (https://ideogram.ai) — Best for logos, posters and typography. Pricing: Free tier + paid
-4. Leonardo.Ai (https://leonardo.ai) — Best for game art and consistent assets. Pricing: Free tier + paid
-5. Adobe Firefly (https://firefly.adobe.com) — Best commercially safe images. Pricing: Free tier + paid
-6. Grok Imagine (https://grok.com/imagine) — Best for fast, playful image and short video generation. Pricing: Free tier + paid
-7. Portraify (https://portraify.app) — AI headshot generator that turns a selfie into professional profile photos. Pricing: Indie launch; check site for current pricing
+2. Nano Banana (https://gemini.google/overview/image-generation/) — Best for editing photos and keeping characters consistent, right inside Gemini. Pricing: Free in Gemini; more with Google AI plans
+3. ChatGPT Images (https://chatgpt.com) — Best for edits and text in images via chat. Pricing: Free tier + paid
+4. Ideogram (https://ideogram.ai) — Best for logos, posters and typography. Pricing: Free tier + paid
+5. Leonardo.Ai (https://leonardo.ai) — Best for game art and consistent assets. Pricing: Free tier + paid
+6. Stable Diffusion (https://stability.ai/stable-image) — Best open-weights image model you can run and fine-tune yourself. Pricing: Free open weights (Community License under $1M revenue); paid API
+7. Adobe Firefly (https://firefly.adobe.com) — Best commercially safe images. Pricing: Free tier + paid
+8. Grok Imagine (https://grok.com/imagine) — Best for fast, playful image and short video generation. Pricing: Free tier + paid
+9. Portraify (https://portraify.app) — AI headshot generator that turns a selfie into professional profile photos. Pricing: Indie launch; check site for current pricing
 
 ## Video (https://zachlaboyteaux-boop.github.io/ailoadout/video/)
 1. Veo (Google Flow) (https://flow.google.com/) — Best realism with native audio. Pricing: Paid (Google AI plans)
-2. Sora (https://sora.com) — Best for creative, cinematic clips. Pricing: Included with ChatGPT plans
-3. Runway (https://runwayml.com) — Best pro editing and video tools. Pricing: Free tier + paid
+2. Runway (https://runwayml.com) — Best pro editing and video tools. Pricing: Free tier + paid
+3. Higgsfield (https://higgsfield.ai) — Best for cinematic camera moves and social-ready AI video. Pricing: Free tier + paid
 4. Kling AI (https://klingai.com) — Best motion quality for the price. Pricing: Free tier + paid
 5. CapCut (https://www.capcut.com) — Best for quick social edits with AI. Pricing: Free tier + paid
 6. RxFilmStudio (https://filmstudio.rxlab.app) — Native macOS app to score, narrate, caption and render films with an AI agent. Pricing: Indie launch; check site for current pricing
@@ -59,13 +63,14 @@
 1. ElevenLabs (https://elevenlabs.io) — Best voices, cloning and dubbing. Pricing: Free tier + paid
 2. Grok Voice 3.0 (https://x.ai/news/grok-voice-3) — Best speech-to-speech model for real-time voice agents. Pricing: Paid (API)
 3. Suno (https://suno.com) — Best for full songs from a prompt. Pricing: Free tier + paid
-4. Udio (https://www.udio.com) — Best for music with fine control. Pricing: Free tier + paid
+4. Udio (https://www.udio.com) — Music with fine control, but no downloads on any plan. Pricing: Free tier + paid; downloads disabled on all plans since the UMG deal
 5. Descript (https://www.descript.com) — Best for editing podcasts by editing text. Pricing: Free tier + paid
-6. PDFtoMP3 (https://pdftomp3.com/connect-ai/) — Turns PDFs into audiobooks by connecting your own Codex or Claude plus a speech API key. Pricing: Indie launch; check site for current pricing
-7. Zeph (https://zephclick.com) — Voice-first push-to-talk hardware for dictation and talking to your agents. Pricing: Indie launch; check site for current pricing
-8. Airy (https://airy.so) — Free text-to-speech studio for creators plus a low-cost TTS API. Pricing: Indie launch; check site for current pricing
-9. StudioEditor (https://studioeditor.io/) — Browser-based audio and video podcast editor with AI enhancement and AutoDuck. Pricing: Free account with 60 credits; check site for current pricing
-10. Seply (https://seply.org/) — AI speaker separation that splits a mixed recording into one WAV per speaker, 30+ languages. Pricing: check site for current pricing
+6. Speechify (https://speechify.com) — Best for listening to docs, PDFs and web pages read aloud. Pricing: Free tier; Premium $29/mo
+7. PDFtoMP3 (https://pdftomp3.com/connect-ai/) — Turns PDFs into audiobooks by connecting your own Codex or Claude plus a speech API key. Pricing: Indie launch; check site for current pricing
+8. Zeph (https://zephclick.com) — Voice-first push-to-talk hardware for dictation and talking to your agents. Pricing: Indie launch; check site for current pricing
+9. Airy (https://airy.so) — Free text-to-speech studio for creators plus a low-cost TTS API. Pricing: Indie launch; check site for current pricing
+10. StudioEditor (https://studioeditor.io/) — Browser-based audio and video podcast editor with AI enhancement and AutoDuck. Pricing: Free account with 60 credits; check site for current pricing
+11. Seply (https://seply.org/) — AI speaker separation that splits a mixed recording into one WAV per speaker, 30+ languages. Pricing: check site for current pricing
 
 ## Writing (https://zachlaboyteaux-boop.github.io/ailoadout/writing/)
 1. Claude (https://claude.ai) — Best natural-sounding long-form writing. Pricing: Free tier + paid
@@ -170,9 +175,9 @@
 
 ## Music (https://zachlaboyteaux-boop.github.io/ailoadout/music/)
 1. Suno (https://suno.com) — Best for full songs with vocals from a prompt. Pricing: Free tier + paid
-2. Udio (https://www.udio.com) — Best for fine control over music generation. Pricing: Free tier + paid
-3. ElevenLabs Music (https://elevenlabs.io/music) — Best for commercially cleared AI music. Pricing: Free tier + paid
-4. LALAL.AI (https://www.lalal.ai/) — Best-in-class AI stem splitter and vocal remover. Pricing: Paid from $9.99/mo
+2. ElevenLabs Music (https://elevenlabs.io/music) — Best for commercially cleared AI music. Pricing: Free tier + paid
+3. LALAL.AI (https://www.lalal.ai/) — Best-in-class AI stem splitter and vocal remover. Pricing: Paid from $9.99/mo
+4. Udio (https://www.udio.com) — Fine control over music generation, but no downloads (audio, video and stems disabled). Pricing: Free tier + paid; downloads disabled on all plans since the UMG deal
 5. Stable Audio (https://www.stableaudio.com) — Best for loops, stems and sound design. Pricing: Free tier + paid
 6. AIVA (https://www.aiva.ai) — Best for orchestral and soundtrack composition. Pricing: Free tier + paid
 7. Beatoven.ai (https://www.beatoven.ai/) — Royalty-free AI background music for videos and podcasts. Pricing: See site for pricing
@@ -243,26 +248,28 @@
 1. Ollama (https://ollama.com) — Best one-command way to run models locally. Pricing: Free / open source
 2. LM Studio (https://lmstudio.ai) — Best desktop app for local models with a GUI. Pricing: Free
 3. LFM2.5-24B-A2B (https://www.liquid.ai/blog/lfm2-5-24b-a2b) — Best open MoE for on-device agents (24B total, 2B active). Pricing: Open weights
-4. Hugging Face (https://huggingface.co) — Best hub for open models, datasets and demos. Pricing: Free tier + paid
-5. AnythingLLM (https://anythingllm.com/) — Free, private all-in-one local AI app: chat with docs, agents, any model. Pricing: Free desktop app; hosted from $50/mo
-6. Open WebUI (https://openwebui.com) — Best self-hosted ChatGPT-style interface. Pricing: Free / open source
-7. llama.cpp (https://github.com/ggml-org/llama.cpp) — Best engine for fast local inference on any hardware. Pricing: Open source
-8. Jan (https://www.jan.ai) — Best privacy-first offline assistant. Pricing: Free / open source
-9. ComfyUI (https://www.comfy.org) — Best node-based local image/video generation. Pricing: Free / open source
-10. Cactus Needle (https://cactuscompute.com/needle) — Tiny 8-29 MB foundation model built for phones, wearables, robots and microcontrollers. Pricing: Indie launch; check site for current pricing
-11. LocalAI (https://localai.io/) — Open-source, OpenAI-compatible server to run text, voice and image models locally. Pricing: Free, open source (MIT)
-12. Msty (https://msty.ai/) — Polished private AI app for local and cloud models with workspaces and knowledge stacks. Pricing: Free; paid plans on site
-13. Private LLM (https://privatellm.app/) — Run Llama, Qwen and DeepSeek fully offline on iPhone, iPad and Mac. Pricing: One-time App Store purchase
-14. Chatbox AI (https://chatboxai.app/) — Desktop and mobile chat client for cloud APIs and local models. Pricing: Free; Lite $3.50/mo, Pro $16.70/mo
-15. Locally AI (https://locallyai.app/) — Run open models offline on iPhone, iPad and Mac (now part of LM Studio). Pricing: Free
-16. Enclave AI (https://enclaveai.app/) — Offline AI assistant for iPhone and Mac with local voice chat. Pricing: Free; Pro $9.99/mo
-17. Backyard AI (https://backyard.ai/) — Local-model character chat app with lorebooks. Pricing: Free local app; see site
-18. Fullmoon (https://fullmoon.app/) — Minimal open-source app to chat with local LLMs on Apple devices. Pricing: Free, open source
-19. Layla (https://www.layla-network.ai/) — Private offline AI assistant and character chat for Android and iOS. Pricing: See site for pricing
-20. BoltAI (https://boltai.com/) — Native Mac AI app for ChatGPT, Claude, Gemini and local LLMs. Pricing: From $79 one-time
-21. RecurseChat (https://recurse.chat/) — Mac app for chatting with local AI models and your files. Pricing: Paid Mac app ($19.99-$29.99)
-22. Osaurus (https://osaurus.ai/) — Open local AI agents that run on your Mac. Pricing: Free; Workspaces $20/mo
-23. LocalMode (https://localmode.ai/) — Developer kit of React components that run AI models on-device in the browser. Pricing: Free, open source
+4. DeepSeek (https://huggingface.co/deepseek-ai) — Top open-weights reasoning and coding models to run locally. Pricing: Free open weights
+5. Hugging Face (https://huggingface.co) — Best hub for open models, datasets and demos. Pricing: Free tier + paid
+6. Stable Diffusion (https://stability.ai/stable-image) — The go-to open image model for local generation in ComfyUI and similar apps. Pricing: Free open weights (Community License under $1M revenue)
+7. AnythingLLM (https://anythingllm.com/) — Free, private all-in-one local AI app: chat with docs, agents, any model. Pricing: Free desktop app; hosted from $50/mo
+8. Open WebUI (https://openwebui.com) — Best self-hosted ChatGPT-style interface. Pricing: Free / open source
+9. llama.cpp (https://github.com/ggml-org/llama.cpp) — Best engine for fast local inference on any hardware. Pricing: Open source
+10. Jan (https://www.jan.ai) — Best privacy-first offline assistant. Pricing: Free / open source
+11. ComfyUI (https://www.comfy.org) — Best node-based local image/video generation. Pricing: Free / open source
+12. Cactus Needle (https://cactuscompute.com/needle) — Tiny 8-29 MB foundation model built for phones, wearables, robots and microcontrollers. Pricing: Indie launch; check site for current pricing
+13. LocalAI (https://localai.io/) — Open-source, OpenAI-compatible server to run text, voice and image models locally. Pricing: Free, open source (MIT)
+14. Msty (https://msty.ai/) — Polished private AI app for local and cloud models with workspaces and knowledge stacks. Pricing: Free; paid plans on site
+15. Private LLM (https://privatellm.app/) — Run Llama, Qwen and DeepSeek fully offline on iPhone, iPad and Mac. Pricing: One-time App Store purchase
+16. Chatbox AI (https://chatboxai.app/) — Desktop and mobile chat client for cloud APIs and local models. Pricing: Free; Lite $3.50/mo, Pro $16.70/mo
+17. Locally AI (https://locallyai.app/) — Run open models offline on iPhone, iPad and Mac (now part of LM Studio). Pricing: Free
+18. Enclave AI (https://enclaveai.app/) — Offline AI assistant for iPhone and Mac with local voice chat. Pricing: Free; Pro $9.99/mo
+19. Backyard AI (https://backyard.ai/) — Local-model character chat app with lorebooks. Pricing: Free local app; see site
+20. Fullmoon (https://fullmoon.app/) — Minimal open-source app to chat with local LLMs on Apple devices. Pricing: Free, open source
+21. Layla (https://www.layla-network.ai/) — Private offline AI assistant and character chat for Android and iOS. Pricing: See site for pricing
+22. BoltAI (https://boltai.com/) — Native Mac AI app for ChatGPT, Claude, Gemini and local LLMs. Pricing: From $79 one-time
+23. RecurseChat (https://recurse.chat/) — Mac app for chatting with local AI models and your files. Pricing: Paid Mac app ($19.99-$29.99)
+24. Osaurus (https://osaurus.ai/) — Open local AI agents that run on your Mac. Pricing: Free; Workspaces $20/mo
+25. LocalMode (https://localmode.ai/) — Developer kit of React components that run AI models on-device in the browser. Pricing: Free, open source
 
 ## AI in Games (https://zachlaboyteaux-boop.github.io/ailoadout/ai-in-games/)
 1. Inworld AI (https://inworld.ai) — Best for AI NPC characters and voices. Pricing: Free tier + paid
@@ -298,7 +305,6 @@
 - Leonardo.Ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/leonardo-ai/
 - Adobe Firefly: https://zachlaboyteaux-boop.github.io/ailoadout/tools/adobe-firefly/
 - Veo (Google Flow): https://zachlaboyteaux-boop.github.io/ailoadout/tools/veo-google-flow/
-- Sora: https://zachlaboyteaux-boop.github.io/ailoadout/tools/sora/
 - Runway: https://zachlaboyteaux-boop.github.io/ailoadout/tools/runway/
 - Kling AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/kling-ai/
 - CapCut: https://zachlaboyteaux-boop.github.io/ailoadout/tools/capcut/
@@ -511,13 +517,21 @@
 - ResearchPal: https://zachlaboyteaux-boop.github.io/ailoadout/tools/researchpal/
 - Nouswise: https://zachlaboyteaux-boop.github.io/ailoadout/tools/nouswise/
 - ScholarAI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/scholarai/
+- Nano Banana: https://zachlaboyteaux-boop.github.io/ailoadout/tools/nano-banana/
+- Stable Diffusion: https://zachlaboyteaux-boop.github.io/ailoadout/tools/stable-diffusion/
+- DeepSeek: https://zachlaboyteaux-boop.github.io/ailoadout/tools/deepseek/
+- Microsoft Copilot: https://zachlaboyteaux-boop.github.io/ailoadout/tools/microsoft-copilot/
+- DeepSeek: https://zachlaboyteaux-boop.github.io/ailoadout/tools/deepseek-local-models/
+- Stable Diffusion: https://zachlaboyteaux-boop.github.io/ailoadout/tools/stable-diffusion-local-models/
+- Higgsfield: https://zachlaboyteaux-boop.github.io/ailoadout/tools/higgsfield/
+- Speechify: https://zachlaboyteaux-boop.github.io/ailoadout/tools/speechify/
 
 ## Comparisons
 - Cursor vs Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-claude-code/
 - ChatGPT vs Claude vs Gemini: https://zachlaboyteaux-boop.github.io/ailoadout/compare/chatgpt-vs-claude-vs-gemini/
 - Grok vs ChatGPT vs Claude: https://zachlaboyteaux-boop.github.io/ailoadout/compare/grok-vs-chatgpt-vs-claude/
 - Midjourney vs Ideogram vs Leonardo.Ai: https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-ideogram-vs-leonardo/
-- Runway vs Sora vs Veo (Google Flow): https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-sora-vs-veo/
+- Runway vs Veo (Google Flow) vs Kling AI: https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-veo-vs-kling/
 - Lovable vs Bolt.new vs v0: https://zachlaboyteaux-boop.github.io/ailoadout/compare/lovable-vs-bolt-vs-v0/
 - Perplexity vs ChatGPT Deep Research vs NotebookLM: https://zachlaboyteaux-boop.github.io/ailoadout/compare/perplexity-vs-chatgpt-deep-research-vs-notebooklm/
 - Ollama vs LM Studio: https://zachlaboyteaux-boop.github.io/ailoadout/compare/ollama-vs-lm-studio/
@@ -541,6 +555,13 @@
 - Midjourney vs ChatGPT Images: https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-chatgpt-images/
 - Runway vs Kling AI: https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-kling/
 - Notion AI vs ChatGPT: https://zachlaboyteaux-boop.github.io/ailoadout/compare/notion-ai-vs-chatgpt/
+- Midjourney vs Nano Banana: https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-nano-banana/
+- Midjourney vs Stable Diffusion: https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-stable-diffusion/
+- ChatGPT vs DeepSeek: https://zachlaboyteaux-boop.github.io/ailoadout/compare/chatgpt-vs-deepseek/
+- Claude vs DeepSeek: https://zachlaboyteaux-boop.github.io/ailoadout/compare/claude-vs-deepseek/
+- ChatGPT vs Microsoft Copilot: https://zachlaboyteaux-boop.github.io/ailoadout/compare/chatgpt-vs-copilot/
+- Runway vs Higgsfield: https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-higgsfield/
+- ElevenLabs vs Speechify: https://zachlaboyteaux-boop.github.io/ailoadout/compare/elevenlabs-vs-speechify/
 
 ## Best-of guides
 - Best AI for image generation in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-image-generation/

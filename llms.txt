@@ -1,6 +1,6 @@
 # The AI Loadout
 
-> A free directory of AI tools ranked by use case ("loadouts"), plus a feed of new AI releases. 218 AI tools ranked S/A/B/C across 17 use-case loadouts (237 rankings, since some tools appear in more than one loadout). Last updated 2026-10-15.
+> A free directory of AI tools ranked by use case ("loadouts"), plus a feed of new AI releases. 223 AI tools ranked S/A/B/C across 17 use-case loadouts (244 rankings, since some tools appear in more than one loadout). Last updated 2026-10-15.
 
 ## Pages
 - [New AI releases](https://zachlaboyteaux-boop.github.io/ailoadout/new/)
@@ -32,7 +32,7 @@
 - [ChatGPT vs Claude vs Gemini](https://zachlaboyteaux-boop.github.io/ailoadout/compare/chatgpt-vs-claude-vs-gemini/)
 - [Grok vs ChatGPT vs Claude](https://zachlaboyteaux-boop.github.io/ailoadout/compare/grok-vs-chatgpt-vs-claude/)
 - [Midjourney vs Ideogram vs Leonardo.Ai](https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-ideogram-vs-leonardo/)
-- [Runway vs Sora vs Veo (Google Flow)](https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-sora-vs-veo/)
+- [Runway vs Veo (Google Flow) vs Kling AI](https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-veo-vs-kling/)
 - [Lovable vs Bolt.new vs v0](https://zachlaboyteaux-boop.github.io/ailoadout/compare/lovable-vs-bolt-vs-v0/)
 - [Perplexity vs ChatGPT Deep Research vs NotebookLM](https://zachlaboyteaux-boop.github.io/ailoadout/compare/perplexity-vs-chatgpt-deep-research-vs-notebooklm/)
 - [Ollama vs LM Studio](https://zachlaboyteaux-boop.github.io/ailoadout/compare/ollama-vs-lm-studio/)
@@ -56,6 +56,13 @@
 - [Midjourney vs ChatGPT Images](https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-chatgpt-images/)
 - [Runway vs Kling AI](https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-kling/)
 - [Notion AI vs ChatGPT](https://zachlaboyteaux-boop.github.io/ailoadout/compare/notion-ai-vs-chatgpt/)
+- [Midjourney vs Nano Banana](https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-nano-banana/)
+- [Midjourney vs Stable Diffusion](https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-stable-diffusion/)
+- [ChatGPT vs DeepSeek](https://zachlaboyteaux-boop.github.io/ailoadout/compare/chatgpt-vs-deepseek/)
+- [Claude vs DeepSeek](https://zachlaboyteaux-boop.github.io/ailoadout/compare/claude-vs-deepseek/)
+- [ChatGPT vs Microsoft Copilot](https://zachlaboyteaux-boop.github.io/ailoadout/compare/chatgpt-vs-copilot/)
+- [Runway vs Higgsfield](https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-higgsfield/)
+- [ElevenLabs vs Speechify](https://zachlaboyteaux-boop.github.io/ailoadout/compare/elevenlabs-vs-speechify/)
 
 ## Best-of guides
 - [Best AI for image generation in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-image-generation/)
