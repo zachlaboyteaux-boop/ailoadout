@@ -21,10 +21,10 @@ Last updated 2026-10-14. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 6. LangGraph (https://www.langchain.com/langgraph) — Best for controllable, stateful agent code. Pricing: Open source
 
 ## Chat / Assistants (https://zachlaboyteaux-boop.github.io/ailoadout/chat/)
-1. ChatGPT (https://chatgpt.com) — Best default assistant for almost anything. Pricing: Free tier + paid
-2. Claude (https://claude.ai) — Best for writing, coding and long documents. Pricing: Free tier + paid
-3. Gemini (https://gemini.google.com) — Best if you live in Google apps. Pricing: Free tier + paid
-4. Grok (https://grok.com) — Best for real-time takes from X. Pricing: Free tier + paid
+1. Claude (https://claude.ai) — Best for writing, coding and long documents. Pricing: Free tier + paid
+2. ChatGPT (https://chatgpt.com) — Best default assistant for almost anything. Pricing: Free tier + paid
+3. Grok (https://grok.com) — Best for real-time takes from X. Pricing: Free tier + paid
+4. Gemini (https://gemini.google.com) — Best if you live in Google apps. Pricing: Free tier + paid
 
 ## Image (https://zachlaboyteaux-boop.github.io/ailoadout/image/)
 1. Midjourney (https://www.midjourney.com) — Best pure image quality and style. Pricing: Paid
@@ -32,6 +32,7 @@ Last updated 2026-10-14. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 3. Ideogram (https://ideogram.ai) — Best for logos, posters and typography. Pricing: Free tier + paid
 4. Leonardo.Ai (https://leonardo.ai) — Best for game art and consistent assets. Pricing: Free tier + paid
 5. Adobe Firefly (https://firefly.adobe.com) — Best commercially safe images. Pricing: Free tier + paid
+6. Grok Imagine (https://grok.com/imagine) — Best for fast, playful image and short video generation. Pricing: Free tier + paid
 
 ## Video (https://zachlaboyteaux-boop.github.io/ailoadout/video/)
 1. Veo (Google Flow) (https://labs.google/flow) — Best realism with native audio. Pricing: Paid (Google AI plans)
@@ -56,6 +57,7 @@ Last updated 2026-10-14. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 2. NotebookLM (https://notebooklm.google.com) — Best for studying your own docs (and audio overviews). Pricing: Free tier + paid
 3. ChatGPT Deep Research (https://chatgpt.com) — Best for multi-page research reports. Pricing: Included with ChatGPT plans
 4. Elicit (https://elicit.com) — Best for academic papers. Pricing: Free tier + paid
+5. Grok (https://grok.com) — Best for real-time research across X and the web. Pricing: Free tier + paid
 
 ## Game Dev (https://zachlaboyteaux-boop.github.io/ailoadout/game-dev/)
 1. Rosebud AI (https://rosebud.ai) — Best for vibe coding browser games from prompts. Pricing: Free tier + paid
@@ -70,6 +72,62 @@ Last updated 2026-10-14. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 3. Otter.ai (https://otter.ai) — Best for transcripts across meeting apps. Pricing: Free tier + paid
 4. Raycast AI (https://www.raycast.com) — Best AI launcher for Mac power users. Pricing: Free tier + paid
 5. Superhuman (https://superhuman.com) — Best AI email client for speed. Pricing: Paid
+
+## Crypto / Finance AI (https://zachlaboyteaux-boop.github.io/ailoadout/crypto-finance/)
+1. Perplexity Finance (https://www.perplexity.ai/finance) — Best for quick, sourced answers on stocks and markets. Pricing: Free tier + paid
+2. Grok (https://grok.com) — Best for real-time market sentiment from X. Pricing: Free tier + paid
+3. Nansen (https://www.nansen.ai) — Best on-chain wallet and smart-money analytics. Pricing: Free tier + paid
+4. Arkham Intelligence (https://intel.arkm.com) — Best for tracing entities and flows on-chain. Pricing: Free tier + paid
+5. Kaito (https://www.kaito.ai) — Best for crypto narrative and mindshare tracking. Pricing: Free tier + paid
+6. Messari (https://messari.io) — Best crypto research reports with AI summaries. Pricing: Free tier + paid
+
+## 3D (https://zachlaboyteaux-boop.github.io/ailoadout/3d/)
+1. Meshy (https://www.meshy.ai) — Best all-round text/image to 3D. Pricing: Free tier + paid
+2. Tripo (https://www.tripo3d.ai) — Best speed for 3D prototypes. Pricing: Free tier + paid
+3. Rodin (Hyper3D) (https://hyper3d.ai) — Best for high-detail production-ready 3D. Pricing: Free tier + paid
+4. Spline (https://spline.design) — Best for interactive 3D on the web with AI help. Pricing: Free tier + paid
+5. Blockade Labs Skybox (https://www.blockadelabs.com) — Best for 360° skyboxes and environments. Pricing: Free tier + paid
+6. Kaedim (https://www.kaedim3d.com) — Best for studio-grade game-ready assets. Pricing: Paid
+
+## Music (https://zachlaboyteaux-boop.github.io/ailoadout/music/)
+1. Suno (https://suno.com) — Best for full songs with vocals from a prompt. Pricing: Free tier + paid
+2. Udio (https://www.udio.com) — Best for fine control over music generation. Pricing: Free tier + paid
+3. ElevenLabs Music (https://elevenlabs.io/music) — Best for commercially cleared AI music. Pricing: Free tier + paid
+4. Stable Audio (https://www.stableaudio.com) — Best for loops, stems and sound design. Pricing: Free tier + paid
+5. AIVA (https://www.aiva.ai) — Best for orchestral and soundtrack composition. Pricing: Free tier + paid
+6. Mubert (https://mubert.com) — Best royalty-free background music for streams. Pricing: Free tier + paid
+
+## Education (https://zachlaboyteaux-boop.github.io/ailoadout/education/)
+1. NotebookLM (https://notebooklm.google.com) — Best for studying your own notes and sources. Pricing: Free tier + paid
+2. Khanmigo (https://www.khanmigo.ai) — Best AI tutor that guides instead of giving answers. Pricing: Free for teachers + paid
+3. ChatGPT (https://chatgpt.com) — Best all-purpose explainer and study buddy. Pricing: Free tier + paid
+4. Duolingo (https://www.duolingo.com) — Best for AI-powered language practice. Pricing: Free tier + paid
+5. Quizlet (https://quizlet.com) — Best for AI flashcards and practice tests. Pricing: Free tier + paid
+6. Brisk Teaching (https://www.briskteaching.com) — Best AI toolkit for teachers. Pricing: Free tier + paid
+
+## Streamers / Creators (https://zachlaboyteaux-boop.github.io/ailoadout/creators/)
+1. OpusClip (https://www.opus.pro) — Best for turning long videos into viral shorts. Pricing: Free tier + paid
+2. Eklipse (https://eklipse.gg) — Best for auto-clipping Twitch gaming highlights. Pricing: Free tier + paid
+3. StreamLadder (https://streamladder.com) — Best for vertical clips from streams. Pricing: Free tier + paid
+4. Captions (https://www.captions.ai) — Best for AI captions, edits and talking videos. Pricing: Free tier + paid
+5. Descript (https://www.descript.com) — Best for editing videos by editing text. Pricing: Free tier + paid
+6. CapCut (https://www.capcut.com) — Best free all-in-one social editor. Pricing: Free tier + paid
+
+## Open-Source & Local Models (https://zachlaboyteaux-boop.github.io/ailoadout/local-models/)
+1. Ollama (https://ollama.com) — Best one-command way to run models locally. Pricing: Free / open source
+2. LM Studio (https://lmstudio.ai) — Best desktop app for local models with a GUI. Pricing: Free
+3. Hugging Face (https://huggingface.co) — Best hub for open models, datasets and demos. Pricing: Free tier + paid
+4. Open WebUI (https://openwebui.com) — Best self-hosted ChatGPT-style interface. Pricing: Free / open source
+5. llama.cpp (https://github.com/ggml-org/llama.cpp) — Best engine for fast local inference on any hardware. Pricing: Open source
+6. Jan (https://www.jan.ai) — Best privacy-first offline assistant. Pricing: Free / open source
+7. ComfyUI (https://www.comfy.org) — Best node-based local image/video generation. Pricing: Free / open source
+
+## AI in Games (https://zachlaboyteaux-boop.github.io/ailoadout/ai-in-games/)
+1. Inworld AI (https://inworld.ai) — Best for AI NPC characters and voices. Pricing: Free tier + paid
+2. NVIDIA ACE (https://developer.nvidia.com/ace) — Best for on-device digital humans in games. Pricing: Free for developers
+3. Convai (https://convai.com) — Best for conversational NPCs in Unity/Unreal. Pricing: Free tier + paid
+4. Ludo.ai (https://ludo.ai) — Best for game ideation, market research and assets. Pricing: Free tier + paid
+5. Rosebud AI (https://rosebud.ai) — Best for vibe coding playable games from prompts. Pricing: Free tier + paid
 
 ## Tool pages
 - Cursor: https://zachlaboyteaux-boop.github.io/ailoadout/tools/cursor/
@@ -121,6 +179,50 @@ Last updated 2026-10-14. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 - Otter.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/otter-ai/
 - Raycast AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/raycast-ai/
 - Superhuman: https://zachlaboyteaux-boop.github.io/ailoadout/tools/superhuman/
+- Grok: https://zachlaboyteaux-boop.github.io/ailoadout/tools/grok-research/
+- Grok Imagine: https://zachlaboyteaux-boop.github.io/ailoadout/tools/grok-imagine/
+- Perplexity Finance: https://zachlaboyteaux-boop.github.io/ailoadout/tools/perplexity-finance/
+- Grok: https://zachlaboyteaux-boop.github.io/ailoadout/tools/grok-crypto-finance/
+- Nansen: https://zachlaboyteaux-boop.github.io/ailoadout/tools/nansen/
+- Arkham Intelligence: https://zachlaboyteaux-boop.github.io/ailoadout/tools/arkham-intelligence/
+- Kaito: https://zachlaboyteaux-boop.github.io/ailoadout/tools/kaito/
+- Messari: https://zachlaboyteaux-boop.github.io/ailoadout/tools/messari/
+- Meshy: https://zachlaboyteaux-boop.github.io/ailoadout/tools/meshy-3d/
+- Tripo: https://zachlaboyteaux-boop.github.io/ailoadout/tools/tripo-3d/
+- Rodin (Hyper3D): https://zachlaboyteaux-boop.github.io/ailoadout/tools/rodin-hyper3d/
+- Spline: https://zachlaboyteaux-boop.github.io/ailoadout/tools/spline/
+- Blockade Labs Skybox: https://zachlaboyteaux-boop.github.io/ailoadout/tools/blockade-labs-skybox/
+- Kaedim: https://zachlaboyteaux-boop.github.io/ailoadout/tools/kaedim/
+- Suno: https://zachlaboyteaux-boop.github.io/ailoadout/tools/suno-music/
+- Udio: https://zachlaboyteaux-boop.github.io/ailoadout/tools/udio-music/
+- ElevenLabs Music: https://zachlaboyteaux-boop.github.io/ailoadout/tools/elevenlabs-music/
+- Stable Audio: https://zachlaboyteaux-boop.github.io/ailoadout/tools/stable-audio/
+- AIVA: https://zachlaboyteaux-boop.github.io/ailoadout/tools/aiva/
+- Mubert: https://zachlaboyteaux-boop.github.io/ailoadout/tools/mubert/
+- NotebookLM: https://zachlaboyteaux-boop.github.io/ailoadout/tools/notebooklm-education/
+- Khanmigo: https://zachlaboyteaux-boop.github.io/ailoadout/tools/khanmigo/
+- ChatGPT: https://zachlaboyteaux-boop.github.io/ailoadout/tools/chatgpt-education/
+- Duolingo: https://zachlaboyteaux-boop.github.io/ailoadout/tools/duolingo/
+- Quizlet: https://zachlaboyteaux-boop.github.io/ailoadout/tools/quizlet/
+- Brisk Teaching: https://zachlaboyteaux-boop.github.io/ailoadout/tools/brisk-teaching/
+- OpusClip: https://zachlaboyteaux-boop.github.io/ailoadout/tools/opusclip/
+- Eklipse: https://zachlaboyteaux-boop.github.io/ailoadout/tools/eklipse/
+- StreamLadder: https://zachlaboyteaux-boop.github.io/ailoadout/tools/streamladder/
+- Captions: https://zachlaboyteaux-boop.github.io/ailoadout/tools/captions/
+- Descript: https://zachlaboyteaux-boop.github.io/ailoadout/tools/descript-creators/
+- CapCut: https://zachlaboyteaux-boop.github.io/ailoadout/tools/capcut-creators/
+- Ollama: https://zachlaboyteaux-boop.github.io/ailoadout/tools/ollama/
+- LM Studio: https://zachlaboyteaux-boop.github.io/ailoadout/tools/lm-studio/
+- Hugging Face: https://zachlaboyteaux-boop.github.io/ailoadout/tools/hugging-face/
+- Open WebUI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/open-webui/
+- llama.cpp: https://zachlaboyteaux-boop.github.io/ailoadout/tools/llama-cpp/
+- Jan: https://zachlaboyteaux-boop.github.io/ailoadout/tools/jan/
+- ComfyUI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/comfyui/
+- Inworld AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/inworld-ai-ai-in-games/
+- NVIDIA ACE: https://zachlaboyteaux-boop.github.io/ailoadout/tools/nvidia-ace/
+- Convai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/convai/
+- Ludo.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/ludo-ai/
+- Rosebud AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/rosebud-ai-ai-in-games/
 
 ## Comparisons
 - Cursor vs Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-claude-code/

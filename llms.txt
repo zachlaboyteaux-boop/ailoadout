@@ -5,7 +5,7 @@
 ## Loadouts
 - [Best AI tools for Coding](https://zachlaboyteaux-boop.github.io/ailoadout/coding/): #1 Cursor — Best all-round AI code editor for shipping real apps fast
 - [Best AI tools for AI Agents](https://zachlaboyteaux-boop.github.io/ailoadout/agents/): #1 ChatGPT Agent — Best general-purpose agent for everyday tasks
-- [Best AI tools for Chat](https://zachlaboyteaux-boop.github.io/ailoadout/chat/): #1 ChatGPT — Best default assistant for almost anything
+- [Best AI tools for Chat](https://zachlaboyteaux-boop.github.io/ailoadout/chat/): #1 Claude — Best for writing, coding and long documents
 - [Best AI tools for Image](https://zachlaboyteaux-boop.github.io/ailoadout/image/): #1 Midjourney — Best pure image quality and style
 - [Best AI tools for Video](https://zachlaboyteaux-boop.github.io/ailoadout/video/): #1 Veo (Google Flow) — Best realism with native audio
 - [Best AI tools for Voice](https://zachlaboyteaux-boop.github.io/ailoadout/voice/): #1 ElevenLabs — Best voices, cloning and dubbing
@@ -13,6 +13,13 @@
 - [Best AI tools for Research](https://zachlaboyteaux-boop.github.io/ailoadout/research/): #1 Perplexity — Best answer engine with sources
 - [Best AI tools for Game Dev](https://zachlaboyteaux-boop.github.io/ailoadout/game-dev/): #1 Rosebud AI — Best for vibe coding browser games from prompts
 - [Best AI tools for Productivity](https://zachlaboyteaux-boop.github.io/ailoadout/productivity/): #1 Granola — Best AI meeting notes without a bot joining
+- [Best AI tools for Crypto](https://zachlaboyteaux-boop.github.io/ailoadout/crypto-finance/): #1 Perplexity Finance — Best for quick, sourced answers on stocks and markets
+- [Best AI tools for 3D](https://zachlaboyteaux-boop.github.io/ailoadout/3d/): #1 Meshy — Best all-round text/image to 3D
+- [Best AI tools for Music](https://zachlaboyteaux-boop.github.io/ailoadout/music/): #1 Suno — Best for full songs with vocals from a prompt
+- [Best AI tools for Education](https://zachlaboyteaux-boop.github.io/ailoadout/education/): #1 NotebookLM — Best for studying your own notes and sources
+- [Best AI tools for Streamers](https://zachlaboyteaux-boop.github.io/ailoadout/creators/): #1 OpusClip — Best for turning long videos into viral shorts
+- [Best AI tools for Open-Source & Local Models](https://zachlaboyteaux-boop.github.io/ailoadout/local-models/): #1 Ollama — Best one-command way to run models locally
+- [Best AI tools for AI in Games](https://zachlaboyteaux-boop.github.io/ailoadout/ai-in-games/): #1 Inworld AI — Best for AI NPC characters and voices
 
 ## Data
 - [tools.json](https://zachlaboyteaux-boop.github.io/ailoadout/tools.json): machine-readable list of all tools and releases
