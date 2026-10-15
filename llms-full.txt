@@ -232,7 +232,7 @@
 
 ## Streamers / Creators (https://zachlaboyteaux-boop.github.io/ailoadout/creators/)
 1. OpusClip (https://www.opus.pro) — Best for turning long videos into viral shorts. Pricing: Free tier + paid
-2. Eklipse (https://eklipse.gg) — Best for auto-clipping Twitch gaming highlights. Pricing: Free tier + paid
+2. Eklipse (https://eklipse.gg) — Best for auto-clipping Twitch gaming highlights. Pricing: Free preview; Premium $24.99/mo to export
 3. StreamLadder (https://streamladder.com) — Best for vertical clips from streams. Pricing: Free tier + paid
 4. Captions (https://www.captions.ai) — Best for AI captions, edits and talking videos. Pricing: Free tier + paid
 5. Descript (https://www.descript.com) — Best for editing videos by editing text. Pricing: Free tier + paid
