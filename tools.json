@@ -939,7 +939,7 @@
    "verdict": "Best speech-to-speech model for real-time voice agents",
    "pricing": "Paid (API)",
    "tier": "A",
-   "slug": "grok-voice-3"
+   "slug": "grok-voice-3-0"
   },
   {
    "name": "Muse Wonder",
@@ -969,7 +969,7 @@
    "verdict": "Best open MoE for on-device agents (24B total, 2B active)",
    "pricing": "Open weights",
    "tier": "A",
-   "slug": "lfm25-24b-a2b"
+   "slug": "lfm2-5-24b-a2b"
   }
  ],
  "releases": [

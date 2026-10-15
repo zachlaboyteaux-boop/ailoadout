@@ -5,12 +5,13 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 ## Coding / Vibe Coding (https://zachlaboyteaux-boop.github.io/ailoadout/coding/)
 1. Cursor (https://cursor.com) — Best all-round AI code editor for shipping real apps fast. Pricing: Free tier + paid
 2. Claude Code (https://www.anthropic.com/claude-code) — Best terminal agent for big multi-file changes. Pricing: Paid (Claude plan/API)
-3. OpenAI Codex (https://openai.com/codex/) — Best for delegating coding tasks to cloud agents. Pricing: Included with ChatGPT plans
-4. GitHub Copilot (https://github.com/features/copilot) — Best inside VS Code and GitHub workflows. Pricing: Free tier + paid
-5. Lovable (https://lovable.dev) — Best for idea-to-full-stack app with zero setup. Pricing: Free tier + paid
-6. Bolt.new (https://bolt.new) — Best for instant in-browser prototypes. Pricing: Free tier + paid
-7. v0 (https://v0.app) — Best for polished React/Next.js UIs. Pricing: Free tier + paid
-8. Replit (https://replit.com) — Best for building and hosting in one place. Pricing: Free tier + paid
+3. Muse Wonder (https://dev.meta.ai) — Best Meta frontier model for long coding-agent runs. Pricing: Paid (API + Muse Code)
+4. OpenAI Codex (https://openai.com/codex/) — Best for delegating coding tasks to cloud agents. Pricing: Included with ChatGPT plans
+5. GitHub Copilot (https://github.com/features/copilot) — Best inside VS Code and GitHub workflows. Pricing: Free tier + paid
+6. Lovable (https://lovable.dev) — Best for idea-to-full-stack app with zero setup. Pricing: Free tier + paid
+7. Bolt.new (https://bolt.new) — Best for instant in-browser prototypes. Pricing: Free tier + paid
+8. v0 (https://v0.app) — Best for polished React/Next.js UIs. Pricing: Free tier + paid
+9. Replit (https://replit.com) — Best for building and hosting in one place. Pricing: Free tier + paid
 
 ## AI Agents (https://zachlaboyteaux-boop.github.io/ailoadout/agents/)
 1. ChatGPT Agent (https://chatgpt.com) — Best general-purpose agent for everyday tasks. Pricing: Free tier + paid
@@ -25,6 +26,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 2. ChatGPT (https://chatgpt.com) — Best default assistant for almost anything. Pricing: Free tier + paid
 3. Grok (https://grok.com) — Best for real-time takes from X. Pricing: Free tier + paid
 4. Gemini (https://gemini.google.com) — Best if you live in Google apps. Pricing: Free tier + paid
+5. Muse Wonder (https://dev.meta.ai) — Best Meta frontier assistant for agentic coding work. Pricing: Paid (API + Muse Code)
 
 ## Image (https://zachlaboyteaux-boop.github.io/ailoadout/image/)
 1. Midjourney (https://www.midjourney.com) — Best pure image quality and style. Pricing: Paid
@@ -43,9 +45,10 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 
 ## Voice / Audio (https://zachlaboyteaux-boop.github.io/ailoadout/voice/)
 1. ElevenLabs (https://elevenlabs.io) — Best voices, cloning and dubbing. Pricing: Free tier + paid
-2. Suno (https://suno.com) — Best for full songs from a prompt. Pricing: Free tier + paid
-3. Udio (https://www.udio.com) — Best for music with fine control. Pricing: Free tier + paid
-4. Descript (https://www.descript.com) — Best for editing podcasts by editing text. Pricing: Free tier + paid
+2. Grok Voice 3.0 (https://x.ai/news/grok-voice-3) — Best speech-to-speech model for real-time voice agents. Pricing: Paid (API)
+3. Suno (https://suno.com) — Best for full songs from a prompt. Pricing: Free tier + paid
+4. Udio (https://www.udio.com) — Best for music with fine control. Pricing: Free tier + paid
+5. Descript (https://www.descript.com) — Best for editing podcasts by editing text. Pricing: Free tier + paid
 
 ## Writing (https://zachlaboyteaux-boop.github.io/ailoadout/writing/)
 1. Claude (https://claude.ai) — Best natural-sounding long-form writing. Pricing: Free tier + paid
@@ -116,11 +119,12 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 ## Open-Source & Local Models (https://zachlaboyteaux-boop.github.io/ailoadout/local-models/)
 1. Ollama (https://ollama.com) — Best one-command way to run models locally. Pricing: Free / open source
 2. LM Studio (https://lmstudio.ai) — Best desktop app for local models with a GUI. Pricing: Free
-3. Hugging Face (https://huggingface.co) — Best hub for open models, datasets and demos. Pricing: Free tier + paid
-4. Open WebUI (https://openwebui.com) — Best self-hosted ChatGPT-style interface. Pricing: Free / open source
-5. llama.cpp (https://github.com/ggml-org/llama.cpp) — Best engine for fast local inference on any hardware. Pricing: Open source
-6. Jan (https://www.jan.ai) — Best privacy-first offline assistant. Pricing: Free / open source
-7. ComfyUI (https://www.comfy.org) — Best node-based local image/video generation. Pricing: Free / open source
+3. LFM2.5-24B-A2B (https://www.liquid.ai/blog/lfm2-5-24b-a2b) — Best open MoE for on-device agents (24B total, 2B active). Pricing: Open weights
+4. Hugging Face (https://huggingface.co) — Best hub for open models, datasets and demos. Pricing: Free tier + paid
+5. Open WebUI (https://openwebui.com) — Best self-hosted ChatGPT-style interface. Pricing: Free / open source
+6. llama.cpp (https://github.com/ggml-org/llama.cpp) — Best engine for fast local inference on any hardware. Pricing: Open source
+7. Jan (https://www.jan.ai) — Best privacy-first offline assistant. Pricing: Free / open source
+8. ComfyUI (https://www.comfy.org) — Best node-based local image/video generation. Pricing: Free / open source
 
 ## AI in Games (https://zachlaboyteaux-boop.github.io/ailoadout/ai-in-games/)
 1. Inworld AI (https://inworld.ai) — Best for AI NPC characters and voices. Pricing: Free tier + paid
@@ -223,6 +227,10 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 - Convai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/convai/
 - Ludo.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/ludo-ai/
 - Rosebud AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/rosebud-ai-ai-in-games/
+- Grok Voice 3.0: https://zachlaboyteaux-boop.github.io/ailoadout/tools/grok-voice-3-0/
+- Muse Wonder: https://zachlaboyteaux-boop.github.io/ailoadout/tools/muse-wonder/
+- Muse Wonder: https://zachlaboyteaux-boop.github.io/ailoadout/tools/muse-wonder-chat/
+- LFM2.5-24B-A2B: https://zachlaboyteaux-boop.github.io/ailoadout/tools/lfm2-5-24b-a2b/
 
 ## Comparisons
 - Cursor vs Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-claude-code/
@@ -247,7 +255,11 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 - Best AI music for YouTube in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-music-for-youtube/
 
 ## New releases
+- 2026-10-14: Grok Voice 3.0 — xAI's speech-to-speech model for real-time voice agents, #1 on Artificial Analysis Speech-to-Speech Index (source: https://x.ai/news/grok-voice-3)
+- 2026-10-14: Ultramarine 1 Flash — Paper Instruments agentic model for finance/legal/ops knowledge work; OpenAI-compatible API live (source: https://www.paperinstruments.com/blog/ultramarine)
 - 2026-10-13: Gemini 4 Argon (general availability) — Google's frontier model, now in the Gemini app, AI Studio and API with a 1M-token limit (source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)
+- 2026-10-13: LFM2.5-24B-A2B — Liquid AI open-weight 24B MoE (2B active) for fast on-device agents; weights on Hugging Face (source: https://www.liquid.ai/blog/lfm2-5-24b-a2b)
+- 2026-10-12: Meta Muse Wonder — Meta's first frontier models (Wonder + Wonder Full) for coding agents and computer use via Muse Code / API (source: https://dev.meta.ai/resources/blog/build-with-muse-wonder)
 - 2026-10-08: Google Gemini Agent for work — Google Cloud agent that answers questions, creates content and writes code at work (source: https://www.reuters.com/business/google-cloud-introduces-gemini-agent-work-ai-race-heats-up-2026-10-08/)
 - 2026-10-07: GPT-6 + Intelligent UI in ChatGPT — GPT-6 comes to all ChatGPT users with interactive, app-like answers (source: https://openai.com/index/gpt-6-for-everyone/)
 - 2026-10-07: Claude Haiku 5.5 — Anthropic's cheapest, fastest small model, tuned for agents and computer/browser use (source: https://www.anthropic.com/claude-haiku-5-5)
