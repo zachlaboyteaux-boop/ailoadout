@@ -31,3 +31,4 @@ Voice: neutral "we rank", light gamer flavor. Budget: $0 unless Zach approves sp
 ## P3 — Product
 14. User voting / "suggest a tier change" (needs a backend; consider free tier of a form service).
 15. Repo-checker idea (saved): paste-your-repo security checker for vibe coders.
+16. Founder outreach: ~40 small-team tools, list in ops/outreach-targets.md (46 candidates; pitch = their tier badge from /badge/). Drafts need Zach's approval before sending.

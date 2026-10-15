@@ -49,3 +49,10 @@ Open items for Zach: verify Kit sending address; downgrade Kit to free before Oc
 
 ## 2026-10-15
 - ~13:10 ET Education loadout update (from School Bot review `/workspace/business/ailoadout-education-review.md`): Brisk Teaching C→A; NotebookLM URL → https://notebook.google.com/; added MagicSchool (S), SchoolAI, Diffit, Gemini, Photomath, Consensus, Perplexity (A), Curipod, Wolfram Alpha, Grammarly, Elicit, Otter.ai, Goblin Tools (B), Zotero (C). Every URL re-checked with curl (Perplexity 403 = bot block, site live) and pricing notes re-checked against official pricing pages/help docs. Socratic skipped (discontinued). Education now 20 tools. New best-of page /best/best-ai-for-teachers/.
+
+## 2026-10-15 ~13:30 ET — X content engine + badges
+- marketing/x/queue.md: 42 posts (14 days × 3), all <270 chars, ≤1 link, real data only. Nothing posted.
+- marketing/x/engagement.md: 30 X handles verified via API + reply guidelines.
+- scripts/tierlist_img.py: Pillow 1200x675 tier-list PNGs → /workspace/x-images/<slug>.png (coding, agents, chat, image, video generated).
+- build.py: /badges/{s,a,b,c}-tier.svg, /badge/ explainer page (in sitemap), copy-paste badge snippet on every tool page.
+- ops/outreach-targets.md: 46 small/indie tools with tier + page URL; backlog item 16 added.
