@@ -1,6 +1,6 @@
 # The AI Loadout — full directory
 
-Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout/
+158 AI tools ranked S/A/B/C across 17 use-case loadouts (177 rankings, since some tools appear in more than one loadout). Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout/
 
 ## Coding / Vibe Coding (https://zachlaboyteaux-boop.github.io/ailoadout/coding/)
 1. Cursor (https://cursor.com) — Best all-round AI code editor for shipping real apps fast. Pricing: Free tier + paid
