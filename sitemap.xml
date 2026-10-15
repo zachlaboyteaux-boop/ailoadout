@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/coding/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/agents/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/chat/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/image/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/video/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/voice/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/writing/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/research/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/game-dev/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/productivity/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://zachlaboyteaux-boop.github.io/ailoadout/llms.txt</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq></url>
+</urlset>
