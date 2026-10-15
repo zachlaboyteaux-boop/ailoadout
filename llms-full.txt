@@ -1,6 +1,6 @@
 # The AI Loadout — full directory
 
-158 AI tools ranked S/A/B/C across 17 use-case loadouts (177 rankings, since some tools appear in more than one loadout). Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout/
+218 AI tools ranked S/A/B/C across 17 use-case loadouts (237 rankings, since some tools appear in more than one loadout). Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout/
 
 ## Coding / Vibe Coding (https://zachlaboyteaux-boop.github.io/ailoadout/coding/)
 1. Cursor (https://cursor.com) — Best all-round AI code editor for shipping real apps fast. Pricing: Free tier + paid
@@ -79,8 +79,26 @@
 3. ChatGPT Deep Research (https://chatgpt.com) — Best for multi-page research reports. Pricing: Included with ChatGPT plans
 4. Elicit (https://elicit.com) — Best for academic papers. Pricing: Free tier + paid
 5. Grok (https://grok.com) — Best for real-time research across X and the web. Pricing: Free tier + paid
-6. Scry (https://scry.io/) — Research add-on for ChatGPT or Claude that reads forums, papers, filings and markets for you. Pricing: Indie launch; check site for current pricing
-7. Attache (https://attache.news/) — AI news briefing that calls you each morning; ask questions and go deeper by phone. Pricing: Free week of Premium, then $19.99/mo (up to 10 hrs/month)
+6. Undermind (https://www.undermind.ai/) — Deep literature search agent that reads full texts and finds papers others miss. Pricing: Free; Pro $16/mo
+7. Litmaps (https://www.litmaps.com/) — Citation-map literature discovery and alerts. Pricing: Free; Pro $10/mo
+8. Anara (https://anara.com/) — Research workspace with every claim cited to its source. Pricing: Free; paid from $10/mo
+9. AnswerThis (https://answerthis.io/) — AI literature reviews over 250M+ papers with verifiable citations. Pricing: Free; paid from $14/mo
+10. Moonlight (https://www.themoonlight.io/) — AI reading companion that explains research papers in place. Pricing: Free; see site for paid
+11. Paperguide (https://paperguide.ai/) — AI systematic reviews, reference manager and research agents. Pricing: Paid from $12/mo
+12. Scry (https://scry.io/) — Research add-on for ChatGPT or Claude that reads forums, papers, filings and markets for you. Pricing: Indie launch; check site for current pricing
+13. Attache (https://attache.news/) — AI news briefing that calls you each morning; ask questions and go deeper by phone. Pricing: Free week of Premium, then $19.99/mo (up to 10 hrs/month)
+14. Scholarcy (https://www.scholarcy.com/) — AI summary flashcards for academic papers. Pricing: Free summarizer; paid on site
+15. Humata (https://www.humata.ai/) — Chat with documents and build a searchable knowledge base. Pricing: Free; Expert $9.99/mo; Team $49/user/mo
+16. Keenious (https://keenious.com/) — Recommends papers based on what you are writing in Word or Docs. Pricing: Free; Plus $10/mo
+17. Avidnote (https://avidnote.com/) — AI workspace for reading, writing and analyzing research. Pricing: See site for pricing
+18. Sourcely (https://www.sourcely.net/) — Finds academic sources and citations for your text. Pricing: From $9/mo
+19. SciSummary (https://scisummary.com/) — AI summaries of scientific articles. Pricing: Free; $4/mo
+20. Paper Digest (https://www.paperdigest.org/) — AI research platform for reading and writing with papers. Pricing: See site for pricing
+21. Petal (https://www.petal.org/) — Chat with and analyze your documents with sourced answers. Pricing: See site for pricing
+22. Kahubi (https://kahubi.com/) — EU-hosted academic assistant: papers, stats, interview coding, cited drafts. Pricing: Free; paid $29-$109/mo
+23. ResearchPal (https://researchpal.co/) — AI research writing and literature review assistant. Pricing: Free; paid from $9/mo
+24. Nouswise (https://nouswise.com/) — Thinking partner with source-traceable answers over your content. Pricing: From $10/mo
+25. ScholarAI (https://scholarai.io/) — AI research assistant for papers, citations and study guides. Pricing: See site for pricing
 
 ## Game Dev (https://zachlaboyteaux-boop.github.io/ailoadout/game-dev/)
 1. Rosebud AI (https://rosebud.ai) — Best for vibe coding browser games from prompts. Pricing: Free tier + paid
@@ -123,6 +141,19 @@
 5. Kaito (https://www.kaito.ai) — Best for crypto narrative and mindshare tracking. Pricing: Free tier + paid
 6. Messari (https://messari.io) — Best crypto research reports with AI summaries. Pricing: Free tier + paid
 7. Pulse Local (https://pulseos.finance) — Mac budgeting app with AI models that run fully on your machine. Pricing: Indie launch; check site for current pricing
+8. AlphaRanks.ai (https://www.alpharanks.ai/) — Nightly AI scores and plain-English analysis of ~1,500 US stocks and ETFs. Pricing: Free tier; paid $19/mo
+9. Avex AI (https://avexai.io/) — AI wealth copilot that unifies your accounts and flags portfolio risk. Pricing: See site for pricing
+10. ChainClarity (https://chainclarity.io/) — AI explanations of 500+ crypto whitepapers in plain English. Pricing: Paid from $4.99/mo
+11. CoverEdge (https://coveredge.io/) — Covered-call and wheel options tracker with AI research and broker sync. Pricing: 14-day free Pro trial; see site
+12. Deep Blue Alpha (https://deepbluealpha.io/) — Live Ethereum whale tracker with an AI whale assistant. Pricing: Free tier; Pro $9.99 founding price
+13. Quantle (https://www.quantle.app/) — Describe a crypto strategy in plain English, backtest it, then paper-trade it. Pricing: Free to start
+14. Tradie Capital (https://tradiecapital.com/) — AI trading strategy builder with backtesting across stocks, options and crypto. Pricing: $39 / $79 / $199 per month
+15. trefolio (https://trefolio.com/) — EU portfolio tracker and tax reports with a built-in AI assistant. Pricing: See site for pricing
+16. Tradoshi (https://tradoshi.com/) — Trading journal with an AI discipline coach. Pricing: Free; paid $19.99-$49.99/mo
+17. ZNORVA AI (https://znorva.com/) — AI chart analysis for crypto, forex and gold. Pricing: From $14.99/mo
+18. Helvestor (https://www.helvestor.ch/) — Swiss personal-finance copilot: AI risk and cost review of your portfolio (German). Pricing: See site for pricing
+19. tickerseer (https://tickerseer.com/) — Weekly AI re-rating of 1,000+ US stocks on valuation, with receipts. Pricing: Free; Basic $19/mo; Premium $79/mo
+20. iPredicta (https://ipredicta.co/) — Compare Polymarket and Kalshi odds with AI-powered market analysis. Pricing: See site for pricing
 
 ## 3D (https://zachlaboyteaux-boop.github.io/ailoadout/3d/)
 1. Meshy (https://www.meshy.ai) — Best all-round text/image to 3D. Pricing: Free tier + paid
@@ -141,15 +172,30 @@
 1. Suno (https://suno.com) — Best for full songs with vocals from a prompt. Pricing: Free tier + paid
 2. Udio (https://www.udio.com) — Best for fine control over music generation. Pricing: Free tier + paid
 3. ElevenLabs Music (https://elevenlabs.io/music) — Best for commercially cleared AI music. Pricing: Free tier + paid
-4. Stable Audio (https://www.stableaudio.com) — Best for loops, stems and sound design. Pricing: Free tier + paid
-5. AIVA (https://www.aiva.ai) — Best for orchestral and soundtrack composition. Pricing: Free tier + paid
-6. Mubert (https://mubert.com) — Best royalty-free background music for streams. Pricing: Free tier + paid
-7. Lullaby Converter (https://lullabyconverter.com) — AI that turns any song into a music-box lullaby that follows the real tune. Pricing: Indie launch; check site for current pricing
-8. Autograph (https://autographmusic.com) — Handwritten music notation app for iPad and Mac that you can also drive with Claude via MCP. Pricing: Indie launch; check site for current pricing
-9. Daydream Studio (https://labs.daydream.live/studio/) — Virtual recording studio where you book AI session players for your track. Pricing: Indie launch; check site for current pricing
-10. Songbrain (https://www.songbrain.ai/) — Scores your song's strongest moments and renders ready-to-post music video clips. Pricing: Free analysis + 7 reels; check site for current pricing
-11. ToneMirror (https://www.tonemirror.so/) — Matches any song's guitar or bass tone to the amp, pickups and pedals you actually own. Pricing: check site for current pricing
-12. VocalDock (https://vocaldock.com/) — Vocal remover, stem splitter, noise remover, voice clone and free BPM/key tools in the browser. Pricing: Some tools free; check site for current pricing
+4. LALAL.AI (https://www.lalal.ai/) — Best-in-class AI stem splitter and vocal remover. Pricing: Paid from $9.99/mo
+5. Stable Audio (https://www.stableaudio.com) — Best for loops, stems and sound design. Pricing: Free tier + paid
+6. AIVA (https://www.aiva.ai) — Best for orchestral and soundtrack composition. Pricing: Free tier + paid
+7. Beatoven.ai (https://www.beatoven.ai/) — Royalty-free AI background music for videos and podcasts. Pricing: See site for pricing
+8. Soundverse (https://www.soundverse.ai/) — AI studio for songs, music videos and voices. Pricing: Free to start (1,000 tokens)
+9. Masterchannel (https://masterchannel.ai/) — AI mastering modeled on pro engineers. Pricing: From $15/mo
+10. RoEx (https://www.roexaudio.com/) — Upload stems, get an AI mix and master in minutes. Pricing: Free to try; pay per download
+11. Cyanite (https://cyanite.ai/) — AI music tagging and similarity search for catalogs. Pricing: See site for pricing
+12. Hookpad (https://www.hooktheory.com/hookpad) — Songwriting sketchpad with the Aria generative AI copilot. Pricing: Free; Aria AI add-on $14.99/mo
+13. Klangio (https://klang.io/) — AI transcription of audio and YouTube into sheet music and MIDI. Pricing: See site for pricing
+14. Mubert (https://mubert.com) — Best royalty-free background music for streams. Pricing: Free tier + paid
+15. Lullaby Converter (https://lullabyconverter.com) — AI that turns any song into a music-box lullaby that follows the real tune. Pricing: Indie launch; check site for current pricing
+16. Autograph (https://autographmusic.com) — Handwritten music notation app for iPad and Mac that you can also drive with Claude via MCP. Pricing: Indie launch; check site for current pricing
+17. Daydream Studio (https://labs.daydream.live/studio/) — Virtual recording studio where you book AI session players for your track. Pricing: Indie launch; check site for current pricing
+18. Songbrain (https://www.songbrain.ai/) — Scores your song's strongest moments and renders ready-to-post music video clips. Pricing: Free analysis + 7 reels; check site for current pricing
+19. ToneMirror (https://www.tonemirror.so/) — Matches any song's guitar or bass tone to the amp, pickups and pedals you actually own. Pricing: check site for current pricing
+20. VocalDock (https://vocaldock.com/) — Vocal remover, stem splitter, noise remover, voice clone and free BPM/key tools in the browser. Pricing: Some tools free; check site for current pricing
+21. Musicfy (https://musicfy.lol/) — AI voice covers with 100,000+ voices or your own clone. Pricing: From $8/mo (annual)
+22. Staccato (https://staccato.ai/) — Text-to-MIDI AI co-writer plugin. Pricing: From $4.99/mo
+23. Songmastr (https://songmastr.com/) — Free AI mastering to a reference track. Pricing: 7 free/week; paid from $4
+24. Neutone (https://neutone.jp/) — Real-time neural audio models inside your DAW. Pricing: Free plugin
+25. CreateYourMusic (https://createyourmusic.ai/ai-music-generator) — Text-to-song AI music generator. Pricing: Free to start
+26. FindGenre (https://findgenre.com/) — AI that identifies the genre of a track. Pricing: See site for pricing
+27. LyricMV (https://lyricmv.com/) — AI lyric video maker with auto-transcribed lyrics. Pricing: From $9.90
 
 ## Education (https://zachlaboyteaux-boop.github.io/ailoadout/education/)
 1. NotebookLM (https://notebooklm.google.com) — Best for studying your own notes and sources. Pricing: Free tier + paid
@@ -198,11 +244,25 @@
 2. LM Studio (https://lmstudio.ai) — Best desktop app for local models with a GUI. Pricing: Free
 3. LFM2.5-24B-A2B (https://www.liquid.ai/blog/lfm2-5-24b-a2b) — Best open MoE for on-device agents (24B total, 2B active). Pricing: Open weights
 4. Hugging Face (https://huggingface.co) — Best hub for open models, datasets and demos. Pricing: Free tier + paid
-5. Open WebUI (https://openwebui.com) — Best self-hosted ChatGPT-style interface. Pricing: Free / open source
-6. llama.cpp (https://github.com/ggml-org/llama.cpp) — Best engine for fast local inference on any hardware. Pricing: Open source
-7. Jan (https://www.jan.ai) — Best privacy-first offline assistant. Pricing: Free / open source
-8. ComfyUI (https://www.comfy.org) — Best node-based local image/video generation. Pricing: Free / open source
-9. Cactus Needle (https://cactuscompute.com/needle) — Tiny 8-29 MB foundation model built for phones, wearables, robots and microcontrollers. Pricing: Indie launch; check site for current pricing
+5. AnythingLLM (https://anythingllm.com/) — Free, private all-in-one local AI app: chat with docs, agents, any model. Pricing: Free desktop app; hosted from $50/mo
+6. Open WebUI (https://openwebui.com) — Best self-hosted ChatGPT-style interface. Pricing: Free / open source
+7. llama.cpp (https://github.com/ggml-org/llama.cpp) — Best engine for fast local inference on any hardware. Pricing: Open source
+8. Jan (https://www.jan.ai) — Best privacy-first offline assistant. Pricing: Free / open source
+9. ComfyUI (https://www.comfy.org) — Best node-based local image/video generation. Pricing: Free / open source
+10. Cactus Needle (https://cactuscompute.com/needle) — Tiny 8-29 MB foundation model built for phones, wearables, robots and microcontrollers. Pricing: Indie launch; check site for current pricing
+11. LocalAI (https://localai.io/) — Open-source, OpenAI-compatible server to run text, voice and image models locally. Pricing: Free, open source (MIT)
+12. Msty (https://msty.ai/) — Polished private AI app for local and cloud models with workspaces and knowledge stacks. Pricing: Free; paid plans on site
+13. Private LLM (https://privatellm.app/) — Run Llama, Qwen and DeepSeek fully offline on iPhone, iPad and Mac. Pricing: One-time App Store purchase
+14. Chatbox AI (https://chatboxai.app/) — Desktop and mobile chat client for cloud APIs and local models. Pricing: Free; Lite $3.50/mo, Pro $16.70/mo
+15. Locally AI (https://locallyai.app/) — Run open models offline on iPhone, iPad and Mac (now part of LM Studio). Pricing: Free
+16. Enclave AI (https://enclaveai.app/) — Offline AI assistant for iPhone and Mac with local voice chat. Pricing: Free; Pro $9.99/mo
+17. Backyard AI (https://backyard.ai/) — Local-model character chat app with lorebooks. Pricing: Free local app; see site
+18. Fullmoon (https://fullmoon.app/) — Minimal open-source app to chat with local LLMs on Apple devices. Pricing: Free, open source
+19. Layla (https://www.layla-network.ai/) — Private offline AI assistant and character chat for Android and iOS. Pricing: See site for pricing
+20. BoltAI (https://boltai.com/) — Native Mac AI app for ChatGPT, Claude, Gemini and local LLMs. Pricing: From $79 one-time
+21. RecurseChat (https://recurse.chat/) — Mac app for chatting with local AI models and your files. Pricing: Paid Mac app ($19.99-$29.99)
+22. Osaurus (https://osaurus.ai/) — Open local AI agents that run on your Mac. Pricing: Free; Workspaces $20/mo
+23. LocalMode (https://localmode.ai/) — Developer kit of React components that run AI models on-device in the browser. Pricing: Free, open source
 
 ## AI in Games (https://zachlaboyteaux-boop.github.io/ailoadout/ai-in-games/)
 1. Inworld AI (https://inworld.ai) — Best for AI NPC characters and voices. Pricing: Free tier + paid
@@ -391,6 +451,66 @@
 - SoonLab: https://zachlaboyteaux-boop.github.io/ailoadout/tools/soonlab/
 - UGCraft AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/ugcraft-ai/
 - modl.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/modl-ai/
+- AlphaRanks.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/alpharanks-ai/
+- Avex AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/avex-ai/
+- ChainClarity: https://zachlaboyteaux-boop.github.io/ailoadout/tools/chainclarity/
+- CoverEdge: https://zachlaboyteaux-boop.github.io/ailoadout/tools/coveredge/
+- Deep Blue Alpha: https://zachlaboyteaux-boop.github.io/ailoadout/tools/deep-blue-alpha/
+- Quantle: https://zachlaboyteaux-boop.github.io/ailoadout/tools/quantle/
+- Tradie Capital: https://zachlaboyteaux-boop.github.io/ailoadout/tools/tradie-capital/
+- trefolio: https://zachlaboyteaux-boop.github.io/ailoadout/tools/trefolio/
+- Tradoshi: https://zachlaboyteaux-boop.github.io/ailoadout/tools/tradoshi/
+- ZNORVA AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/znorva-ai/
+- Helvestor: https://zachlaboyteaux-boop.github.io/ailoadout/tools/helvestor/
+- tickerseer: https://zachlaboyteaux-boop.github.io/ailoadout/tools/tickerseer/
+- iPredicta: https://zachlaboyteaux-boop.github.io/ailoadout/tools/ipredicta/
+- AnythingLLM: https://zachlaboyteaux-boop.github.io/ailoadout/tools/anythingllm/
+- LocalAI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/localai/
+- Msty: https://zachlaboyteaux-boop.github.io/ailoadout/tools/msty/
+- Private LLM: https://zachlaboyteaux-boop.github.io/ailoadout/tools/private-llm/
+- Chatbox AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/chatbox-ai/
+- Locally AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/locally-ai/
+- Enclave AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/enclave-ai/
+- Backyard AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/backyard-ai/
+- Fullmoon: https://zachlaboyteaux-boop.github.io/ailoadout/tools/fullmoon/
+- Layla: https://zachlaboyteaux-boop.github.io/ailoadout/tools/layla/
+- BoltAI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/boltai/
+- RecurseChat: https://zachlaboyteaux-boop.github.io/ailoadout/tools/recursechat/
+- Osaurus: https://zachlaboyteaux-boop.github.io/ailoadout/tools/osaurus/
+- LocalMode: https://zachlaboyteaux-boop.github.io/ailoadout/tools/localmode/
+- LALAL.AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/lalal-ai/
+- Beatoven.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/beatoven-ai/
+- Soundverse: https://zachlaboyteaux-boop.github.io/ailoadout/tools/soundverse/
+- Masterchannel: https://zachlaboyteaux-boop.github.io/ailoadout/tools/masterchannel/
+- RoEx: https://zachlaboyteaux-boop.github.io/ailoadout/tools/roex/
+- Cyanite: https://zachlaboyteaux-boop.github.io/ailoadout/tools/cyanite/
+- Hookpad: https://zachlaboyteaux-boop.github.io/ailoadout/tools/hookpad/
+- Klangio: https://zachlaboyteaux-boop.github.io/ailoadout/tools/klangio/
+- Musicfy: https://zachlaboyteaux-boop.github.io/ailoadout/tools/musicfy/
+- Staccato: https://zachlaboyteaux-boop.github.io/ailoadout/tools/staccato/
+- Songmastr: https://zachlaboyteaux-boop.github.io/ailoadout/tools/songmastr/
+- Neutone: https://zachlaboyteaux-boop.github.io/ailoadout/tools/neutone/
+- CreateYourMusic: https://zachlaboyteaux-boop.github.io/ailoadout/tools/createyourmusic/
+- FindGenre: https://zachlaboyteaux-boop.github.io/ailoadout/tools/findgenre/
+- LyricMV: https://zachlaboyteaux-boop.github.io/ailoadout/tools/lyricmv/
+- Undermind: https://zachlaboyteaux-boop.github.io/ailoadout/tools/undermind/
+- Litmaps: https://zachlaboyteaux-boop.github.io/ailoadout/tools/litmaps/
+- Anara: https://zachlaboyteaux-boop.github.io/ailoadout/tools/anara/
+- AnswerThis: https://zachlaboyteaux-boop.github.io/ailoadout/tools/answerthis/
+- Moonlight: https://zachlaboyteaux-boop.github.io/ailoadout/tools/moonlight/
+- Paperguide: https://zachlaboyteaux-boop.github.io/ailoadout/tools/paperguide/
+- Scholarcy: https://zachlaboyteaux-boop.github.io/ailoadout/tools/scholarcy/
+- Humata: https://zachlaboyteaux-boop.github.io/ailoadout/tools/humata/
+- Keenious: https://zachlaboyteaux-boop.github.io/ailoadout/tools/keenious/
+- Avidnote: https://zachlaboyteaux-boop.github.io/ailoadout/tools/avidnote/
+- Sourcely: https://zachlaboyteaux-boop.github.io/ailoadout/tools/sourcely/
+- SciSummary: https://zachlaboyteaux-boop.github.io/ailoadout/tools/scisummary/
+- Paper Digest: https://zachlaboyteaux-boop.github.io/ailoadout/tools/paper-digest/
+- Petal: https://zachlaboyteaux-boop.github.io/ailoadout/tools/petal/
+- Kahubi: https://zachlaboyteaux-boop.github.io/ailoadout/tools/kahubi/
+- ResearchPal: https://zachlaboyteaux-boop.github.io/ailoadout/tools/researchpal/
+- Nouswise: https://zachlaboyteaux-boop.github.io/ailoadout/tools/nouswise/
+- ScholarAI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/scholarai/
 
 ## Comparisons
 - Cursor vs Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-claude-code/

@@ -1,6 +1,6 @@
 # The AI Loadout
 
-> A free directory of AI tools ranked by use case ("loadouts"), plus a feed of new AI releases. 158 AI tools ranked S/A/B/C across 17 use-case loadouts (177 rankings, since some tools appear in more than one loadout). Last updated 2026-10-15.
+> A free directory of AI tools ranked by use case ("loadouts"), plus a feed of new AI releases. 218 AI tools ranked S/A/B/C across 17 use-case loadouts (237 rankings, since some tools appear in more than one loadout). Last updated 2026-10-15.
 
 ## Pages
 - [New AI releases](https://zachlaboyteaux-boop.github.io/ailoadout/new/)
