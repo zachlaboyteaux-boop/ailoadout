@@ -38,6 +38,12 @@
 - [Nansen vs Arkham Intelligence](https://zachlaboyteaux-boop.github.io/ailoadout/compare/nansen-vs-arkham/)
 - [Inworld AI vs Convai](https://zachlaboyteaux-boop.github.io/ailoadout/compare/inworld-vs-convai/)
 - [Veo (Google Flow) vs Kling AI](https://zachlaboyteaux-boop.github.io/ailoadout/compare/veo-vs-kling/)
+- [Claude Code vs OpenAI Codex](https://zachlaboyteaux-boop.github.io/ailoadout/compare/claude-code-vs-openai-codex/)
+- [Cursor vs GitHub Copilot](https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-github-copilot/)
+- [ChatGPT Agent vs Manus](https://zachlaboyteaux-boop.github.io/ailoadout/compare/chatgpt-agent-vs-manus/)
+- [CrewAI vs LangGraph](https://zachlaboyteaux-boop.github.io/ailoadout/compare/crewai-vs-langgraph/)
+- [Perplexity vs Grok](https://zachlaboyteaux-boop.github.io/ailoadout/compare/perplexity-vs-grok/)
+- [ElevenLabs vs Grok Voice 3.0](https://zachlaboyteaux-boop.github.io/ailoadout/compare/elevenlabs-vs-grok-voice/)
 
 ## Best-of guides
 - [Best free AI coding tools in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-free-ai-coding-tools/)
