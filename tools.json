@@ -1,0 +1,462 @@
+{
+ "updated": "2026-10-14",
+ "tools": [
+  {
+   "name": "Cursor",
+   "url": "https://cursor.com",
+   "category": "Coding / Vibe Coding",
+   "rank": 1,
+   "verdict": "Best all-round AI code editor for shipping real apps fast",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Claude Code",
+   "url": "https://www.anthropic.com/claude-code",
+   "category": "Coding / Vibe Coding",
+   "rank": 2,
+   "verdict": "Best terminal agent for big multi-file changes",
+   "pricing": "Paid (Claude plan/API)"
+  },
+  {
+   "name": "OpenAI Codex",
+   "url": "https://openai.com/codex/",
+   "category": "Coding / Vibe Coding",
+   "rank": 3,
+   "verdict": "Best for delegating coding tasks to cloud agents",
+   "pricing": "Included with ChatGPT plans"
+  },
+  {
+   "name": "GitHub Copilot",
+   "url": "https://github.com/features/copilot",
+   "category": "Coding / Vibe Coding",
+   "rank": 4,
+   "verdict": "Best inside VS Code and GitHub workflows",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Lovable",
+   "url": "https://lovable.dev",
+   "category": "Coding / Vibe Coding",
+   "rank": 5,
+   "verdict": "Best for idea-to-full-stack app with zero setup",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Bolt.new",
+   "url": "https://bolt.new",
+   "category": "Coding / Vibe Coding",
+   "rank": 6,
+   "verdict": "Best for instant in-browser prototypes",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "v0",
+   "url": "https://v0.app",
+   "category": "Coding / Vibe Coding",
+   "rank": 7,
+   "verdict": "Best for polished React/Next.js UIs",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Replit",
+   "url": "https://replit.com",
+   "category": "Coding / Vibe Coding",
+   "rank": 8,
+   "verdict": "Best for building and hosting in one place",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "ChatGPT Agent",
+   "url": "https://chatgpt.com",
+   "category": "AI Agents",
+   "rank": 1,
+   "verdict": "Best general-purpose agent for everyday tasks",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Manus",
+   "url": "https://manus.im",
+   "category": "AI Agents",
+   "rank": 2,
+   "verdict": "Best for long autonomous research and task runs",
+   "pricing": "Free credits + paid"
+  },
+  {
+   "name": "n8n",
+   "url": "https://n8n.io",
+   "category": "AI Agents",
+   "rank": 3,
+   "verdict": "Best for building your own agent workflows (self-hostable)",
+   "pricing": "Free self-host + paid cloud"
+  },
+  {
+   "name": "Zapier Agents",
+   "url": "https://zapier.com/agents",
+   "category": "AI Agents",
+   "rank": 4,
+   "verdict": "Best for agents that touch 7,000+ apps",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "CrewAI",
+   "url": "https://www.crewai.com",
+   "category": "AI Agents",
+   "rank": 5,
+   "verdict": "Best framework for multi-agent teams in code",
+   "pricing": "Open source + paid cloud"
+  },
+  {
+   "name": "LangGraph",
+   "url": "https://www.langchain.com/langgraph",
+   "category": "AI Agents",
+   "rank": 6,
+   "verdict": "Best for controllable, stateful agent code",
+   "pricing": "Open source"
+  },
+  {
+   "name": "ChatGPT",
+   "url": "https://chatgpt.com",
+   "category": "Chat / Assistants",
+   "rank": 1,
+   "verdict": "Best default assistant for almost anything",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Claude",
+   "url": "https://claude.ai",
+   "category": "Chat / Assistants",
+   "rank": 2,
+   "verdict": "Best for writing, coding and long documents",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Gemini",
+   "url": "https://gemini.google.com",
+   "category": "Chat / Assistants",
+   "rank": 3,
+   "verdict": "Best if you live in Google apps",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Grok",
+   "url": "https://grok.com",
+   "category": "Chat / Assistants",
+   "rank": 4,
+   "verdict": "Best for real-time takes from X",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Midjourney",
+   "url": "https://www.midjourney.com",
+   "category": "Image",
+   "rank": 1,
+   "verdict": "Best pure image quality and style",
+   "pricing": "Paid"
+  },
+  {
+   "name": "ChatGPT Images",
+   "url": "https://chatgpt.com",
+   "category": "Image",
+   "rank": 2,
+   "verdict": "Best for edits and text in images via chat",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Ideogram",
+   "url": "https://ideogram.ai",
+   "category": "Image",
+   "rank": 3,
+   "verdict": "Best for logos, posters and typography",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Leonardo.Ai",
+   "url": "https://leonardo.ai",
+   "category": "Image",
+   "rank": 4,
+   "verdict": "Best for game art and consistent assets",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Adobe Firefly",
+   "url": "https://firefly.adobe.com",
+   "category": "Image",
+   "rank": 5,
+   "verdict": "Best commercially safe images",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Veo (Google Flow)",
+   "url": "https://labs.google/flow",
+   "category": "Video",
+   "rank": 1,
+   "verdict": "Best realism with native audio",
+   "pricing": "Paid (Google AI plans)"
+  },
+  {
+   "name": "Sora",
+   "url": "https://sora.com",
+   "category": "Video",
+   "rank": 2,
+   "verdict": "Best for creative, cinematic clips",
+   "pricing": "Included with ChatGPT plans"
+  },
+  {
+   "name": "Runway",
+   "url": "https://runwayml.com",
+   "category": "Video",
+   "rank": 3,
+   "verdict": "Best pro editing and video tools",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Kling AI",
+   "url": "https://klingai.com",
+   "category": "Video",
+   "rank": 4,
+   "verdict": "Best motion quality for the price",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "CapCut",
+   "url": "https://www.capcut.com",
+   "category": "Video",
+   "rank": 5,
+   "verdict": "Best for quick social edits with AI",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "ElevenLabs",
+   "url": "https://elevenlabs.io",
+   "category": "Voice / Audio",
+   "rank": 1,
+   "verdict": "Best voices, cloning and dubbing",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Suno",
+   "url": "https://suno.com",
+   "category": "Voice / Audio",
+   "rank": 2,
+   "verdict": "Best for full songs from a prompt",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Udio",
+   "url": "https://www.udio.com",
+   "category": "Voice / Audio",
+   "rank": 3,
+   "verdict": "Best for music with fine control",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Descript",
+   "url": "https://www.descript.com",
+   "category": "Voice / Audio",
+   "rank": 4,
+   "verdict": "Best for editing podcasts by editing text",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Claude",
+   "url": "https://claude.ai",
+   "category": "Writing",
+   "rank": 1,
+   "verdict": "Best natural-sounding long-form writing",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Grammarly",
+   "url": "https://www.grammarly.com",
+   "category": "Writing",
+   "rank": 2,
+   "verdict": "Best for polishing everything you type",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Notion AI",
+   "url": "https://www.notion.com/product/ai",
+   "category": "Writing",
+   "rank": 3,
+   "verdict": "Best for writing inside your docs and wiki",
+   "pricing": "Paid add-on"
+  },
+  {
+   "name": "Perplexity",
+   "url": "https://www.perplexity.ai",
+   "category": "Research / Search",
+   "rank": 1,
+   "verdict": "Best answer engine with sources",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "NotebookLM",
+   "url": "https://notebooklm.google.com",
+   "category": "Research / Search",
+   "rank": 2,
+   "verdict": "Best for studying your own docs (and audio overviews)",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "ChatGPT Deep Research",
+   "url": "https://chatgpt.com",
+   "category": "Research / Search",
+   "rank": 3,
+   "verdict": "Best for multi-page research reports",
+   "pricing": "Included with ChatGPT plans"
+  },
+  {
+   "name": "Elicit",
+   "url": "https://elicit.com",
+   "category": "Research / Search",
+   "rank": 4,
+   "verdict": "Best for academic papers",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Rosebud AI",
+   "url": "https://rosebud.ai",
+   "category": "Game Dev",
+   "rank": 1,
+   "verdict": "Best for vibe coding browser games from prompts",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Scenario",
+   "url": "https://www.scenario.com",
+   "category": "Game Dev",
+   "rank": 2,
+   "verdict": "Best for on-style game asset generation",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Meshy",
+   "url": "https://www.meshy.ai",
+   "category": "Game Dev",
+   "rank": 3,
+   "verdict": "Best text/image to 3D models",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Inworld AI",
+   "url": "https://inworld.ai",
+   "category": "Game Dev",
+   "rank": 4,
+   "verdict": "Best for AI NPC characters and voices",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Tripo",
+   "url": "https://www.tripo3d.ai",
+   "category": "Game Dev",
+   "rank": 5,
+   "verdict": "Best fast 3D models for prototyping",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Granola",
+   "url": "https://www.granola.ai",
+   "category": "Productivity",
+   "rank": 1,
+   "verdict": "Best AI meeting notes without a bot joining",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Gamma",
+   "url": "https://gamma.app",
+   "category": "Productivity",
+   "rank": 2,
+   "verdict": "Best for decks and docs in seconds",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Otter.ai",
+   "url": "https://otter.ai",
+   "category": "Productivity",
+   "rank": 3,
+   "verdict": "Best for transcripts across meeting apps",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Raycast AI",
+   "url": "https://www.raycast.com",
+   "category": "Productivity",
+   "rank": 4,
+   "verdict": "Best AI launcher for Mac power users",
+   "pricing": "Free tier + paid"
+  },
+  {
+   "name": "Superhuman",
+   "url": "https://superhuman.com",
+   "category": "Productivity",
+   "rank": 5,
+   "verdict": "Best AI email client for speed",
+   "pricing": "Paid"
+  }
+ ],
+ "releases": [
+  {
+   "name": "Gemini 4 Argon (general availability)",
+   "date": "2026-10-13",
+   "what": "Google's frontier model, now in the Gemini app, AI Studio and API with a 1M-token limit",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "source": "Google Blog"
+  },
+  {
+   "name": "Google Gemini Agent for work",
+   "date": "2026-10-08",
+   "what": "Google Cloud agent that answers questions, creates content and writes code at work",
+   "url": "https://www.reuters.com/business/google-cloud-introduces-gemini-agent-work-ai-race-heats-up-2026-10-08/",
+   "source": "Reuters"
+  },
+  {
+   "name": "GPT-6 + Intelligent UI in ChatGPT",
+   "date": "2026-10-07",
+   "what": "GPT-6 comes to all ChatGPT users with interactive, app-like answers",
+   "url": "https://openai.com/index/gpt-6-for-everyone/",
+   "source": "OpenAI"
+  },
+  {
+   "name": "Claude Haiku 5.5",
+   "date": "2026-10-07",
+   "what": "Anthropic's cheapest, fastest small model, tuned for agents and computer/browser use",
+   "url": "https://www.anthropic.com/claude-haiku-5-5",
+   "source": "Anthropic"
+  },
+  {
+   "name": "GPT-6.1 Sol",
+   "date": "2026-09-29",
+   "what": "OpenAI DevDay upgrade with strong agentic coding and computer use at lower cost",
+   "url": "https://openai.com/index/devday-2026-recap/",
+   "source": "OpenAI DevDay"
+  },
+  {
+   "name": "GPT-6 Astra Ultrafast",
+   "date": "2026-09-29",
+   "what": "Faster GPT-6 Astra in the API, ChatGPT Work and Codex",
+   "url": "https://openai.com/index/devday-2026-recap/",
+   "source": "OpenAI DevDay"
+  },
+  {
+   "name": "GPT-6 Sol & GPT-6 Luna",
+   "date": "2026-09-22",
+   "what": "New GPT-6 family members for everyday and lightweight use",
+   "url": "https://openai.com/index/gpt-6-astra/",
+   "source": "OpenAI"
+  },
+  {
+   "name": "Gemini 3.8 Flash & Gemini 3.8 Live",
+   "date": "2026-09",
+   "what": "Fast Gemini model plus expressive real-time voice models",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+   "source": "Google Blog"
+  },
+  {
+   "name": "Gemini app for Windows",
+   "date": "2026-09",
+   "what": "Gemini comes to the Windows desktop as a native app",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+   "source": "Google Blog"
+  }
+ ]
+}

@@ -1,2 +1,3 @@
-# ailoadout
-The AI Loadout - the best AI tools for every job, ranked by loadout.
+# The AI Loadout
+
+AI tools ranked by use case ("loadouts") plus new releases. Static site, no build step. Edit `tools.json` to update.
