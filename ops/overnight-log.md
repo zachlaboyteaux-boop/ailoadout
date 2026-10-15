@@ -31,3 +31,12 @@ Open items for Zach: verify Kit sending address; downgrade Kit to free before Oc
 - Loadouts: Grok Voice 3.0 → Voice/Audio (A); Muse Wonder → Coding + Chat (A); LFM2.5-24B-A2B → Open-Source & Local (A).
 - Stripe Featured Listing: product live at $49/mo; **0** active subscriptions; no featured flag changes.
 - Newsletter notes appended to `newsletter/drafts/accum.md`.
+
+## 2026-10-15 ~09:00 ET (continuous build)
+- Added hub pages **/compare/** and **/best/** (ItemList + BreadcrumbList JSON-LD); breadcrumbs on compare/best pages now link to the hubs; homepage footer links "all comparisons" / "all guides".
+- **5 new comparisons**: n8n vs Zapier Agents, Granola vs Otter.ai, Nansen vs Arkham Intelligence, Inworld AI vs Convai (AI in Games), Veo vs Kling AI.
+- **5 new best-of guides**: free AI chatbots (Claude/ChatGPT/Grok/Gemini), free AI image generators, AI for game assets, AI for NPCs, AI agent builders & frameworks. Facts from tools.json only.
+- llms.txt now lists every comparison + best-of guide for AI-search crawlers.
+- **Bug fix**: homepage footer "Best guides:" line was duplicated on every build (3 copies live). Footer block now wrapped in `<!--GUIDES-->` markers and replaced idempotently.
+- Totals (local build): 17 loadouts, 97 tool pages, 16 comparisons, 12 best-of, 2 hubs, 147 page URLs in sitemap.
+

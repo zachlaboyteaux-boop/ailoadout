@@ -9,8 +9,8 @@ Voice: neutral "we rank", light gamer flavor. Budget: $0 unless Zach approves sp
 4. **Kit**: verify sending address, switch to free plan before Oct 29 trial ends, publish welcome email.
 
 ## P1 — SEO / AI-search growth
-5. ~~More "best X for Y" pages~~ DONE 2026-10-15 (`/best/`): free coding, Unity/game-dev, local LLMs (no invented VRAM claims), Twitch streamers, students, crypto research, AI music for YouTube (license caveats). Follow-up: more long-tail pages as search demand shows.
-6. ~~More comparisons~~ DONE 2026-10-15 (those five live under `/compare/`). Follow-up: more as new tools land.
+5. ~~More "best X for Y" pages~~ DONE 2026-10-15 (`/best/`): free coding, Unity/game-dev, local LLMs (no invented VRAM claims), Twitch streamers, students, crypto research, AI music for YouTube (license caveats). Follow-up: more long-tail pages as search demand shows. 2026-10-15 09:00: +5 guides (free chatbots, free image, game assets, NPCs, agent builders) + /best/ hub.
+6. ~~More comparisons~~ DONE 2026-10-15 (those five live under `/compare/`). Follow-up: more as new tools land. 2026-10-15 09:00: +5 (n8n/Zapier, Granola/Otter, Nansen/Arkham, Inworld/Convai, Veo/Kling) + /compare/ hub.
 7. ~~Homepage cards and loadout pages link to tool pages; breadcrumbs + "updated" stamps~~ DONE 2026-10-15 (build.py: crumbs + stamp + BreadcrumbList on loadout/tool/compare/best pages).
 8. Move to custom domain (ailoadout.ai, ~$80/yr) once revenue covers it, so root robots.txt is honored.
 
@@ -20,6 +20,11 @@ Voice: neutral "we rank", light gamer flavor. Budget: $0 unless Zach approves sp
 11. ~~Hacker News Show HN draft~~ DONE 2026-10-15 (`marketing/hn-show-hn.md`) — not posted.
 12. ~~Product Hunt launch kit draft~~ DONE 2026-10-15 (`marketing/product-hunt-kit.md`) — gallery images + Zach OK still needed before launch.
 13. ~~TikTok / Shorts scripts~~ DONE 2026-10-15 (`marketing/tiktok-shorts-scripts.md`) — not posted.
+
+## P1b — Next SEO ideas
+- Tool pages: "Appears in" links to related compare/best pages (needs build reorder).
+- Wire `/dashboard/` Visitors panel to GoatCounter (needs API token from Zach, or public counter enabled).
+- Stripe fulfillment checklist doc in ops/.
 
 ## P3 — Product
 14. User voting / "suggest a tier change" (needs a backend; consider free tier of a form service).

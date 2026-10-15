@@ -120,7 +120,12 @@ COMPARE = [("cursor-vs-claude-code",["Cursor","Claude Code"]),
            ("ollama-vs-lm-studio",[("Ollama","Open-Source & Local Models"),("LM Studio","Open-Source & Local Models")]),
            ("suno-vs-udio",[("Suno","Music"),("Udio","Music")]),
            ("opusclip-vs-eklipse",["OpusClip","Eklipse"]),
-           ("meshy-vs-tripo-vs-rodin",[("Meshy","3D"),("Tripo","3D"),("Rodin (Hyper3D)","3D")])]
+           ("meshy-vs-tripo-vs-rodin",[("Meshy","3D"),("Tripo","3D"),("Rodin (Hyper3D)","3D")]),
+           ("n8n-vs-zapier-agents",[("n8n","AI Agents"),("Zapier Agents","AI Agents")]),
+           ("granola-vs-otter",[("Granola","Productivity"),("Otter.ai","Productivity")]),
+           ("nansen-vs-arkham",[("Nansen","Crypto / Finance AI"),("Arkham Intelligence","Crypto / Finance AI")]),
+           ("inworld-vs-convai",[("Inworld AI","AI in Games"),("Convai","AI in Games")]),
+           ("veo-vs-kling",[("Veo (Google Flow)","Video"),("Kling AI","Video")])]
 FULL_CMP = []
 for s, names in COMPARE:
     ts = []
@@ -136,7 +141,7 @@ for s, names in COMPARE:
     short_ans = (f"In our {ts[0]['category']} loadout, {top['name']} ranks highest (#{top['rank']}), but each wins at something different." if top else "They lead different loadouts, so the right pick depends on the job.")
     faq = [(f"Which is better: {title}?", short_ans + " " + " ".join(f"{t['name']}: {t['verdict'].lower()}." for t in ts)),
            ("Which one is free?", " ".join(f"{t['name']}: {t['pricing']}." for t in ts))]
-    bc_items = [("Home", BASE+"/"), ("Compare", None), (title, None)]
+    bc_items = [("Home", BASE+"/"), ("Compare", BASE+"/compare/"), (title, None)]
     body = (crumbs(bc_items) + stamp() +
             f'<h1>{e(title)} ({YEAR})</h1><p><b>Short answer:</b> {e(short_ans)}</p>'
             f'<table style="width:100%;border-collapse:collapse" border="1" cellpadding="8"><tr><th>Tool</th><th>Loadout</th><th>Rank</th><th>Best for</th><th>Pricing</th></tr>{rows}</table>'
@@ -235,6 +240,64 @@ BEST = [
     ],
   },
 ]
+BEST += [
+  {
+    "slug": "best-free-ai-chatbots",
+    "title": f"Best free AI chatbots in {YEAR}",
+    "desc": f"The best AI chatbots with a free tier in {YEAR}: Claude, ChatGPT, Grok and Gemini, ranked.",
+    "intro": "Every assistant in our Chat loadout below has a free tier in our data. Claude, ChatGPT and Grok share S-tier because each wins a different job. Free limits change often; check each site.",
+    "specs": [("Claude","Chat / Assistants"),("ChatGPT","Chat / Assistants"),("Grok","Chat / Assistants"),("Gemini","Chat / Assistants")],
+    "faqs": [
+      ("What is the best free AI chatbot?", "Claude, ChatGPT and Grok are all S-tier in our Chat loadout. Claude is best for writing, coding and long documents; ChatGPT is the best default for almost anything; Grok is best for real-time takes from X."),
+      ("Which free chatbot is best if I use Google apps?", "Gemini, A-tier in our Chat loadout, is our pick if you live in Google apps."),
+    ],
+  },
+  {
+    "slug": "best-free-ai-image-generators",
+    "title": f"Best free AI image generators in {YEAR}",
+    "desc": f"AI image generators with a free tier in {YEAR}, ranked from our Image loadout.",
+    "intro": "These image tools have a free tier in our data. Midjourney is our S-tier pick for raw image quality but is paid-only, so it is not on this list. Free limits and commercial terms vary; check each site.",
+    "specs": [("ChatGPT Images","Image"),("Ideogram","Image"),("Leonardo.Ai","Image"),("Adobe Firefly","Image"),("Grok Imagine","Image")],
+    "faqs": [
+      ("What is the best free AI image generator?", "ChatGPT Images ranks highest among free-tier options in our Image loadout (A-tier), best for edits and text in images via chat."),
+      ("Which free AI image tool is best for logos?", "Ideogram, A-tier in our Image loadout, is our pick for logos, posters and typography."),
+      ("Which is safest for commercial use?", "In our data, Adobe Firefly is ranked as the best commercially safe image option. Always confirm current license terms."),
+    ],
+  },
+  {
+    "slug": "best-ai-for-game-assets",
+    "title": f"Best AI for game assets in {YEAR}",
+    "desc": f"Best AI tools for game art, 3D models and skyboxes in {YEAR}, from our Game Dev, 3D and Image loadouts.",
+    "intro": "Asset gear pulled from our Game Dev, 3D and Image loadouts: 2D art, 3D meshes and environments. Check each tool's license terms before shipping assets in a commercial game.",
+    "specs": [("Scenario","Game Dev"),("Meshy","3D"),("Leonardo.Ai","Image"),("Tripo","3D"),("Rodin (Hyper3D)","3D"),("Blockade Labs Skybox","3D"),("Kaedim","3D")],
+    "faqs": [
+      ("What is the best AI for 2D game art?", "Scenario ranks #2 in our Game Dev loadout for on-style game asset generation; Leonardo.Ai is our Image-loadout pick for game art and consistent assets."),
+      ("What is the best AI for 3D game models?", "Meshy is S-tier in our 3D loadout for text/image to 3D. Tripo is fastest for prototypes, and Rodin (Hyper3D) is our pick for high-detail production-ready 3D."),
+    ],
+  },
+  {
+    "slug": "best-ai-for-npcs",
+    "title": f"Best AI for NPCs in games in {YEAR}",
+    "desc": f"Best AI tools for talking, reactive NPCs in {YEAR}: Inworld AI, NVIDIA ACE, Convai and more.",
+    "intro": "From our AI in Games loadout: tools developers use to give NPCs conversation, voices and behavior. Engine support and pricing differ; check each tool's docs.",
+    "specs": [("Inworld AI","AI in Games"),("NVIDIA ACE","AI in Games"),("Convai","AI in Games"),("Ludo.ai","AI in Games")],
+    "faqs": [
+      ("What is the best AI for NPCs?", "Inworld AI is S-tier in our AI in Games loadout for AI NPC characters and voices."),
+      ("What about Unity or Unreal?", "Convai, A-tier, is our pick for conversational NPCs in Unity and Unreal. NVIDIA ACE is our pick for on-device digital humans."),
+    ],
+  },
+  {
+    "slug": "best-ai-agent-builders",
+    "title": f"Best AI agent builders and frameworks in {YEAR}",
+    "desc": f"Best tools to build your own AI agents in {YEAR}: no-code workflows and open-source frameworks, ranked.",
+    "intro": "From our AI Agents loadout: the builders and frameworks for making your own agents, from self-hostable workflows to code-first multi-agent setups. Ready-made agents like ChatGPT Agent and Manus are ranked on the loadout page.",
+    "specs": [("n8n","AI Agents"),("Zapier Agents","AI Agents"),("CrewAI","AI Agents"),("LangGraph","AI Agents")],
+    "faqs": [
+      ("What is the best tool to build an AI agent without code?", "n8n ranks highest among builders in our AI Agents loadout (A-tier) and is self-hostable. Zapier Agents is our pick when your agent needs to touch lots of apps."),
+      ("What is the best open-source AI agent framework?", "CrewAI is our pick for multi-agent teams in code; LangGraph for controllable, stateful agent code. Both are open source in our data."),
+    ],
+  },
+]
 FULL_BEST = []
 for b in BEST:
     ts = tools_by_specs(b["specs"])
@@ -253,7 +316,7 @@ for b in BEST:
         for t in ts
     )
     faq = b["faqs"]
-    bc_items = [("Home", BASE+"/"), ("Best of", None), (b["title"], None)]
+    bc_items = [("Home", BASE+"/"), ("Best of", BASE+"/best/"), (b["title"], None)]
     body = (crumbs(bc_items) + stamp() +
             f'<h1>{e(b["title"])}</h1><p>{e(b["intro"])}</p><ol>{lis}</ol><h2>FAQ</h2>'
             + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq)
@@ -265,6 +328,20 @@ for b in BEST:
     open(f"best/{b['slug']}/index.html","w").write(page(f"best/{b['slug']}/", f"{b['title']} – The AI Loadout", b["desc"], body, ld(il)+ld(fq)+ld(crumb_ld(bc_items))))
     urls.append(f"{BASE}/best/{b['slug']}/")
     FULL_BEST.append(f"- {b['title']}: {BASE}/best/{b['slug']}/\n")
+
+# ---- hub pages: /compare/ and /best/ ----
+def hub(path, title, desc, intro, items):
+    lis = "".join(f'<li><a href="{BASE}/{path}{s}/">{e(t)}</a></li>' for s,t in items)
+    bc = [("Home", BASE+"/"), (title.split(" (")[0], None)]
+    body = crumbs(bc) + stamp() + f'<h1>{e(title)}</h1><p>{e(intro)}</p><ul>{lis}</ul><p class="m">Rankings come from <a href="{BASE}/tools.json">tools.json</a>. Browse <a href="{BASE}/">all loadouts</a>.</p>'
+    il = {"@context":"https://schema.org","@type":"ItemList","name":title,"dateModified":UP,"itemListElement":[{"@type":"ListItem","position":i+1,"name":t,"url":f"{BASE}/{path}{s}/"} for i,(s,t) in enumerate(items)]}
+    os.makedirs(path, exist_ok=True)
+    open(f"{path}index.html","w").write(page(path, f"{title} – The AI Loadout", desc, body, ld(il)+ld(crumb_ld(bc))))
+    urls.append(f"{BASE}/{path}")
+CMP_ITEMS = [(l.split(f"{BASE}/compare/")[1].strip().rstrip("/"), l[2:].split(": "+BASE)[0]) for l in FULL_CMP]
+BEST_ITEMS = [(l.split(f"{BASE}/best/")[1].strip().rstrip("/"), l[2:].split(": "+BASE)[0]) for l in FULL_BEST]
+hub("compare/", f"AI tool comparisons ({YEAR})", "Head-to-head AI tool comparisons with verdicts, tiers and pricing from The AI Loadout's rankings.", "Head-to-head matchups pulled from our loadout rankings: who wins at what, and what is free.", CMP_ITEMS)
+hub("best/", f"Best AI tools guides ({YEAR})", "Best-of AI tool guides by job: free tools, game dev, streamers, students, crypto research, local LLMs and more.", "Short, ranked guides for specific jobs, built only from our loadout rankings.", BEST_ITEMS)
 
 # ---- submit page ----
 PAY_LINK = "https://buy.stripe.com/aFa8wQ0wa5wL6Cy7bPgEg02"  # Stripe Payment Link: Featured Listing $49/mo
@@ -319,12 +396,14 @@ if "ailoadout.goatcounter.com/count" not in idx:
 cmp_links = " · ".join(f'<a href="compare/{s}/">{e(names[0] if isinstance(names[0], str) else names[0][0])}…</a>' for s, names in COMPARE)
 # clearer static footer block
 best_links = " · ".join(f'<a href="best/{b["slug"]}/">{e(b["title"].replace(f" in {YEAR}",""))}</a>' for b in BEST)
-footer_guides = f'Compare: {cmp_links}<br>Best guides: {best_links}<br>'
+footer_guides = f'<!--GUIDES-->Compare: {cmp_links} · <a href="compare/">all comparisons</a><br>Best guides: {best_links} · <a href="best/">all guides</a><br><!--/GUIDES-->'
 import re as _re
-idx2 = _re.sub(r"Compare:.*?<br>", footer_guides, idx, count=1, flags=_re.S)
-if idx2 != idx: idx = idx2
-elif "Best guides:" not in idx:
-    idx = idx.replace("Compare:", footer_guides + "Compare:", 1)
+# Replace the whole guides block (idempotent). Legacy pages had no markers and could repeat
+# "Best guides:" lines, so strip everything from the first "Compare:" up to the Submit link.
+if "<!--GUIDES-->" in idx:
+    idx = _re.sub(r"<!--GUIDES-->.*?<!--/GUIDES-->", lambda m: footer_guides, idx, count=1, flags=_re.S)
+elif "Compare:" in idx and '<a href="submit/">' in idx:
+    idx = _re.sub(r'Compare:.*?(?=<a href="submit/">)', lambda m: footer_guides, idx, count=1, flags=_re.S)
 open("index.html","w").write(idx)
 open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"<url><loc>{u}</loc><lastmod>{UP}</lastmod><changefreq>daily</changefreq></url>\n" for u in urls+[BASE+"/llms.txt"]) + "</urlset>\n")
@@ -332,6 +411,8 @@ bots = ["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot
 open("robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + "User-agent: *\nAllow: /\nDisallow: /dashboard/\n\n" + f"Sitemap: {BASE}/sitemap.xml\n")
 L = [f"# The AI Loadout\n\n> A free directory of AI tools ranked by use case (\"loadouts\"), plus a feed of new AI releases. Last updated {UP}.\n\n## Loadouts\n"]
 L += [f"- [Best AI tools for {c.split(' /')[0]}]({BASE}/{SLUG[c]}/): #1 {ts[0]['name']} — {ts[0]['verdict']}\n" for c,ts in cats.items()]
+L += ["\n## Comparisons\n"] + [f"- [{t}]({BASE}/compare/{sl}/)\n" for sl,t in CMP_ITEMS]
+L += ["\n## Best-of guides\n"] + [f"- [{t}]({BASE}/best/{sl}/)\n" for sl,t in BEST_ITEMS]
 L += [f"\n## Data\n- [tools.json]({BASE}/tools.json): machine-readable list of all tools and releases\n- [llms-full.txt]({BASE}/llms-full.txt): full directory as text\n"]
 open("llms.txt","w").write("".join(L))
 F = [f"# The AI Loadout — full directory\n\nLast updated {UP}. Source: {BASE}/\n"]
