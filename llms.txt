@@ -1,6 +1,6 @@
 # The AI Loadout
 
-> A free directory of AI tools ranked by use case ("loadouts"), plus a feed of new AI releases. Last updated 2026-10-14.
+> A free directory of AI tools ranked by use case ("loadouts"), plus a feed of new AI releases. Last updated 2026-10-15.
 
 ## Loadouts
 - [Best AI tools for Coding](https://zachlaboyteaux-boop.github.io/ailoadout/coding/): #1 Cursor — Best all-round AI code editor for shipping real apps fast

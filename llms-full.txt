@@ -1,6 +1,6 @@
 # The AI Loadout — full directory
 
-Last updated 2026-10-14. Source: https://zachlaboyteaux-boop.github.io/ailoadout/
+Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout/
 
 ## Coding / Vibe Coding (https://zachlaboyteaux-boop.github.io/ailoadout/coding/)
 1. Cursor (https://cursor.com) — Best all-round AI code editor for shipping real apps fast. Pricing: Free tier + paid
@@ -227,10 +227,24 @@ Last updated 2026-10-14. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 ## Comparisons
 - Cursor vs Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-claude-code/
 - ChatGPT vs Claude vs Gemini: https://zachlaboyteaux-boop.github.io/ailoadout/compare/chatgpt-vs-claude-vs-gemini/
+- Grok vs ChatGPT vs Claude: https://zachlaboyteaux-boop.github.io/ailoadout/compare/grok-vs-chatgpt-vs-claude/
 - Midjourney vs Ideogram vs Leonardo.Ai: https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-ideogram-vs-leonardo/
 - Runway vs Sora vs Veo (Google Flow): https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-sora-vs-veo/
 - Lovable vs Bolt.new vs v0: https://zachlaboyteaux-boop.github.io/ailoadout/compare/lovable-vs-bolt-vs-v0/
 - Perplexity vs ChatGPT Deep Research vs NotebookLM: https://zachlaboyteaux-boop.github.io/ailoadout/compare/perplexity-vs-chatgpt-deep-research-vs-notebooklm/
+- Ollama vs LM Studio: https://zachlaboyteaux-boop.github.io/ailoadout/compare/ollama-vs-lm-studio/
+- Suno vs Udio: https://zachlaboyteaux-boop.github.io/ailoadout/compare/suno-vs-udio/
+- OpusClip vs Eklipse: https://zachlaboyteaux-boop.github.io/ailoadout/compare/opusclip-vs-eklipse/
+- Meshy vs Tripo vs Rodin (Hyper3D): https://zachlaboyteaux-boop.github.io/ailoadout/compare/meshy-vs-tripo-vs-rodin/
+
+## Best-of guides
+- Best free AI coding tools in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-free-ai-coding-tools/
+- Best AI for Unity developers in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-unity-devs/
+- Best local LLM tools in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-local-llm-tools/
+- Best AI for Twitch streamers in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-twitch-streamers/
+- Best AI for students in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-students/
+- Best AI for crypto research in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-crypto-research/
+- Best AI music for YouTube in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-music-for-youtube/
 
 ## New releases
 - 2026-10-13: Gemini 4 Argon (general availability) — Google's frontier model, now in the Gemini app, AI Studio and API with a 1M-token limit (source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)
