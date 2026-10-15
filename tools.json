@@ -7,7 +7,9 @@
    "category": "Coding / Vibe Coding",
    "rank": 1,
    "verdict": "Best all-round AI code editor for shipping real apps fast",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "cursor"
   },
   {
    "name": "Claude Code",
@@ -15,7 +17,9 @@
    "category": "Coding / Vibe Coding",
    "rank": 2,
    "verdict": "Best terminal agent for big multi-file changes",
-   "pricing": "Paid (Claude plan/API)"
+   "pricing": "Paid (Claude plan/API)",
+   "tier": "A",
+   "slug": "claude-code"
   },
   {
    "name": "OpenAI Codex",
@@ -23,7 +27,9 @@
    "category": "Coding / Vibe Coding",
    "rank": 3,
    "verdict": "Best for delegating coding tasks to cloud agents",
-   "pricing": "Included with ChatGPT plans"
+   "pricing": "Included with ChatGPT plans",
+   "tier": "A",
+   "slug": "openai-codex"
   },
   {
    "name": "GitHub Copilot",
@@ -31,7 +37,9 @@
    "category": "Coding / Vibe Coding",
    "rank": 4,
    "verdict": "Best inside VS Code and GitHub workflows",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "github-copilot"
   },
   {
    "name": "Lovable",
@@ -39,7 +47,9 @@
    "category": "Coding / Vibe Coding",
    "rank": 5,
    "verdict": "Best for idea-to-full-stack app with zero setup",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "lovable"
   },
   {
    "name": "Bolt.new",
@@ -47,7 +57,9 @@
    "category": "Coding / Vibe Coding",
    "rank": 6,
    "verdict": "Best for instant in-browser prototypes",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "C",
+   "slug": "bolt-new"
   },
   {
    "name": "v0",
@@ -55,7 +67,9 @@
    "category": "Coding / Vibe Coding",
    "rank": 7,
    "verdict": "Best for polished React/Next.js UIs",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "C",
+   "slug": "v0"
   },
   {
    "name": "Replit",
@@ -63,7 +77,9 @@
    "category": "Coding / Vibe Coding",
    "rank": 8,
    "verdict": "Best for building and hosting in one place",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "C",
+   "slug": "replit"
   },
   {
    "name": "ChatGPT Agent",
@@ -71,7 +87,9 @@
    "category": "AI Agents",
    "rank": 1,
    "verdict": "Best general-purpose agent for everyday tasks",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "chatgpt-agent"
   },
   {
    "name": "Manus",
@@ -79,7 +97,9 @@
    "category": "AI Agents",
    "rank": 2,
    "verdict": "Best for long autonomous research and task runs",
-   "pricing": "Free credits + paid"
+   "pricing": "Free credits + paid",
+   "tier": "A",
+   "slug": "manus"
   },
   {
    "name": "n8n",
@@ -87,7 +107,9 @@
    "category": "AI Agents",
    "rank": 3,
    "verdict": "Best for building your own agent workflows (self-hostable)",
-   "pricing": "Free self-host + paid cloud"
+   "pricing": "Free self-host + paid cloud",
+   "tier": "A",
+   "slug": "n8n"
   },
   {
    "name": "Zapier Agents",
@@ -95,7 +117,9 @@
    "category": "AI Agents",
    "rank": 4,
    "verdict": "Best for agents that touch 7,000+ apps",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "zapier-agents"
   },
   {
    "name": "CrewAI",
@@ -103,7 +127,9 @@
    "category": "AI Agents",
    "rank": 5,
    "verdict": "Best framework for multi-agent teams in code",
-   "pricing": "Open source + paid cloud"
+   "pricing": "Open source + paid cloud",
+   "tier": "B",
+   "slug": "crewai"
   },
   {
    "name": "LangGraph",
@@ -111,39 +137,49 @@
    "category": "AI Agents",
    "rank": 6,
    "verdict": "Best for controllable, stateful agent code",
-   "pricing": "Open source"
+   "pricing": "Open source",
+   "tier": "C",
+   "slug": "langgraph"
   },
   {
    "name": "ChatGPT",
    "url": "https://chatgpt.com",
    "category": "Chat / Assistants",
-   "rank": 1,
+   "rank": 2,
    "verdict": "Best default assistant for almost anything",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "chatgpt"
   },
   {
    "name": "Claude",
    "url": "https://claude.ai",
    "category": "Chat / Assistants",
-   "rank": 2,
+   "rank": 1,
    "verdict": "Best for writing, coding and long documents",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "claude"
   },
   {
    "name": "Gemini",
    "url": "https://gemini.google.com",
    "category": "Chat / Assistants",
-   "rank": 3,
+   "rank": 4,
    "verdict": "Best if you live in Google apps",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "gemini"
   },
   {
    "name": "Grok",
    "url": "https://grok.com",
    "category": "Chat / Assistants",
-   "rank": 4,
+   "rank": 3,
    "verdict": "Best for real-time takes from X",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "grok"
   },
   {
    "name": "Midjourney",
@@ -151,7 +187,9 @@
    "category": "Image",
    "rank": 1,
    "verdict": "Best pure image quality and style",
-   "pricing": "Paid"
+   "pricing": "Paid",
+   "tier": "S",
+   "slug": "midjourney"
   },
   {
    "name": "ChatGPT Images",
@@ -159,7 +197,9 @@
    "category": "Image",
    "rank": 2,
    "verdict": "Best for edits and text in images via chat",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "chatgpt-images"
   },
   {
    "name": "Ideogram",
@@ -167,7 +207,9 @@
    "category": "Image",
    "rank": 3,
    "verdict": "Best for logos, posters and typography",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "ideogram"
   },
   {
    "name": "Leonardo.Ai",
@@ -175,7 +217,9 @@
    "category": "Image",
    "rank": 4,
    "verdict": "Best for game art and consistent assets",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "leonardo-ai"
   },
   {
    "name": "Adobe Firefly",
@@ -183,7 +227,9 @@
    "category": "Image",
    "rank": 5,
    "verdict": "Best commercially safe images",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "adobe-firefly"
   },
   {
    "name": "Veo (Google Flow)",
@@ -191,7 +237,9 @@
    "category": "Video",
    "rank": 1,
    "verdict": "Best realism with native audio",
-   "pricing": "Paid (Google AI plans)"
+   "pricing": "Paid (Google AI plans)",
+   "tier": "S",
+   "slug": "veo-google-flow"
   },
   {
    "name": "Sora",
@@ -199,7 +247,9 @@
    "category": "Video",
    "rank": 2,
    "verdict": "Best for creative, cinematic clips",
-   "pricing": "Included with ChatGPT plans"
+   "pricing": "Included with ChatGPT plans",
+   "tier": "A",
+   "slug": "sora"
   },
   {
    "name": "Runway",
@@ -207,7 +257,9 @@
    "category": "Video",
    "rank": 3,
    "verdict": "Best pro editing and video tools",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "runway"
   },
   {
    "name": "Kling AI",
@@ -215,7 +267,9 @@
    "category": "Video",
    "rank": 4,
    "verdict": "Best motion quality for the price",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "kling-ai"
   },
   {
    "name": "CapCut",
@@ -223,7 +277,9 @@
    "category": "Video",
    "rank": 5,
    "verdict": "Best for quick social edits with AI",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "capcut"
   },
   {
    "name": "ElevenLabs",
@@ -231,7 +287,9 @@
    "category": "Voice / Audio",
    "rank": 1,
    "verdict": "Best voices, cloning and dubbing",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "elevenlabs"
   },
   {
    "name": "Suno",
@@ -239,7 +297,9 @@
    "category": "Voice / Audio",
    "rank": 2,
    "verdict": "Best for full songs from a prompt",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "suno"
   },
   {
    "name": "Udio",
@@ -247,7 +307,9 @@
    "category": "Voice / Audio",
    "rank": 3,
    "verdict": "Best for music with fine control",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "udio"
   },
   {
    "name": "Descript",
@@ -255,7 +317,9 @@
    "category": "Voice / Audio",
    "rank": 4,
    "verdict": "Best for editing podcasts by editing text",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "descript"
   },
   {
    "name": "Claude",
@@ -263,7 +327,9 @@
    "category": "Writing",
    "rank": 1,
    "verdict": "Best natural-sounding long-form writing",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "claude-writing"
   },
   {
    "name": "Grammarly",
@@ -271,7 +337,9 @@
    "category": "Writing",
    "rank": 2,
    "verdict": "Best for polishing everything you type",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "grammarly"
   },
   {
    "name": "Notion AI",
@@ -279,7 +347,9 @@
    "category": "Writing",
    "rank": 3,
    "verdict": "Best for writing inside your docs and wiki",
-   "pricing": "Paid add-on"
+   "pricing": "Paid add-on",
+   "tier": "A",
+   "slug": "notion-ai"
   },
   {
    "name": "Perplexity",
@@ -287,7 +357,9 @@
    "category": "Research / Search",
    "rank": 1,
    "verdict": "Best answer engine with sources",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "perplexity"
   },
   {
    "name": "NotebookLM",
@@ -295,7 +367,9 @@
    "category": "Research / Search",
    "rank": 2,
    "verdict": "Best for studying your own docs (and audio overviews)",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "notebooklm"
   },
   {
    "name": "ChatGPT Deep Research",
@@ -303,7 +377,9 @@
    "category": "Research / Search",
    "rank": 3,
    "verdict": "Best for multi-page research reports",
-   "pricing": "Included with ChatGPT plans"
+   "pricing": "Included with ChatGPT plans",
+   "tier": "A",
+   "slug": "chatgpt-deep-research"
   },
   {
    "name": "Elicit",
@@ -311,7 +387,9 @@
    "category": "Research / Search",
    "rank": 4,
    "verdict": "Best for academic papers",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "elicit"
   },
   {
    "name": "Rosebud AI",
@@ -319,7 +397,9 @@
    "category": "Game Dev",
    "rank": 1,
    "verdict": "Best for vibe coding browser games from prompts",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "rosebud-ai"
   },
   {
    "name": "Scenario",
@@ -327,7 +407,9 @@
    "category": "Game Dev",
    "rank": 2,
    "verdict": "Best for on-style game asset generation",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "scenario"
   },
   {
    "name": "Meshy",
@@ -335,7 +417,9 @@
    "category": "Game Dev",
    "rank": 3,
    "verdict": "Best text/image to 3D models",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "meshy"
   },
   {
    "name": "Inworld AI",
@@ -343,7 +427,9 @@
    "category": "Game Dev",
    "rank": 4,
    "verdict": "Best for AI NPC characters and voices",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "inworld-ai"
   },
   {
    "name": "Tripo",
@@ -351,7 +437,9 @@
    "category": "Game Dev",
    "rank": 5,
    "verdict": "Best fast 3D models for prototyping",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "tripo"
   },
   {
    "name": "Granola",
@@ -359,7 +447,9 @@
    "category": "Productivity",
    "rank": 1,
    "verdict": "Best AI meeting notes without a bot joining",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "granola"
   },
   {
    "name": "Gamma",
@@ -367,7 +457,9 @@
    "category": "Productivity",
    "rank": 2,
    "verdict": "Best for decks and docs in seconds",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "gamma"
   },
   {
    "name": "Otter.ai",
@@ -375,7 +467,9 @@
    "category": "Productivity",
    "rank": 3,
    "verdict": "Best for transcripts across meeting apps",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "otter-ai"
   },
   {
    "name": "Raycast AI",
@@ -383,7 +477,9 @@
    "category": "Productivity",
    "rank": 4,
    "verdict": "Best AI launcher for Mac power users",
-   "pricing": "Free tier + paid"
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "raycast-ai"
   },
   {
    "name": "Superhuman",
@@ -391,7 +487,449 @@
    "category": "Productivity",
    "rank": 5,
    "verdict": "Best AI email client for speed",
-   "pricing": "Paid"
+   "pricing": "Paid",
+   "tier": "B",
+   "slug": "superhuman"
+  },
+  {
+   "name": "Grok",
+   "url": "https://grok.com",
+   "category": "Research / Search",
+   "rank": 5,
+   "verdict": "Best for real-time research across X and the web",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "grok-research"
+  },
+  {
+   "name": "Grok Imagine",
+   "url": "https://grok.com/imagine",
+   "category": "Image",
+   "rank": 6,
+   "verdict": "Best for fast, playful image and short video generation",
+   "pricing": "Free tier + paid",
+   "tier": "C",
+   "slug": "grok-imagine"
+  },
+  {
+   "name": "Perplexity Finance",
+   "url": "https://www.perplexity.ai/finance",
+   "category": "Crypto / Finance AI",
+   "rank": 1,
+   "verdict": "Best for quick, sourced answers on stocks and markets",
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "perplexity-finance"
+  },
+  {
+   "name": "Grok",
+   "url": "https://grok.com",
+   "category": "Crypto / Finance AI",
+   "rank": 2,
+   "verdict": "Best for real-time market sentiment from X",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "grok-crypto-finance"
+  },
+  {
+   "name": "Nansen",
+   "url": "https://www.nansen.ai",
+   "category": "Crypto / Finance AI",
+   "rank": 3,
+   "verdict": "Best on-chain wallet and smart-money analytics",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "nansen"
+  },
+  {
+   "name": "Arkham Intelligence",
+   "url": "https://intel.arkm.com",
+   "category": "Crypto / Finance AI",
+   "rank": 4,
+   "verdict": "Best for tracing entities and flows on-chain",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "arkham-intelligence"
+  },
+  {
+   "name": "Kaito",
+   "url": "https://www.kaito.ai",
+   "category": "Crypto / Finance AI",
+   "rank": 5,
+   "verdict": "Best for crypto narrative and mindshare tracking",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "kaito"
+  },
+  {
+   "name": "Messari",
+   "url": "https://messari.io",
+   "category": "Crypto / Finance AI",
+   "rank": 6,
+   "verdict": "Best crypto research reports with AI summaries",
+   "pricing": "Free tier + paid",
+   "tier": "C",
+   "slug": "messari"
+  },
+  {
+   "name": "Meshy",
+   "url": "https://www.meshy.ai",
+   "category": "3D",
+   "rank": 1,
+   "verdict": "Best all-round text/image to 3D",
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "meshy-3d"
+  },
+  {
+   "name": "Tripo",
+   "url": "https://www.tripo3d.ai",
+   "category": "3D",
+   "rank": 2,
+   "verdict": "Best speed for 3D prototypes",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "tripo-3d"
+  },
+  {
+   "name": "Rodin (Hyper3D)",
+   "url": "https://hyper3d.ai",
+   "category": "3D",
+   "rank": 3,
+   "verdict": "Best for high-detail production-ready 3D",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "rodin-hyper3d"
+  },
+  {
+   "name": "Spline",
+   "url": "https://spline.design",
+   "category": "3D",
+   "rank": 4,
+   "verdict": "Best for interactive 3D on the web with AI help",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "spline"
+  },
+  {
+   "name": "Blockade Labs Skybox",
+   "url": "https://www.blockadelabs.com",
+   "category": "3D",
+   "rank": 5,
+   "verdict": "Best for 360\u00b0 skyboxes and environments",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "blockade-labs-skybox"
+  },
+  {
+   "name": "Kaedim",
+   "url": "https://www.kaedim3d.com",
+   "category": "3D",
+   "rank": 6,
+   "verdict": "Best for studio-grade game-ready assets",
+   "pricing": "Paid",
+   "tier": "C",
+   "slug": "kaedim"
+  },
+  {
+   "name": "Suno",
+   "url": "https://suno.com",
+   "category": "Music",
+   "rank": 1,
+   "verdict": "Best for full songs with vocals from a prompt",
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "suno-music"
+  },
+  {
+   "name": "Udio",
+   "url": "https://www.udio.com",
+   "category": "Music",
+   "rank": 2,
+   "verdict": "Best for fine control over music generation",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "udio-music"
+  },
+  {
+   "name": "ElevenLabs Music",
+   "url": "https://elevenlabs.io/music",
+   "category": "Music",
+   "rank": 3,
+   "verdict": "Best for commercially cleared AI music",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "elevenlabs-music"
+  },
+  {
+   "name": "Stable Audio",
+   "url": "https://www.stableaudio.com",
+   "category": "Music",
+   "rank": 4,
+   "verdict": "Best for loops, stems and sound design",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "stable-audio"
+  },
+  {
+   "name": "AIVA",
+   "url": "https://www.aiva.ai",
+   "category": "Music",
+   "rank": 5,
+   "verdict": "Best for orchestral and soundtrack composition",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "aiva"
+  },
+  {
+   "name": "Mubert",
+   "url": "https://mubert.com",
+   "category": "Music",
+   "rank": 6,
+   "verdict": "Best royalty-free background music for streams",
+   "pricing": "Free tier + paid",
+   "tier": "C",
+   "slug": "mubert"
+  },
+  {
+   "name": "NotebookLM",
+   "url": "https://notebooklm.google.com",
+   "category": "Education",
+   "rank": 1,
+   "verdict": "Best for studying your own notes and sources",
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "notebooklm-education"
+  },
+  {
+   "name": "Khanmigo",
+   "url": "https://www.khanmigo.ai",
+   "category": "Education",
+   "rank": 2,
+   "verdict": "Best AI tutor that guides instead of giving answers",
+   "pricing": "Free for teachers + paid",
+   "tier": "A",
+   "slug": "khanmigo"
+  },
+  {
+   "name": "ChatGPT",
+   "url": "https://chatgpt.com",
+   "category": "Education",
+   "rank": 3,
+   "verdict": "Best all-purpose explainer and study buddy",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "chatgpt-education"
+  },
+  {
+   "name": "Duolingo",
+   "url": "https://www.duolingo.com",
+   "category": "Education",
+   "rank": 4,
+   "verdict": "Best for AI-powered language practice",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "duolingo"
+  },
+  {
+   "name": "Quizlet",
+   "url": "https://quizlet.com",
+   "category": "Education",
+   "rank": 5,
+   "verdict": "Best for AI flashcards and practice tests",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "quizlet"
+  },
+  {
+   "name": "Brisk Teaching",
+   "url": "https://www.briskteaching.com",
+   "category": "Education",
+   "rank": 6,
+   "verdict": "Best AI toolkit for teachers",
+   "pricing": "Free tier + paid",
+   "tier": "C",
+   "slug": "brisk-teaching"
+  },
+  {
+   "name": "OpusClip",
+   "url": "https://www.opus.pro",
+   "category": "Streamers / Creators",
+   "rank": 1,
+   "verdict": "Best for turning long videos into viral shorts",
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "opusclip"
+  },
+  {
+   "name": "Eklipse",
+   "url": "https://eklipse.gg",
+   "category": "Streamers / Creators",
+   "rank": 2,
+   "verdict": "Best for auto-clipping Twitch gaming highlights",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "eklipse"
+  },
+  {
+   "name": "StreamLadder",
+   "url": "https://streamladder.com",
+   "category": "Streamers / Creators",
+   "rank": 3,
+   "verdict": "Best for vertical clips from streams",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "streamladder"
+  },
+  {
+   "name": "Captions",
+   "url": "https://www.captions.ai",
+   "category": "Streamers / Creators",
+   "rank": 4,
+   "verdict": "Best for AI captions, edits and talking videos",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "captions"
+  },
+  {
+   "name": "Descript",
+   "url": "https://www.descript.com",
+   "category": "Streamers / Creators",
+   "rank": 5,
+   "verdict": "Best for editing videos by editing text",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "descript-creators"
+  },
+  {
+   "name": "CapCut",
+   "url": "https://www.capcut.com",
+   "category": "Streamers / Creators",
+   "rank": 6,
+   "verdict": "Best free all-in-one social editor",
+   "pricing": "Free tier + paid",
+   "tier": "C",
+   "slug": "capcut-creators"
+  },
+  {
+   "name": "Ollama",
+   "url": "https://ollama.com",
+   "category": "Open-Source & Local Models",
+   "rank": 1,
+   "verdict": "Best one-command way to run models locally",
+   "pricing": "Free / open source",
+   "tier": "S",
+   "slug": "ollama"
+  },
+  {
+   "name": "LM Studio",
+   "url": "https://lmstudio.ai",
+   "category": "Open-Source & Local Models",
+   "rank": 2,
+   "verdict": "Best desktop app for local models with a GUI",
+   "pricing": "Free",
+   "tier": "A",
+   "slug": "lm-studio"
+  },
+  {
+   "name": "Hugging Face",
+   "url": "https://huggingface.co",
+   "category": "Open-Source & Local Models",
+   "rank": 3,
+   "verdict": "Best hub for open models, datasets and demos",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "hugging-face"
+  },
+  {
+   "name": "Open WebUI",
+   "url": "https://openwebui.com",
+   "category": "Open-Source & Local Models",
+   "rank": 4,
+   "verdict": "Best self-hosted ChatGPT-style interface",
+   "pricing": "Free / open source",
+   "tier": "B",
+   "slug": "open-webui"
+  },
+  {
+   "name": "llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "category": "Open-Source & Local Models",
+   "rank": 5,
+   "verdict": "Best engine for fast local inference on any hardware",
+   "pricing": "Open source",
+   "tier": "B",
+   "slug": "llama-cpp"
+  },
+  {
+   "name": "Jan",
+   "url": "https://www.jan.ai",
+   "category": "Open-Source & Local Models",
+   "rank": 6,
+   "verdict": "Best privacy-first offline assistant",
+   "pricing": "Free / open source",
+   "tier": "C",
+   "slug": "jan"
+  },
+  {
+   "name": "ComfyUI",
+   "url": "https://www.comfy.org",
+   "category": "Open-Source & Local Models",
+   "rank": 7,
+   "verdict": "Best node-based local image/video generation",
+   "pricing": "Free / open source",
+   "tier": "C",
+   "slug": "comfyui"
+  },
+  {
+   "name": "Inworld AI",
+   "url": "https://inworld.ai",
+   "category": "AI in Games",
+   "rank": 1,
+   "verdict": "Best for AI NPC characters and voices",
+   "pricing": "Free tier + paid",
+   "tier": "S",
+   "slug": "inworld-ai-ai-in-games"
+  },
+  {
+   "name": "NVIDIA ACE",
+   "url": "https://developer.nvidia.com/ace",
+   "category": "AI in Games",
+   "rank": 2,
+   "verdict": "Best for on-device digital humans in games",
+   "pricing": "Free for developers",
+   "tier": "A",
+   "slug": "nvidia-ace"
+  },
+  {
+   "name": "Convai",
+   "url": "https://convai.com",
+   "category": "AI in Games",
+   "rank": 3,
+   "verdict": "Best for conversational NPCs in Unity/Unreal",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "convai"
+  },
+  {
+   "name": "Ludo.ai",
+   "url": "https://ludo.ai",
+   "category": "AI in Games",
+   "rank": 4,
+   "verdict": "Best for game ideation, market research and assets",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "ludo-ai"
+  },
+  {
+   "name": "Rosebud AI",
+   "url": "https://rosebud.ai",
+   "category": "AI in Games",
+   "rank": 5,
+   "verdict": "Best for vibe coding playable games from prompts",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "rosebud-ai-ai-in-games"
   }
  ],
  "releases": [
@@ -458,5 +996,11 @@
    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
    "source": "Google Blog"
   }
- ]
+ ],
+ "tier_legend": {
+  "S": "Must-equip: best in class right now",
+  "A": "Strong pick for most people",
+  "B": "Great for specific needs",
+  "C": "Situational / niche"
+ }
 }

@@ -3,12 +3,26 @@
 import json, os, html
 BASE = "https://zachlaboyteaux-boop.github.io/ailoadout"
 SLUG = {"Coding / Vibe Coding":"coding","AI Agents":"agents","Chat / Assistants":"chat","Image":"image","Video":"video",
-        "Voice / Audio":"voice","Writing":"writing","Research / Search":"research","Game Dev":"game-dev","Productivity":"productivity"}
+        "Voice / Audio":"voice","Writing":"writing","Research / Search":"research","Game Dev":"game-dev","Productivity":"productivity",
+        "Crypto / Finance AI":"crypto-finance","3D":"3d","Music":"music","Education":"education","Streamers / Creators":"creators",
+        "Open-Source & Local Models":"local-models","AI in Games":"ai-in-games"}
 D = json.load(open("tools.json")); UP = D["updated"]; YEAR = UP[:4]
 e = html.escape
 cats = {}
 for t in D["tools"]: cats.setdefault(t["category"], []).append(t)
 for c in cats: cats[c].sort(key=lambda t: t["rank"])
+import re
+def slugify(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")
+slugs = {}
+for t in D["tools"]:
+    s = slugify(t["name"])
+    if s in slugs.values(): s = s + "-" + SLUG[t["category"]]
+    slugs[id(t)] = s
+def tslug(t): return slugs[id(t)]
+for t in D["tools"]: t["slug"] = tslug(t)
+json.dump(D, open("tools.json","w"), indent=1)  # write slugs back so the homepage can link to /tools/<slug>/
+TIER_COL = {"S":"#ff5c5c","A":"#ffb347","B":"#7cff6b","C":"#5ac8ff"}
+def badge(t): return f'<span style="display:inline-block;min-width:22px;text-align:center;font-weight:800;border-radius:6px;padding:0 6px;color:#000;background:{TIER_COL.get(t.get("tier","C"))}">{t.get("tier","")}</span>'
 CSS = "body{margin:0;font:16px/1.6 system-ui,sans-serif;background:#0b0d12;color:#e7eaf2}a{color:#5ac8ff}.w{max-width:860px;margin:auto;padding:20px}h1{letter-spacing:-.5px}h1 span,h2{color:#7cff6b}ol li{margin:10px 0}.m{color:#8b93a7}nav a{margin-right:10px;font-size:14px}"
 def ld(o): return '<script type="application/ld+json">' + json.dumps(o, ensure_ascii=False) + '</script>'
 ORG = {"@context":"https://schema.org","@type":"Organization","name":"The AI Loadout","url":BASE+"/","logo":BASE+"/favicon.svg"}
@@ -28,11 +42,11 @@ for c, ts in cats.items():
     s = SLUG.get(c, c.lower().replace(" ", "-").replace("/", ""))
     short = c.split(" /")[0]
     top = ts[0]
-    faq = [(f"What is the best AI tool for {short.lower()} in {YEAR}?", f"Our #1 pick is {top['name']}: {top['verdict'].lower()}. Runners-up: " + ", ".join(t['name'] for t in ts[1:3]) + "."),
+    faq = [(f"What is the best AI tool for {short.lower()} in {YEAR}?", f"The top-ranked pick is {top['name']}: {top['verdict'].lower()}. Runners-up: " + ", ".join(t['name'] for t in ts[1:3]) + "."),
            (f"Are there free AI tools for {short.lower()}?", "Free tiers or free options: " + (", ".join(t['name'] for t in ts if "free" in t['pricing'].lower() or "open source" in t['pricing'].lower()) or "none in this list") + "."),
            ("How is this list ranked?", f"Editorially by The AI Loadout, based on capability, ease of use and value, and updated as new tools ship. Last updated {UP}.")]
-    lis = "".join(f'<li><b><a href="{e(t["url"])}" rel="noopener">{e(t["name"])}</a></b> — {e(t["verdict"])}. <span class="m">{e(t["pricing"])}</span></li>' for t in ts)
-    body = f'<h1>Best AI tools for <span>{e(short)}</span> in {YEAR}</h1><p>The {e(c)} loadout: {len(ts)} AI tools ranked for this job, with a one-line verdict on what each is best for. Our top pick right now is <b>{e(top["name"])}</b>.</p><ol>{lis}</ol><h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq)
+    lis = "".join(f'<li>{badge(t)} <b><a href="{BASE}/tools/{tslug(t)}/">{e(t["name"])}</a></b> — {e(t["verdict"])}. <span class="m">{e(t["pricing"])} · <a href="{e(t["url"])}" rel="noopener">official site ↗</a></span></li>' for t in ts)
+    body = f'<h1>Best AI tools for <span>{e(short)}</span> in {YEAR}</h1><p>The {e(c)} loadout: {len(ts)} AI tools ranked for this job, with a one-line verdict on what each is best for. Tiers: S = must-equip, A = strong pick, B = great for specific needs, C = situational. Top pick right now: <b>{e(top["name"])}</b> ({top.get("tier","")}-tier).</p><ol>{lis}</ol><h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq)
     il = {"@context":"https://schema.org","@type":"ItemList","name":f"Best AI tools for {short} in {YEAR}","dateModified":UP,
           "itemListElement":[{"@type":"ListItem","position":t["rank"],"name":t["name"],"url":t["url"],"description":t["verdict"]} for t in ts]}
     fq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
@@ -41,14 +55,6 @@ for c, ts in cats.items():
     urls.append(f"{BASE}/{s}/")
 
 # ---- per-tool pages ----
-import re
-def slugify(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")
-slugs = {}
-for t in D["tools"]:
-    s = slugify(t["name"])
-    if s in slugs.values(): s = s + "-" + SLUG[t["category"]]
-    slugs[id(t)] = s
-def tslug(t): return slugs[id(t)]
 FULL_TOOLS = []
 for t in D["tools"]:
     s = tslug(t); c = t["category"]; short = c.split(" /")[0]; peers = [x for x in cats[c] if x is not t]
@@ -57,7 +63,7 @@ for t in D["tools"]:
            (f"What are the best alternatives to {t['name']}?", "In the same loadout: " + "; ".join(f"{p['name']} (#{p['rank']}, {p['verdict'].lower()})" for p in peers[:4]) + ".")]
     alts = "".join(f'<li><a href="{BASE}/tools/{tslug(p)}/">{e(p["name"])}</a> (#{p["rank"]}) — {e(p["verdict"])}</li>' for p in peers)
     body = (f'<h1>{e(t["name"])} review: what it\'s best for ({YEAR})</h1>'
-            f'<p><b>Verdict:</b> {e(t["verdict"])}.</p><p><b>Rank:</b> #{t["rank"]} of {len(cats[c])} in the <a href="{BASE}/{SLUG[c]}/">{e(c)} loadout</a>.</p>'
+            f'<p><b>Verdict:</b> {e(t["verdict"])}.</p><p><b>Tier:</b> {badge(t)} &nbsp; <b>Rank:</b> #{t["rank"]} of {len(cats[c])} in the <a href="{BASE}/{SLUG[c]}/">{e(c)} loadout</a>.</p>'
             f'<p><b>Pricing:</b> {e(t["pricing"])}</p><p><a href="{e(t["url"])}" rel="noopener">Visit {e(t["name"])} →</a></p>'
             f'<h2>Alternatives in the {e(short)} loadout</h2><ul>{alts}</ul><h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq))
     sa = {"@context":"https://schema.org","@type":"SoftwareApplication","name":t["name"],"url":t["url"],"applicationCategory":c,"operatingSystem":"Web",
