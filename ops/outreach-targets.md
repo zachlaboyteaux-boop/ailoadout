@@ -147,3 +147,73 @@ Skipped from batch 2: AI3DGen and Image to 3D Studio (generic image-to-3D wrappe
 Already listed (not re-added; funded, low-likelihood $49 buyers): Ludo.ai (contact form https://ludo.ai/contact), Convai (sales@convai.com), Rosebud AI (support@rosebudai.com). Layer is also funded, but it was skipped (see below).
 
 Skipped from batch 3: Ludo.ai, Convai, Rosebud AI (duplicates); Layer (pivoted to a general 300+ model creative platform, not game-specific, and skipped in batch 1); Charisma.ai (site now pitches corporate training and brand campaigns, no games); Promethean AI (pivoted to asset management, site last updated 2024, no public pricing or contact). Nobody contacted.
+
+
+### Batch 4: research, crypto/finance, local models, music (Dave, vetted 2026-10-15)
+
+| Tool | Tier | Loadout | Page | Contact | Notes |
+|---|---|---|---|---|---|
+| AlphaRanks.ai | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/alpharanks-ai/ | hello@alpharanks.ai | **TOP 15 #1** likely $49 buyer |
+| Avex AI | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/avex-ai/ | privacy@avexai.io | privacy@ from terms, NOT a sales contact |
+| ChainClarity | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/chainclarity/ | support@chainclarity.io | **TOP 15 #6** likely $49 buyer |
+| CoverEdge | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/coveredge/ | support@coveredge.io |  |
+| Deep Blue Alpha | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/deep-blue-alpha/ | team@deepbluealpha.io | **TOP 15 #7** likely $49 buyer |
+| Quantle | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/quantle/ | quantle100@gmail.com | Gmail address |
+| Tradie Capital | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/tradie-capital/ | hellotradie@tradiecapital.com | **TOP 15 #2** likely $49 buyer |
+| trefolio | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/trefolio/ | support@trefolio.com |  |
+| Tradoshi | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/tradoshi/ | support@tradoshi.com | **TOP 15 #5** likely $49 buyer |
+| ZNORVA AI | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/znorva-ai/ | support@znorva.com | **TOP 15 #4** likely $49 buyer |
+| Helvestor | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/helvestor/ | info@helvestor.ch |  |
+| tickerseer | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/tickerseer/ | support@tickerseer.com | **TOP 15 #3** likely $49 buyer |
+| iPredicta | C | Crypto / Finance AI | https://zachlaboyteaux-boop.github.io/ailoadout/tools/ipredicta/ | hello@ipredicta.co |  |
+| AnythingLLM | A | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/anythingllm/ | none found | Free/open source: unlikely buyer |
+| LocalAI | B | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/localai/ | contact@localai.io | Free/open source: unlikely buyer |
+| Msty | B | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/msty/ | sales@msty.ai |  |
+| Private LLM | B | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/private-llm/ | none found |  |
+| Chatbox AI | C | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/chatbox-ai/ | hi@chatboxai.com |  |
+| Locally AI | C | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/locally-ai/ | contact@locallyai.app | Free; joining LM Studio: unlikely buyer |
+| Enclave AI | C | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/enclave-ai/ | enclave-support@agentmail.to | agentmail.to address |
+| Backyard AI | C | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/backyard-ai/ | none found |  |
+| Fullmoon | C | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/fullmoon/ | none found | Free/open source: unlikely buyer |
+| Layla | C | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/layla/ | none found |  |
+| BoltAI | C | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/boltai/ | https://boltai.com/contact |  |
+| RecurseChat | C | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/recursechat/ | none found |  |
+| Osaurus | C | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/osaurus/ | hello@osaurus.ai | **TOP 15 #8** likely $49 buyer |
+| LocalMode | C | Open-Source & Local Models | https://zachlaboyteaux-boop.github.io/ailoadout/tools/localmode/ | info@localmode.ai | Free/open source: unlikely buyer |
+| LALAL.AI | A | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/lalal-ai/ | support@lalal.ai | Big established name: unlikely buyer |
+| Beatoven.ai | B | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/beatoven-ai/ | hello@beatoven.ai | Established/funded: unlikely buyer |
+| Soundverse | B | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/soundverse/ | https://www.soundverse.ai/contact |  |
+| Masterchannel | B | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/masterchannel/ | support@masterchannel.ai | **TOP 15 #10** likely $49 buyer |
+| RoEx | B | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/roex/ | https://www.roexaudio.com/contact-us |  |
+| Cyanite | B | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/cyanite/ | mail@cyanite.ai | Established B2B: unlikely buyer |
+| Hookpad | B | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/hookpad/ | support@hooktheory.com | Established (Hooktheory): unlikely buyer |
+| Klangio | B | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/klangio/ | none found |  |
+| Musicfy | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/musicfy/ | https://musicfy.lol/contact |  |
+| Staccato | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/staccato/ | support@staccato.ai | **TOP 15 #9** likely $49 buyer |
+| Songmastr | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/songmastr/ | info@songmastr.com |  |
+| Neutone | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/neutone/ | contact@neutone.jp | Free plugin: unlikely buyer |
+| CreateYourMusic | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/createyourmusic/ | https://createyourmusic.ai/contact |  |
+| FindGenre | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/findgenre/ | https://findgenre.com/contact.html |  |
+| LyricMV | C | Music | https://zachlaboyteaux-boop.github.io/ailoadout/tools/lyricmv/ | support@lyricmv.com |  |
+| Undermind | B | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/undermind/ | support@undermind.ai |  |
+| Litmaps | B | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/litmaps/ | sales@litmaps.com | Established name: unlikely buyer |
+| Anara | B | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/anara/ | support@anara.com |  |
+| AnswerThis | B | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/answerthis/ | support@answerthis.io | **TOP 15 #15** likely $49 buyer |
+| Moonlight | B | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/moonlight/ | moonlight@corca.ai |  |
+| Paperguide | B | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/paperguide/ | hello@paperguide.ai | **TOP 15 #14** likely $49 buyer |
+| Scholarcy | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/scholarcy/ | support@scholarcy.com | Established name: unlikely buyer |
+| Humata | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/humata/ | support@humata.ai | Established name: unlikely buyer |
+| Keenious | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/keenious/ | eduverify@keenious.com | eduverify@ is a verification inbox, find another route |
+| Avidnote | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/avidnote/ | https://avidnote.com/contact-us |  |
+| Sourcely | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/sourcely/ | contact@sourcely.net | **TOP 15 #13** likely $49 buyer |
+| SciSummary | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/scisummary/ | support@scisummary.com |  |
+| Paper Digest | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/paper-digest/ | team@paperdigest.org |  |
+| Petal | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/petal/ | hello@petal.org |  |
+| Kahubi | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/kahubi/ | team@kahubi.com | **TOP 15 #11** likely $49 buyer |
+| ResearchPal | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/researchpal/ | info@researchpal.co |  |
+| Nouswise | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/nouswise/ | team@nouswise.com | **TOP 15 #12** likely $49 buyer |
+| ScholarAI | C | Research / Search | https://zachlaboyteaux-boop.github.io/ailoadout/tools/scholarai/ | none found |  |
+
+Already listed (not re-added): Jan (Open-Source & Local Models), AIVA (Music).
+
+Skipped from batch 4: EdgeDojo, Ora DJ, Riffage, StraviaX, velaHita, PutFinder (no AI on site; PutFinder says rules-based); Connected Papers (citation graph, no AI claim); Samplab (no AI claim found on site); Cashflowy.ai and Inbox Ledger (bookkeeping/AP, off-loadout); Thunder Compute and AntSeed (cloud GPU/inference, not local); IronClaw (agent runtime on NEAR cloud, not local); Prinn (DLP security, off-loadout); Iris.ai (pivoted to enterprise knowledge platform). Nobody contacted.
