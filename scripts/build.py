@@ -111,7 +111,13 @@ COMPARE = [("cursor-vs-claude-code",["Cursor","Claude Code"]),
            ("chatgpt-agent-vs-manus",[("ChatGPT Agent","AI Agents"),("Manus","AI Agents")]),
            ("crewai-vs-langgraph",[("CrewAI","AI Agents"),("LangGraph","AI Agents")]),
            ("perplexity-vs-grok",[("Perplexity","Research / Search"),("Grok","Research / Search")]),
-           ("elevenlabs-vs-grok-voice",[("ElevenLabs","Voice / Audio"),("Grok Voice 3.0","Voice / Audio")])]
+           ("elevenlabs-vs-grok-voice",[("ElevenLabs","Voice / Audio"),("Grok Voice 3.0","Voice / Audio")]),
+           ("chatgpt-vs-gemini",[("ChatGPT","Chat / Assistants"),("Gemini","Chat / Assistants")]),
+           ("claude-vs-gemini",[("Claude","Chat / Assistants"),("Gemini","Chat / Assistants")]),
+           ("perplexity-vs-gemini",["Perplexity","Gemini"]),
+           ("midjourney-vs-chatgpt-images",[("Midjourney","Image"),("ChatGPT Images","Image")]),
+           ("runway-vs-kling",[("Runway","Video"),("Kling AI","Video")]),
+           ("notion-ai-vs-chatgpt",["Notion AI","ChatGPT"])]
 FULL_CMP = []
 for s, names in COMPARE:
     ts = []
@@ -149,6 +155,30 @@ def tools_by_specs(specs):
     return out
 
 BEST = [
+  {
+    "slug": "best-ai-for-image-generation",
+    "title": f"Best AI for image generation in {YEAR}",
+    "desc": f"The best AI image generators in {YEAR}, free and paid, ranked S/A/B/C from our Image loadout.",
+    "intro": "Our full Image loadout ranking, paid tools included. Midjourney is our S-tier pick for raw image quality. For free-tier options only, see our best free AI image generators guide. Commercial terms vary; check each site.",
+    "specs": [("Midjourney","Image"),("ChatGPT Images","Image"),("Ideogram","Image"),("Leonardo.Ai","Image"),("Adobe Firefly","Image"),("Grok Imagine","Image")],
+    "faqs": [
+      (f"What is the best AI for image generation in {YEAR}?", "Midjourney ranks #1 (S-tier) in our Image loadout for pure image quality and style. It is paid-only."),
+      ("What is the best free option?", "ChatGPT Images (A-tier, #2) is the top-ranked image tool with a free tier, best for edits and text in images via chat."),
+      ("Which is best for logos or commercial use?", "Ideogram (A-tier) is our pick for logos, posters and typography; Adobe Firefly (B-tier) is our pick for commercially safe images."),
+    ],
+  },
+  {
+    "slug": "best-ai-for-coding",
+    "title": f"Best AI for coding in {YEAR}",
+    "desc": f"The best AI coding tools in {YEAR}, free and paid, ranked S/A/B/C from our Coding loadout.",
+    "intro": "Our full Coding loadout ranking, paid tools included: editors, terminal agents, cloud agents and app builders. For free-tier options only, see our best free AI coding tools guide.",
+    "specs": [("Cursor","Coding / Vibe Coding"),("Claude Code","Coding / Vibe Coding"),("Muse Wonder","Coding / Vibe Coding"),("OpenAI Codex","Coding / Vibe Coding"),("GitHub Copilot","Coding / Vibe Coding"),("Lovable","Coding / Vibe Coding"),("Bolt.new","Coding / Vibe Coding"),("v0","Coding / Vibe Coding"),("Replit","Coding / Vibe Coding")],
+    "faqs": [
+      (f"What is the best AI for coding in {YEAR}?", "Cursor ranks #1 (S-tier) in our Coding loadout as the best all-round AI code editor for shipping real apps fast."),
+      ("What is best for big multi-file changes?", "Claude Code (A-tier, #2) is our pick as a terminal agent for large multi-file changes; OpenAI Codex (A-tier) is our pick for delegating tasks to cloud agents."),
+      ("What if I can't code?", "Lovable (B-tier) is our pick for going from idea to a full-stack app with zero setup."),
+    ],
+  },
   {
     "slug": "best-free-ai-coding-tools",
     "title": f"Best free AI coding tools in {YEAR}",
@@ -428,20 +458,20 @@ sponsor_body = (
   '<p>Builders, vibe coders, creators, gamers, and AI enthusiasts choosing what to equip next. Qualitative audience only; we do not invent demographics.</p>'
   '<h2>Early partners</h2>'
   '<p>The site is live and growing. The newsletter just launched — early partners get in before the list is crowded. Sponsored placements stay clearly labeled; rankings stay editorial.</p>'
-  '<h2>Placements</h2>'
+  '<h2>Placements (proposed pricing)</h2>'
   '<ul>'
-  f'<li><b>★ Featured tool listing — $49/mo</b>: pinned at the top of your tool\'s loadout with a Featured badge, included in the weekly newsletter, plus a dedicated tool page. <a href="{BASE}/submit/">Get Featured →</a></li>'
-  '<li><b>Newsletter sponsorship slot</b>: a sponsor mention in The AI Loadout Weekly. Price TBD — ask us.</li>'
-  '<li><b>Homepage / loadout mention or compare-page partner slot</b>: light gamer-flavored callouts where readers pick gear. Price TBD — ask us.</li>'
+  f'<li><b>★ Featured tool listing — $49/mo</b>: pinned at the top of your tool\'s loadout with a Featured badge, included in the weekly newsletter, plus a dedicated tool page. <a href="https://buy.stripe.com/aFa8wQ0wa5wL6Cy7bPgEg02" rel="noopener">Buy Featured ($49/mo) →</a></li>'
+  '<li><b>Newsletter sponsorship — $25/issue, or $75 for 4 issues</b>: a labeled sponsor mention in The AI Loadout Weekly. To book, email <a href="mailto:zach@webpilot.agency?subject=Newsletter%20sponsorship">zach@webpilot.agency</a>.</li>'
+  '<li><b>Homepage banner — $99/mo</b>: a labeled banner on the home page. To book, email <a href="mailto:zach@webpilot.agency?subject=Homepage%20banner">zach@webpilot.agency</a>.</li>'
   '</ul>'
+  '<p><b>Founding-sponsor note:</b> we are pre-launch (Product Hunt launch Nov 8), so audience numbers are not published yet. Early sponsors get founding-sponsor rates, and we will share real traffic and subscriber numbers as soon as we have them. Sponsored placements are always labeled and never change a tier.</p>'
   '<h2>What we need from you</h2>'
   '<ul><li>Logo (SVG or PNG)</li><li>Product URL</li><li>One-liner (what it\'s best for)</li><li>Preferred loadout / placement</li></ul>'
   '<h2>Contact</h2>'
-  f'<p><a href="{SPONSOR_ISSUE}" rel="noopener" style="display:inline-block;padding:14px 22px;border-radius:10px;background:#7cff6b;color:#000;font-weight:800;text-decoration:none">Open a sponsor inquiry</a></p>'
-  '<p class="m">Opens a GitHub issue with a short form. No invented traffic stats — we will share real numbers once analytics is live.</p>'
+  '<p>Email <a href="mailto:zach@webpilot.agency">zach@webpilot.agency</a> for newsletter and banner slots. Featured listings can be bought directly above.</p>'
 )
 os.makedirs("sponsor", exist_ok=True)
-open("sponsor/index.html","w").write(page("sponsor/", "Sponsor / advertise – The AI Loadout", "Sponsor The AI Loadout: Featured listings, newsletter slots, and partner mentions for AI tools. Early partners welcome.", sponsor_body))
+open("sponsor/index.html","w").write(page("sponsor/", "Sponsor / advertise – The AI Loadout", "Sponsor The AI Loadout: Featured listings $49/mo, newsletter slots $25/issue, homepage banner $99/mo. Founding-sponsor rates for early partners.", sponsor_body))
 urls.append(f"{BASE}/sponsor/")
 # ---- data-driven counts (tools can be ranked in several loadouts) ----
 N_RANK = len(D["tools"])
@@ -509,7 +539,7 @@ open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset x
     "".join(f"<url><loc>{u}</loc><lastmod>{UP}</lastmod><changefreq>daily</changefreq></url>\n" for u in urls+[BASE+"/llms.txt"]) + "</urlset>\n")
 bots = ["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-User","Claude-SearchBot","PerplexityBot","Perplexity-User","Google-Extended"]
 open("robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + "User-agent: *\nAllow: /\nDisallow: /dashboard/\n\n" + f"Sitemap: {BASE}/sitemap.xml\n")
-L = [f"# The AI Loadout\n\n> A free directory of AI tools ranked by use case (\"loadouts\"), plus a feed of new AI releases. {COUNTS}. Last updated {UP}.\n\n## Pages\n- [New AI releases]({BASE}/new/)\n- [Weekly newsletter]({BASE}/newsletter/)\n- [Tier badges]({BASE}/badge/)\n\n## Loadouts\n"]
+L = [f"# The AI Loadout\n\n> A free directory of AI tools ranked by use case (\"loadouts\"), plus a feed of new AI releases. {COUNTS}. Last updated {UP}.\n\n## Pages\n- [New AI releases]({BASE}/new/)\n- [Weekly newsletter]({BASE}/newsletter/)\n- [Tier badges]({BASE}/badge/)\n- [Sponsor / advertise]({BASE}/sponsor/): Featured $49/mo, newsletter $25/issue or $75 for 4, homepage banner $99/mo\n\n## Loadouts\n"]
 L += [f"- [Best AI tools for {c.split(' /')[0]}]({BASE}/{SLUG[c]}/): #1 {ts[0]['name']} — {ts[0]['verdict']}\n" for c,ts in cats.items()]
 L += ["\n## Comparisons\n"] + [f"- [{t}]({BASE}/compare/{sl}/)\n" for sl,t in CMP_ITEMS]
 L += ["\n## Best-of guides\n"] + [f"- [{t}]({BASE}/best/{sl}/)\n" for sl,t in BEST_ITEMS]

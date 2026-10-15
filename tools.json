@@ -13,7 +13,7 @@
   },
   {
    "name": "Claude Code",
-   "url": "https://www.anthropic.com/claude-code",
+   "url": "https://claude.com/product/claude-code",
    "category": "Coding / Vibe Coding",
    "rank": 2,
    "verdict": "Best terminal agent for big multi-file changes",
@@ -233,7 +233,7 @@
   },
   {
    "name": "Veo (Google Flow)",
-   "url": "https://labs.google/flow",
+   "url": "https://flow.google.com/",
    "category": "Video",
    "rank": 1,
    "verdict": "Best realism with native audio",
@@ -693,7 +693,7 @@
   },
   {
    "name": "NotebookLM",
-   "url": "https://notebook.google.com/",
+   "url": "https://notebooklm.google.com",
    "category": "Education",
    "rank": 1,
    "verdict": "Best for studying your own notes and sources",
@@ -1627,7 +1627,7 @@
    "category": "Game Dev",
    "rank": 4,
    "verdict": "Pixel-art game asset generator: sprites, 4/8-direction rotations, skeleton and text animations, tilesets, with Aseprite support",
-   "pricing": "Free to try, no card; check site for paid plans",
+   "pricing": "Free to try; paid plans available",
    "tier": "A",
    "slug": "pixellab"
   },
@@ -1805,7 +1805,7 @@
    "name": "Meta Muse Wonder",
    "date": "2026-10-12",
    "what": "Meta's first frontier models (Wonder + Wonder Full) for coding agents and computer use via Muse Code / API",
-   "url": "https://dev.meta.ai/resources/blog/build-with-muse-wonder",
+   "url": "https://research.meta.ai/static/muse-wonder-model-card",
    "source": "Meta"
   },
   {
