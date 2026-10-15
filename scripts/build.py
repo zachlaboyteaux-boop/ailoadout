@@ -37,7 +37,7 @@ def page(path, title, desc, body, extra=""):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}">
 <meta property="article:modified_time" content="{UP}">{ld(ORG)}{extra}<style>{CSS}</style></head><body><div class="w">
 <nav><a href="{BASE}/">← The AI Loadout</a>{"".join(f'<a href="{BASE}/{s}/">{e(c)}</a>' for c,s in SLUG.items() if c in cats)}</nav>
-{body}{SIGNUP}<p class="m">Last updated {UP}. Rankings are editorial; pricing changes often, check each tool's site.</p></div></body></html>'''
+{body}{SIGNUP}<p class="m"><a href="{BASE}/submit/">Submit a tool</a> · <a href="{BASE}/sponsor/">Sponsor / advertise</a></p><p class="m">Last updated {UP}. Rankings are editorial; pricing changes often, check each tool's site.</p></div></body></html>'''
 urls = [BASE+"/"]
 for c, ts in cats.items():
     s = SLUG.get(c, c.lower().replace(" ", "-").replace("/", ""))
@@ -122,6 +122,31 @@ body = (f'<h1>Submit your AI tool</h1><p>Built an AI tool? Get it in front of pe
 os.makedirs("submit", exist_ok=True)
 open("submit/index.html","w").write(page("submit/", "Submit your AI tool – The AI Loadout", "Submit your AI tool to The AI Loadout for free, or get a $49/month Featured listing pinned at the top of its loadout.", body))
 urls.append(f"{BASE}/submit/")
+
+# ---- sponsor / media kit page ----
+SPONSOR_ISSUE = "https://github.com/zachlaboyteaux-boop/ailoadout/issues/new?title=Sponsor+inquiry&body=Company%3A%0AProduct%2FURL%3A%0APreferred+placement%3A%0ABudget+range+%28optional%29%3A%0AMessage%3A%0A"
+sponsor_body = (
+  '<h1>Sponsor / advertise</h1>'
+  '<p>The AI Loadout ranks AI tools into loadouts with S/A/B/C tiers — coding, agents, image, video, game dev, crypto, local models, and more — plus a weekly newsletter of the launches that matter.</p>'
+  '<h2>Who reads this</h2>'
+  '<p>Builders, vibe coders, creators, gamers, and AI enthusiasts choosing what to equip next. Qualitative audience only; we do not invent demographics.</p>'
+  '<h2>Early partners</h2>'
+  '<p>The site is live and growing. The newsletter just launched — early partners get in before the list is crowded. Sponsored placements stay clearly labeled; rankings stay editorial.</p>'
+  '<h2>Placements</h2>'
+  '<ul>'
+  f'<li><b>★ Featured tool listing — $49/mo</b>: pinned at the top of your tool\'s loadout with a Featured badge, included in the weekly newsletter, plus a dedicated tool page. <a href="{BASE}/submit/">Get Featured →</a></li>'
+  '<li><b>Newsletter sponsorship slot</b>: a sponsor mention in The AI Loadout Weekly. Price TBD — ask us.</li>'
+  '<li><b>Homepage / loadout mention or compare-page partner slot</b>: light gamer-flavored callouts where readers pick gear. Price TBD — ask us.</li>'
+  '</ul>'
+  '<h2>What we need from you</h2>'
+  '<ul><li>Logo (SVG or PNG)</li><li>Product URL</li><li>One-liner (what it\'s best for)</li><li>Preferred loadout / placement</li></ul>'
+  '<h2>Contact</h2>'
+  f'<p><a href="{SPONSOR_ISSUE}" rel="noopener" style="display:inline-block;padding:14px 22px;border-radius:10px;background:#7cff6b;color:#000;font-weight:800;text-decoration:none">Open a sponsor inquiry</a></p>'
+  '<p class="m">Opens a GitHub issue with a short form. No invented traffic stats — we will share real numbers once analytics is live.</p>'
+)
+os.makedirs("sponsor", exist_ok=True)
+open("sponsor/index.html","w").write(page("sponsor/", "Sponsor / advertise – The AI Loadout", "Sponsor The AI Loadout: Featured listings, newsletter slots, and partner mentions for AI tools. Early partners welcome.", sponsor_body))
+urls.append(f"{BASE}/sponsor/")
 # home page JSON-LD
 idx = open("index.html").read()
 mark = "<!--LD-->"

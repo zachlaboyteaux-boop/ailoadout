@@ -4,7 +4,7 @@ Voice: neutral "we rank", light gamer flavor. Budget: $0 unless Zach approves sp
 
 ## P0 — Revenue groundwork (blocked on Zach's OK)
 1. ~~Submit-your-tool page + Stripe link~~ DONE 2026-10-14 (live: $49/mo Featured, payment link plink_1UQelYL3anCVpwrE5rEStGg5). Follow-ups: fulfillment checklist (on each new subscription: set `featured: true` in tools.json, add to next newsletter); handle cancellations (remove flag); consider Stripe webhook → GitHub automation; set a public business name/support email in Stripe for this brand.
-2. **Sponsor / media-kit page** (`/sponsor/`): audience, traffic (once analytics is live), newsletter subs, placements (featured card, newsletter slot), contact. No prices until Zach approves.
+2. ~~Sponsor / media-kit page~~ DONE 2026-10-15 (`/sponsor/` live): audience (qualitative), placements (Featured $49/mo + newsletter/homepage/compare slots ask-us), GitHub issue contact. No invented traffic/sub numbers. Analytics still pending GoatCounter.
 3. **Analytics**: add free GoatCounter or Cloudflare Web Analytics; wire the dashboard Visitors panel.
 4. **Kit**: verify sending address, switch to free plan before Oct 29 trial ends, publish welcome email.
 
