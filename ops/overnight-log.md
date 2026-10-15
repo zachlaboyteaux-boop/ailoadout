@@ -18,3 +18,9 @@ Open items for Zach: verify Kit sending address; downgrade Kit to free before Oc
 - Added **7 best-of SEO guides** under `/best/`: free AI coding tools, Unity/game-dev AI, local LLMs, Twitch streamers, students, crypto research, AI music for YouTube (facts from tools.json only; licensing caveats where needed).
 - Totals after rebuild: 17 loadouts, 93 tool pages, 11 comparisons, 7 best-of, ~131 sitemap URLs. `updated` → 2026-10-15.
 - Still open: Kit sending address + free plan before Oct 29; custom domain later; marketing drafts/posts need Zach OK; Stripe fulfillment webhook optional.
+
+## 2026-10-15 ~06:00 ET (continuous build)
+- Shipped **breadcrumbs + Updated stamps** on loadout, tool, compare, and best-of pages via `scripts/build.py` (visible trail + BreadcrumbList JSON-LD; stamp uses tools.json `updated`).
+- Wrote **marketing drafts** (not posted): `marketing/reddit-drafts.md` (r/vibecoding, r/LocalLLaMA, r/gamedev, r/aivideo), `marketing/hn-show-hn.md`, `marketing/product-hunt-kit.md`, `marketing/tiktok-shorts-scripts.md`. Facts only from tools.json; need Zach OK before any public post.
+- Still open: Kit sending address + free plan before Oct 29; confirm GoatCounter dashboard; custom domain later; Stripe fulfillment webhook optional.
+

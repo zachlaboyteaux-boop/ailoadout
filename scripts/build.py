@@ -24,8 +24,28 @@ json.dump(D, open("tools.json","w"), indent=1)  # write slugs back so the homepa
 TIER_COL = {"S":"#ff5c5c","A":"#ffb347","B":"#7cff6b","C":"#5ac8ff"}
 def feat(t): return ' <span style="display:inline-block;border-radius:6px;padding:0 6px;background:#ffd700;color:#000;font-weight:800;font-size:12px">★ Featured</span>' if t.get("featured") else ""
 def badge(t): return f'<span style="display:inline-block;min-width:22px;text-align:center;font-weight:800;border-radius:6px;padding:0 6px;color:#000;background:{TIER_COL.get(t.get("tier","C"))}">{t.get("tier","")}</span>'
-CSS = "body{margin:0;font:16px/1.6 system-ui,sans-serif;background:#0b0d12;color:#e7eaf2}a{color:#5ac8ff}.w{max-width:860px;margin:auto;padding:20px}h1{letter-spacing:-.5px}h1 span,h2{color:#7cff6b}ol li{margin:10px 0}.m{color:#8b93a7}nav a{margin-right:10px;font-size:14px}"
+CSS = "body{margin:0;font:16px/1.6 system-ui,sans-serif;background:#0b0d12;color:#e7eaf2}a{color:#5ac8ff}.w{max-width:860px;margin:auto;padding:20px}h1{letter-spacing:-.5px}h1 span,h2{color:#7cff6b}ol li{margin:10px 0}.m{color:#8b93a7}nav a{margin-right:10px;font-size:14px}.bc{font-size:13px;color:#8b93a7;margin:8px 0 16px}.bc a{color:#8b93a7}.bc span{color:#e7eaf2}.stamp{display:inline-block;margin:0 0 12px;padding:2px 8px;border-radius:6px;border:1px solid #232a3a;font-size:12px;color:#8b93a7}"
 def ld(o): return '<script type="application/ld+json">' + json.dumps(o, ensure_ascii=False) + '</script>'
+
+def crumbs(items):
+    """items: list of (label, url_or_None). Last item is current page (no link)."""
+    parts = []
+    for i, (label, url) in enumerate(items):
+        if i: parts.append(' <span aria-hidden="true">›</span> ')
+        if url:
+            parts.append(f'<a href="{url}">{e(label)}</a>')
+        else:
+            parts.append(f'<span>{e(label)}</span>')
+    return '<nav class="bc" aria-label="Breadcrumb">' + "".join(parts) + "</nav>"
+def crumb_ld(items):
+    els = []
+    for i, (label, url) in enumerate(items, 1):
+        item = {"@type":"ListItem","position":i,"name":label}
+        if url: item["item"] = url
+        els.append(item)
+    return {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":els}
+def stamp():
+    return f'<p class="stamp">Updated {UP}</p>'
 ORG = {"@context":"https://schema.org","@type":"Organization","name":"The AI Loadout","url":BASE+"/","logo":BASE+"/favicon.svg"}
 KIT_FORM_ID = 10047964  # Kit form "Newsletter site"
 GOATCOUNTER = '<script data-goatcounter="https://ailoadout.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'  # free analytics; site code from Zach's ailoadout.goatcounter.com
@@ -48,12 +68,14 @@ for c, ts in cats.items():
            (f"Are there free AI tools for {short.lower()}?", "Free tiers or free options: " + (", ".join(t['name'] for t in ts if "free" in t['pricing'].lower() or "open source" in t['pricing'].lower()) or "none in this list") + "."),
            ("How is this list ranked?", f"Editorially by The AI Loadout, based on capability, ease of use and value, and updated as new tools ship. Last updated {UP}.")]
     lis = "".join(f'<li>{badge(t)} <b><a href="{BASE}/tools/{tslug(t)}/">{e(t["name"])}</a></b>{feat(t)} — {e(t["verdict"])}. <span class="m">{e(t["pricing"])} · <a href="{e(t["url"])}" rel="noopener">official site ↗</a></span></li>' for t in ts)
-    body = f'<h1>Best AI tools for <span>{e(short)}</span> in {YEAR}</h1><p>The {e(c)} loadout: {len(ts)} AI tools ranked for this job, with a one-line verdict on what each is best for. Tiers: S = must-equip, A = strong pick, B = great for specific needs, C = situational. Top pick right now: <b>{e(top["name"])}</b> ({top.get("tier","")}-tier).</p><ol>{lis}</ol><h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq)
+    bc_items = [("Home", BASE+"/"), (f"{short} loadout", None)]
+    body = (crumbs(bc_items) + stamp() +
+            f'<h1>Best AI tools for <span>{e(short)}</span> in {YEAR}</h1><p>The {e(c)} loadout: {len(ts)} AI tools ranked for this job, with a one-line verdict on what each is best for. Tiers: S = must-equip, A = strong pick, B = great for specific needs, C = situational. Top pick right now: <b>{e(top["name"])}</b> ({top.get("tier","")}-tier).</p><ol>{lis}</ol><h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq))
     il = {"@context":"https://schema.org","@type":"ItemList","name":f"Best AI tools for {short} in {YEAR}","dateModified":UP,
           "itemListElement":[{"@type":"ListItem","position":t["rank"],"name":t["name"],"url":t["url"],"description":t["verdict"]} for t in ts]}
     fq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
     os.makedirs(s, exist_ok=True)
-    open(f"{s}/index.html","w").write(page(f"{s}/", f"Best AI tools for {short} in {YEAR} – The AI Loadout", f"The {len(ts)} best AI tools for {short.lower()} in {YEAR}, ranked. #1: {top['name']}.", body, ld(il)+ld(fq)))
+    open(f"{s}/index.html","w").write(page(f"{s}/", f"Best AI tools for {short} in {YEAR} – The AI Loadout", f"The {len(ts)} best AI tools for {short.lower()} in {YEAR}, ranked. #1: {top['name']}.", body, ld(il)+ld(fq)+ld(crumb_ld(bc_items))))
     urls.append(f"{BASE}/{s}/")
 
 # ---- per-tool pages ----
@@ -64,7 +86,9 @@ for t in D["tools"]:
            (f"Is {t['name']} free?", f"Pricing: {t['pricing']}. Pricing changes often; check {t['url']}."),
            (f"What are the best alternatives to {t['name']}?", "In the same loadout: " + "; ".join(f"{p['name']} (#{p['rank']}, {p['verdict'].lower()})" for p in peers[:4]) + ".")]
     alts = "".join(f'<li><a href="{BASE}/tools/{tslug(p)}/">{e(p["name"])}</a> (#{p["rank"]}) — {e(p["verdict"])}</li>' for p in peers)
-    body = (f'<h1>{e(t["name"])} review: what it\'s best for ({YEAR})</h1>'
+    bc_items = [("Home", BASE+"/"), (f"{short} loadout", f"{BASE}/{SLUG[c]}/"), (t["name"], None)]
+    body = (crumbs(bc_items) + stamp() +
+            f'<h1>{e(t["name"])} review: what it\'s best for ({YEAR})</h1>'
             f'<p><b>Verdict:</b> {e(t["verdict"])}.</p><p>{feat(t)}<b>Tier:</b> {badge(t)} &nbsp; <b>Rank:</b> #{t["rank"]} of {len(cats[c])} in the <a href="{BASE}/{SLUG[c]}/">{e(c)} loadout</a>.</p>'
             f'<p><b>Pricing:</b> {e(t["pricing"])}</p><p><a href="{e(t["url"])}" rel="noopener">Visit {e(t["name"])} →</a></p>'
             f'<h2>Alternatives in the {e(short)} loadout</h2><ul>{alts}</ul><h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq))
@@ -72,7 +96,7 @@ for t in D["tools"]:
           "description":t["verdict"],"dateModified":UP,"review":{"@type":"Review","author":{"@type":"Organization","name":"The AI Loadout"},"reviewBody":t["verdict"]}}
     fq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
     os.makedirs(f"tools/{s}", exist_ok=True)
-    open(f"tools/{s}/index.html","w").write(page(f"tools/{s}/", f"{t['name']} review: what it's best for ({YEAR}) – The AI Loadout", f"{t['name']}: {t['verdict']}. Ranked #{t['rank']} for {short.lower()}. Pricing, alternatives and FAQ.", body, ld(sa)+ld(fq)))
+    open(f"tools/{s}/index.html","w").write(page(f"tools/{s}/", f"{t['name']} review: what it's best for ({YEAR}) – The AI Loadout", f"{t['name']}: {t['verdict']}. Ranked #{t['rank']} for {short.lower()}. Pricing, alternatives and FAQ.", body, ld(sa)+ld(fq)+ld(crumb_ld(bc_items))))
     urls.append(f"{BASE}/tools/{s}/")
     FULL_TOOLS.append(f"- {t['name']}: {BASE}/tools/{s}/\n")
 # ---- comparison pages ----
@@ -112,14 +136,16 @@ for s, names in COMPARE:
     short_ans = (f"In our {ts[0]['category']} loadout, {top['name']} ranks highest (#{top['rank']}), but each wins at something different." if top else "They lead different loadouts, so the right pick depends on the job.")
     faq = [(f"Which is better: {title}?", short_ans + " " + " ".join(f"{t['name']}: {t['verdict'].lower()}." for t in ts)),
            ("Which one is free?", " ".join(f"{t['name']}: {t['pricing']}." for t in ts))]
-    body = (f'<h1>{e(title)} ({YEAR})</h1><p><b>Short answer:</b> {e(short_ans)}</p>'
+    bc_items = [("Home", BASE+"/"), ("Compare", None), (title, None)]
+    body = (crumbs(bc_items) + stamp() +
+            f'<h1>{e(title)} ({YEAR})</h1><p><b>Short answer:</b> {e(short_ans)}</p>'
             f'<table style="width:100%;border-collapse:collapse" border="1" cellpadding="8"><tr><th>Tool</th><th>Loadout</th><th>Rank</th><th>Best for</th><th>Pricing</th></tr>{rows}</table>'
             f'<h2>Which should you pick?</h2><ul>{picks}</ul><h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq) +
             '<p class="m">Comparison is based on The AI Loadout\'s own rankings and verdicts in tools.json.</p>')
     il = {"@context":"https://schema.org","@type":"ItemList","name":title,"dateModified":UP,"itemListElement":[{"@type":"ListItem","position":i+1,"name":t["name"],"url":t["url"]} for i,t in enumerate(ts)]}
     fq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
     os.makedirs(f"compare/{s}", exist_ok=True)
-    open(f"compare/{s}/index.html","w").write(page(f"compare/{s}/", f"{title} ({YEAR}): which AI tool should you use? – The AI Loadout", f"{title} compared: best-for verdicts, rankings and pricing. {short_ans}", body, ld(il)+ld(fq)))
+    open(f"compare/{s}/index.html","w").write(page(f"compare/{s}/", f"{title} ({YEAR}): which AI tool should you use? – The AI Loadout", f"{title} compared: best-for verdicts, rankings and pricing. {short_ans}", body, ld(il)+ld(fq)+ld(crumb_ld(bc_items))))
     urls.append(f"{BASE}/compare/{s}/"); FULL_CMP.append(f"- {title}: {BASE}/compare/{s}/\n")
 
 # ---- best-of SEO pages (curated from tools.json only; no invented claims) ----
@@ -227,14 +253,16 @@ for b in BEST:
         for t in ts
     )
     faq = b["faqs"]
-    body = (f'<h1>{e(b["title"])}</h1><p>{e(b["intro"])}</p><ol>{lis}</ol><h2>FAQ</h2>'
+    bc_items = [("Home", BASE+"/"), ("Best of", None), (b["title"], None)]
+    body = (crumbs(bc_items) + stamp() +
+            f'<h1>{e(b["title"])}</h1><p>{e(b["intro"])}</p><ol>{lis}</ol><h2>FAQ</h2>'
             + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq)
             + f'<p class="m">Pulled from <a href="{BASE}/tools.json">tools.json</a> rankings. Related: <a href="{BASE}/">all loadouts</a>.</p>')
     il = {"@context":"https://schema.org","@type":"ItemList","name":b["title"],"dateModified":UP,
           "itemListElement":[{"@type":"ListItem","position":i+1,"name":t["name"],"url":f"{BASE}/tools/{tslug(t)}/","description":t["verdict"]} for i,t in enumerate(ts)]}
     fq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
     os.makedirs(f"best/{b['slug']}", exist_ok=True)
-    open(f"best/{b['slug']}/index.html","w").write(page(f"best/{b['slug']}/", f"{b['title']} – The AI Loadout", b["desc"], body, ld(il)+ld(fq)))
+    open(f"best/{b['slug']}/index.html","w").write(page(f"best/{b['slug']}/", f"{b['title']} – The AI Loadout", b["desc"], body, ld(il)+ld(fq)+ld(crumb_ld(bc_items))))
     urls.append(f"{BASE}/best/{b['slug']}/")
     FULL_BEST.append(f"- {b['title']}: {BASE}/best/{b['slug']}/\n")
 
