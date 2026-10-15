@@ -12,6 +12,8 @@ Live: https://zachlaboyteaux-boop.github.io/ailoadout/
 
 ## 12-hourly update routine
 1. Research new launches/tool changes; edit `tools.json` (add to `releases`, update `tools`, set `updated` to today's date YYYY-MM-DD).
-2. Run `python3 scripts/build.py` from the repo root (Python 3 stdlib only).
-3. Commit **all** changed files (tools.json, index.html, every `*/index.html`, sitemap.xml, robots.txt, llms*.txt) to `main`. Pages redeploys automatically.
-New categories: add a slug to `SLUG` in build.py.
+2. Commit `tools.json` to `main`. That's it: the **Build site** GitHub Action (`.github/workflows/decode-binaries.yml`) runs `scripts/build.py`, regenerates every loadout page, `/tools/<slug>/` page, `/compare/<slug>/` page, sitemap, robots and llms files, and commits them. Pages redeploys automatically.
+3. Optional local check: `python3 scripts/build.py` (Python 3 stdlib only).
+
+Binary assets: the GitHub connector can only push text, so commit binaries as `<file>.b64`; the Action decodes them (e.g. `og.png.b64` → `og.png`).
+New categories: add a slug to `SLUG` in build.py. New comparisons: add to `COMPARE` in build.py.
