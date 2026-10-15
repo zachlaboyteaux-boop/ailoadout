@@ -22,9 +22,11 @@ Voice: neutral "we rank", light gamer flavor. Budget: $0 unless Zach approves sp
 13. ~~TikTok / Shorts scripts~~ DONE 2026-10-15 (`marketing/tiktok-shorts-scripts.md`) — not posted.
 
 ## P1b — Next SEO ideas
-- Tool pages: "Appears in" links to related compare/best pages (needs build reorder).
+- ~~Tool pages: "Appears in" links to related compare/best pages~~ DONE 2026-10-15 12:00 ("Compared and ranked in" section on 70+ tool pages).
 - Wire `/dashboard/` Visitors panel to GoatCounter (needs API token from Zach, or public counter enabled).
-- Stripe fulfillment checklist doc in ops/.
+- ~~Stripe fulfillment checklist doc in ops/~~ DONE 2026-10-15 12:00 (`ops/featured-fulfillment.md`).
+- More comparisons as tools land (2026-10-15 12:00: +6, 22 total).
+- Long-tail best-of ideas from existing data: best AI for teachers, best AI meeting notes, best AI for YouTube Shorts editing, best open-source AI tools, best AI voice generators.
 
 ## P3 — Product
 14. User voting / "suggest a tier change" (needs a backend; consider free tier of a form service).

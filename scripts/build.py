@@ -78,27 +78,7 @@ for c, ts in cats.items():
     open(f"{s}/index.html","w").write(page(f"{s}/", f"Best AI tools for {short} in {YEAR} – The AI Loadout", f"The {len(ts)} best AI tools for {short.lower()} in {YEAR}, ranked. #1: {top['name']}.", body, ld(il)+ld(fq)+ld(crumb_ld(bc_items))))
     urls.append(f"{BASE}/{s}/")
 
-# ---- per-tool pages ----
-FULL_TOOLS = []
-for t in D["tools"]:
-    s = tslug(t); c = t["category"]; short = c.split(" /")[0]; peers = [x for x in cats[c] if x is not t]
-    faq = [(f"What is {t['name']} best for?", f"{t['verdict']}. It ranks #{t['rank']} of {len(cats[c])} in our {c} loadout."),
-           (f"Is {t['name']} free?", f"Pricing: {t['pricing']}. Pricing changes often; check {t['url']}."),
-           (f"What are the best alternatives to {t['name']}?", "In the same loadout: " + "; ".join(f"{p['name']} (#{p['rank']}, {p['verdict'].lower()})" for p in peers[:4]) + ".")]
-    alts = "".join(f'<li><a href="{BASE}/tools/{tslug(p)}/">{e(p["name"])}</a> (#{p["rank"]}) — {e(p["verdict"])}</li>' for p in peers)
-    bc_items = [("Home", BASE+"/"), (f"{short} loadout", f"{BASE}/{SLUG[c]}/"), (t["name"], None)]
-    body = (crumbs(bc_items) + stamp() +
-            f'<h1>{e(t["name"])} review: what it\'s best for ({YEAR})</h1>'
-            f'<p><b>Verdict:</b> {e(t["verdict"])}.</p><p>{feat(t)}<b>Tier:</b> {badge(t)} &nbsp; <b>Rank:</b> #{t["rank"]} of {len(cats[c])} in the <a href="{BASE}/{SLUG[c]}/">{e(c)} loadout</a>.</p>'
-            f'<p><b>Pricing:</b> {e(t["pricing"])}</p><p><a href="{e(t["url"])}" rel="noopener">Visit {e(t["name"])} →</a></p>'
-            f'<h2>Alternatives in the {e(short)} loadout</h2><ul>{alts}</ul><h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq))
-    sa = {"@context":"https://schema.org","@type":"SoftwareApplication","name":t["name"],"url":t["url"],"applicationCategory":c,"operatingSystem":"Web",
-          "description":t["verdict"],"dateModified":UP,"review":{"@type":"Review","author":{"@type":"Organization","name":"The AI Loadout"},"reviewBody":t["verdict"]}}
-    fq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
-    os.makedirs(f"tools/{s}", exist_ok=True)
-    open(f"tools/{s}/index.html","w").write(page(f"tools/{s}/", f"{t['name']} review: what it's best for ({YEAR}) – The AI Loadout", f"{t['name']}: {t['verdict']}. Ranked #{t['rank']} for {short.lower()}. Pricing, alternatives and FAQ.", body, ld(sa)+ld(fq)+ld(crumb_ld(bc_items))))
-    urls.append(f"{BASE}/tools/{s}/")
-    FULL_TOOLS.append(f"- {t['name']}: {BASE}/tools/{s}/\n")
+APPEARS = {}  # id(tool) -> [(label, url)] for 'Compared and ranked in' links on tool pages
 # ---- comparison pages ----
 def find_tool(spec):
     """spec is a name str, or (name, category) to pick a specific loadout entry."""
@@ -125,7 +105,13 @@ COMPARE = [("cursor-vs-claude-code",["Cursor","Claude Code"]),
            ("granola-vs-otter",[("Granola","Productivity"),("Otter.ai","Productivity")]),
            ("nansen-vs-arkham",[("Nansen","Crypto / Finance AI"),("Arkham Intelligence","Crypto / Finance AI")]),
            ("inworld-vs-convai",[("Inworld AI","AI in Games"),("Convai","AI in Games")]),
-           ("veo-vs-kling",[("Veo (Google Flow)","Video"),("Kling AI","Video")])]
+           ("veo-vs-kling",[("Veo (Google Flow)","Video"),("Kling AI","Video")]),
+           ("claude-code-vs-openai-codex",[("Claude Code","Coding / Vibe Coding"),("OpenAI Codex","Coding / Vibe Coding")]),
+           ("cursor-vs-github-copilot",[("Cursor","Coding / Vibe Coding"),("GitHub Copilot","Coding / Vibe Coding")]),
+           ("chatgpt-agent-vs-manus",[("ChatGPT Agent","AI Agents"),("Manus","AI Agents")]),
+           ("crewai-vs-langgraph",[("CrewAI","AI Agents"),("LangGraph","AI Agents")]),
+           ("perplexity-vs-grok",[("Perplexity","Research / Search"),("Grok","Research / Search")]),
+           ("elevenlabs-vs-grok-voice",[("ElevenLabs","Voice / Audio"),("Grok Voice 3.0","Voice / Audio")])]
 FULL_CMP = []
 for s, names in COMPARE:
     ts = []
@@ -152,6 +138,7 @@ for s, names in COMPARE:
     os.makedirs(f"compare/{s}", exist_ok=True)
     open(f"compare/{s}/index.html","w").write(page(f"compare/{s}/", f"{title} ({YEAR}): which AI tool should you use? – The AI Loadout", f"{title} compared: best-for verdicts, rankings and pricing. {short_ans}", body, ld(il)+ld(fq)+ld(crumb_ld(bc_items))))
     urls.append(f"{BASE}/compare/{s}/"); FULL_CMP.append(f"- {title}: {BASE}/compare/{s}/\n")
+    for t in ts: APPEARS.setdefault(id(t), []).append((title, f"{BASE}/compare/{s}/"))
 
 # ---- best-of SEO pages (curated from tools.json only; no invented claims) ----
 def tools_by_specs(specs):
@@ -328,7 +315,31 @@ for b in BEST:
     open(f"best/{b['slug']}/index.html","w").write(page(f"best/{b['slug']}/", f"{b['title']} – The AI Loadout", b["desc"], body, ld(il)+ld(fq)+ld(crumb_ld(bc_items))))
     urls.append(f"{BASE}/best/{b['slug']}/")
     FULL_BEST.append(f"- {b['title']}: {BASE}/best/{b['slug']}/\n")
+    for t in ts: APPEARS.setdefault(id(t), []).append((b["title"], f"{BASE}/best/{b['slug']}/"))
 
+# ---- per-tool pages (built after compare/best so they can link back) ----
+FULL_TOOLS = []
+for t in D["tools"]:
+    s = tslug(t); c = t["category"]; short = c.split(" /")[0]; peers = [x for x in cats[c] if x is not t]
+    faq = [(f"What is {t['name']} best for?", f"{t['verdict']}. It ranks #{t['rank']} of {len(cats[c])} in our {c} loadout."),
+           (f"Is {t['name']} free?", f"Pricing: {t['pricing']}. Pricing changes often; check {t['url']}."),
+           (f"What are the best alternatives to {t['name']}?", "In the same loadout: " + "; ".join(f"{p['name']} (#{p['rank']}, {p['verdict'].lower()})" for p in peers[:4]) + ".")]
+    alts = "".join(f'<li><a href="{BASE}/tools/{tslug(p)}/">{e(p["name"])}</a> (#{p["rank"]}) — {e(p["verdict"])}</li>' for p in peers)
+    bc_items = [("Home", BASE+"/"), (f"{short} loadout", f"{BASE}/{SLUG[c]}/"), (t["name"], None)]
+    ap = APPEARS.get(id(t), [])
+    appears = (f'<h2>Compared and ranked in</h2><ul>' + "".join(f'<li><a href="{u}">{e(l)}</a></li>' for l,u in ap) + '</ul>') if ap else ""
+    body = (crumbs(bc_items) + stamp() +
+            f'<h1>{e(t["name"])} review: what it\'s best for ({YEAR})</h1>'
+            f'<p><b>Verdict:</b> {e(t["verdict"])}.</p><p>{feat(t)}<b>Tier:</b> {badge(t)} &nbsp; <b>Rank:</b> #{t["rank"]} of {len(cats[c])} in the <a href="{BASE}/{SLUG[c]}/">{e(c)} loadout</a>.</p>'
+            f'<p><b>Pricing:</b> {e(t["pricing"])}</p><p><a href="{e(t["url"])}" rel="noopener">Visit {e(t["name"])} →</a></p>'
+            f'<h2>Alternatives in the {e(short)} loadout</h2><ul>{alts}</ul>' + appears + '<h2>FAQ</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in faq))
+    sa = {"@context":"https://schema.org","@type":"SoftwareApplication","name":t["name"],"url":t["url"],"applicationCategory":c,"operatingSystem":"Web",
+          "description":t["verdict"],"dateModified":UP,"review":{"@type":"Review","author":{"@type":"Organization","name":"The AI Loadout"},"reviewBody":t["verdict"]}}
+    fq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
+    os.makedirs(f"tools/{s}", exist_ok=True)
+    open(f"tools/{s}/index.html","w").write(page(f"tools/{s}/", f"{t['name']} review: what it's best for ({YEAR}) – The AI Loadout", f"{t['name']}: {t['verdict']}. Ranked #{t['rank']} for {short.lower()}. Pricing, alternatives and FAQ.", body, ld(sa)+ld(fq)+ld(crumb_ld(bc_items))))
+    urls.append(f"{BASE}/tools/{s}/")
+    FULL_TOOLS.append(f"- {t['name']}: {BASE}/tools/{s}/\n")
 # ---- hub pages: /compare/ and /best/ ----
 def hub(path, title, desc, intro, items):
     lis = "".join(f'<li><a href="{BASE}/{path}{s}/">{e(t)}</a></li>' for s,t in items)

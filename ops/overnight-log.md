@@ -40,3 +40,9 @@ Open items for Zach: verify Kit sending address; downgrade Kit to free before Oc
 - **Bug fix**: homepage footer "Best guides:" line was duplicated on every build (3 copies live). Footer block now wrapped in `<!--GUIDES-->` markers and replaced idempotently.
 - Totals (local build): 17 loadouts, 97 tool pages, 16 comparisons, 12 best-of, 2 hubs, 147 page URLs in sitemap.
 
+
+## 2026-10-15 ~12:00 ET (continuous build)
+- **Internal links**: tool pages now have a "Compared and ranked in" section linking to every comparison and best-of guide that features them (tool pages build after compare/best in `scripts/build.py`). Local build: 73 of 97 tool pages get links.
+- **6 new comparisons** (facts from tools.json only): Claude Code vs OpenAI Codex, Cursor vs GitHub Copilot, ChatGPT Agent vs Manus, CrewAI vs LangGraph, Perplexity vs Grok (Research), ElevenLabs vs Grok Voice 3.0.
+- Wrote `ops/featured-fulfillment.md` (what to do on each $49/mo Featured subscription or cancellation; tiers never sold).
+- Totals (local build): 17 loadouts, 97 tool pages, 22 comparisons, 12 best-of, 153 sitemap URLs.
