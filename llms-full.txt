@@ -12,6 +12,10 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 7. Bolt.new (https://bolt.new) — Best for instant in-browser prototypes. Pricing: Free tier + paid
 8. v0 (https://v0.app) — Best for polished React/Next.js UIs. Pricing: Free tier + paid
 9. Replit (https://replit.com) — Best for building and hosting in one place. Pricing: Free tier + paid
+10. Deltix (https://app.deltix.ai) — AI agent that runs plain-English test tasks on your mobile app in a simulator. Pricing: Indie launch; check site for current pricing
+11. Offrun (https://offrun.dev/) — Mac workspace to run several coding agents in parallel, each in its own git worktree. Pricing: Indie launch; check site for current pricing
+12. SKI (https://heyski.io/) — Voice assistant that lets you talk out loud with Claude Code, Cursor, Codex and other agents. Pricing: Indie launch; check site for current pricing
+13. Shikigami (https://shikigami.dev/) — Agentic IDE that runs Claude Code, Codex and opencode in parallel, each in its own worktree. Pricing: Indie launch; check site for current pricing
 
 ## AI Agents (https://zachlaboyteaux-boop.github.io/ailoadout/agents/)
 1. ChatGPT Agent (https://chatgpt.com) — Best general-purpose agent for everyday tasks. Pricing: Free tier + paid
@@ -20,6 +24,10 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 4. Zapier Agents (https://zapier.com/agents) — Best for agents that touch 7,000+ apps. Pricing: Free tier + paid
 5. CrewAI (https://www.crewai.com) — Best framework for multi-agent teams in code. Pricing: Open source + paid cloud
 6. LangGraph (https://www.langchain.com/langgraph) — Best for controllable, stateful agent code. Pricing: Open source
+7. Agent.reviews (https://agent.reviews/) — Directory where coding agents review the software tools they used on real tasks. Pricing: Indie launch; check site for current pricing
+8. OzBrain (https://ozbrain.com) — Shared knowledge base that Claude, ChatGPT, Cursor and other agents can all read and write. Pricing: Indie launch; check site for current pricing
+9. MarbleOS (https://marbleos.com/demo) — Experimental visual workspace for AI agents with visible files, tools and tasks. Pricing: Indie launch; check site for current pricing
+10. Traccia (https://traccia.ai/) — Control plane for observability, evaluation and runtime policy on production AI agents. Pricing: Indie launch; check site for current pricing
 
 ## Chat / Assistants (https://zachlaboyteaux-boop.github.io/ailoadout/chat/)
 1. Claude (https://claude.ai) — Best for writing, coding and long documents. Pricing: Free tier + paid
@@ -35,6 +43,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 4. Leonardo.Ai (https://leonardo.ai) — Best for game art and consistent assets. Pricing: Free tier + paid
 5. Adobe Firefly (https://firefly.adobe.com) — Best commercially safe images. Pricing: Free tier + paid
 6. Grok Imagine (https://grok.com/imagine) — Best for fast, playful image and short video generation. Pricing: Free tier + paid
+7. Portraify (https://portraify.app) — AI headshot generator that turns a selfie into professional profile photos. Pricing: Indie launch; check site for current pricing
 
 ## Video (https://zachlaboyteaux-boop.github.io/ailoadout/video/)
 1. Veo (Google Flow) (https://labs.google/flow) — Best realism with native audio. Pricing: Paid (Google AI plans)
@@ -42,6 +51,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 3. Runway (https://runwayml.com) — Best pro editing and video tools. Pricing: Free tier + paid
 4. Kling AI (https://klingai.com) — Best motion quality for the price. Pricing: Free tier + paid
 5. CapCut (https://www.capcut.com) — Best for quick social edits with AI. Pricing: Free tier + paid
+6. RxFilmStudio (https://filmstudio.rxlab.app) — Native macOS app to score, narrate, caption and render films with an AI agent. Pricing: Indie launch; check site for current pricing
 
 ## Voice / Audio (https://zachlaboyteaux-boop.github.io/ailoadout/voice/)
 1. ElevenLabs (https://elevenlabs.io) — Best voices, cloning and dubbing. Pricing: Free tier + paid
@@ -49,11 +59,15 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 3. Suno (https://suno.com) — Best for full songs from a prompt. Pricing: Free tier + paid
 4. Udio (https://www.udio.com) — Best for music with fine control. Pricing: Free tier + paid
 5. Descript (https://www.descript.com) — Best for editing podcasts by editing text. Pricing: Free tier + paid
+6. PDFtoMP3 (https://pdftomp3.com/connect-ai/) — Turns PDFs into audiobooks by connecting your own Codex or Claude plus a speech API key. Pricing: Indie launch; check site for current pricing
+7. Zeph (https://zephclick.com) — Voice-first push-to-talk hardware for dictation and talking to your agents. Pricing: Indie launch; check site for current pricing
+8. Airy (https://airy.so) — Free text-to-speech studio for creators plus a low-cost TTS API. Pricing: Indie launch; check site for current pricing
 
 ## Writing (https://zachlaboyteaux-boop.github.io/ailoadout/writing/)
 1. Claude (https://claude.ai) — Best natural-sounding long-form writing. Pricing: Free tier + paid
 2. Grammarly (https://www.grammarly.com) — Best for polishing everything you type. Pricing: Free tier + paid
 3. Notion AI (https://www.notion.com/product/ai) — Best for writing inside your docs and wiki. Pricing: Paid add-on
+4. 1667 (https://1667.ai/) — Full-screen terminal app for writing fiction with language models, with a story tree of takes. Pricing: Indie launch; check site for current pricing
 
 ## Research / Search (https://zachlaboyteaux-boop.github.io/ailoadout/research/)
 1. Perplexity (https://www.perplexity.ai) — Best answer engine with sources. Pricing: Free tier + paid
@@ -61,6 +75,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 3. ChatGPT Deep Research (https://chatgpt.com) — Best for multi-page research reports. Pricing: Included with ChatGPT plans
 4. Elicit (https://elicit.com) — Best for academic papers. Pricing: Free tier + paid
 5. Grok (https://grok.com) — Best for real-time research across X and the web. Pricing: Free tier + paid
+6. Scry (https://scry.io/) — Research add-on for ChatGPT or Claude that reads forums, papers, filings and markets for you. Pricing: Indie launch; check site for current pricing
 
 ## Game Dev (https://zachlaboyteaux-boop.github.io/ailoadout/game-dev/)
 1. Rosebud AI (https://rosebud.ai) — Best for vibe coding browser games from prompts. Pricing: Free tier + paid
@@ -75,6 +90,9 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 3. Otter.ai (https://otter.ai) — Best for transcripts across meeting apps. Pricing: Free tier + paid
 4. Raycast AI (https://www.raycast.com) — Best AI launcher for Mac power users. Pricing: Free tier + paid
 5. Superhuman (https://superhuman.com) — Best AI email client for speed. Pricing: Paid
+6. Breadcrumb (https://innerloop.works/breadcrumb) — Local, encrypted Mac app that captures your activity as context for AI. Pricing: Indie launch; check site for current pricing
+7. Echologue (https://echologue.com/) — Private voice journal you can ask questions about later. Pricing: Indie launch; check site for current pricing
+8. threadfork (https://www.threadfork.com/) — Local-first AI meeting notes on your Mac. Pricing: Indie launch; check site for current pricing
 
 ## Crypto / Finance AI (https://zachlaboyteaux-boop.github.io/ailoadout/crypto-finance/)
 1. Perplexity Finance (https://www.perplexity.ai/finance) — Best for quick, sourced answers on stocks and markets. Pricing: Free tier + paid
@@ -83,6 +101,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 4. Arkham Intelligence (https://intel.arkm.com) — Best for tracing entities and flows on-chain. Pricing: Free tier + paid
 5. Kaito (https://www.kaito.ai) — Best for crypto narrative and mindshare tracking. Pricing: Free tier + paid
 6. Messari (https://messari.io) — Best crypto research reports with AI summaries. Pricing: Free tier + paid
+7. Pulse Local (https://pulseos.finance) — Mac budgeting app with AI models that run fully on your machine. Pricing: Indie launch; check site for current pricing
 
 ## 3D (https://zachlaboyteaux-boop.github.io/ailoadout/3d/)
 1. Meshy (https://www.meshy.ai) — Best all-round text/image to 3D. Pricing: Free tier + paid
@@ -91,6 +110,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 4. Spline (https://spline.design) — Best for interactive 3D on the web with AI help. Pricing: Free tier + paid
 5. Blockade Labs Skybox (https://www.blockadelabs.com) — Best for 360° skyboxes and environments. Pricing: Free tier + paid
 6. Kaedim (https://www.kaedim3d.com) — Best for studio-grade game-ready assets. Pricing: Paid
+7. Polyfork (https://polyfork.dev/try) — 3D assets defined in code with tweakable knobs for shape, palette and parts. Pricing: Indie launch; check site for current pricing
 
 ## Music (https://zachlaboyteaux-boop.github.io/ailoadout/music/)
 1. Suno (https://suno.com) — Best for full songs with vocals from a prompt. Pricing: Free tier + paid
@@ -99,6 +119,9 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 4. Stable Audio (https://www.stableaudio.com) — Best for loops, stems and sound design. Pricing: Free tier + paid
 5. AIVA (https://www.aiva.ai) — Best for orchestral and soundtrack composition. Pricing: Free tier + paid
 6. Mubert (https://mubert.com) — Best royalty-free background music for streams. Pricing: Free tier + paid
+7. Lullaby Converter (https://lullabyconverter.com) — AI that turns any song into a music-box lullaby that follows the real tune. Pricing: Indie launch; check site for current pricing
+8. Autograph (https://autographmusic.com) — Handwritten music notation app for iPad and Mac that you can also drive with Claude via MCP. Pricing: Indie launch; check site for current pricing
+9. Daydream Studio (https://labs.daydream.live/studio/) — Virtual recording studio where you book AI session players for your track. Pricing: Indie launch; check site for current pricing
 
 ## Education (https://zachlaboyteaux-boop.github.io/ailoadout/education/)
 1. NotebookLM (https://notebook.google.com/) — Best for studying your own notes and sources. Pricing: Free tier + paid
@@ -121,6 +144,11 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 18. Otter.ai (https://otter.ai) — Best for recording and transcribing lectures. Pricing: Free tier + paid
 19. Goblin Tools (https://www.goblin.tools) — Best for breaking assignments into steps (great for ADHD). Pricing: Free + paid Pro
 20. Zotero (https://www.zotero.org) — Best free citation manager (not AI; pairs with Elicit). Pricing: Free + paid storage
+21. Lathoa (https://lathoa.ai/en) — Critical-thinking math app for kids 10-14 where the AI robot is wrong on purpose. Pricing: Indie launch; check site for current pricing
+22. Academa (https://academa.ai/) — Library of AI-generated technical lecture videos with chat alongside each video. Pricing: Indie launch; check site for current pricing
+23. SubSmith (https://subsmith.app) — Turns videos into language-learning material with transcripts, instant definitions and Anki export. Pricing: Indie launch; check site for current pricing
+24. Knowable (https://useknowable.ai/) — Camera-based AI tutor app that coaches students through textbook problems. Pricing: Indie launch; check site for current pricing
+25. HOPE (https://usehope.app) — Personalized daily math practice for grades 2-12 with progress shown to parents. Pricing: Indie launch; check site for current pricing
 
 ## Streamers / Creators (https://zachlaboyteaux-boop.github.io/ailoadout/creators/)
 1. OpusClip (https://www.opus.pro) — Best for turning long videos into viral shorts. Pricing: Free tier + paid
@@ -139,6 +167,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 6. llama.cpp (https://github.com/ggml-org/llama.cpp) — Best engine for fast local inference on any hardware. Pricing: Open source
 7. Jan (https://www.jan.ai) — Best privacy-first offline assistant. Pricing: Free / open source
 8. ComfyUI (https://www.comfy.org) — Best node-based local image/video generation. Pricing: Free / open source
+9. Cactus Needle (https://cactuscompute.com/needle) — Tiny 8-29 MB foundation model built for phones, wearables, robots and microcontrollers. Pricing: Indie launch; check site for current pricing
 
 ## AI in Games (https://zachlaboyteaux-boop.github.io/ailoadout/ai-in-games/)
 1. Inworld AI (https://inworld.ai) — Best for AI NPC characters and voices. Pricing: Free tier + paid
@@ -146,6 +175,8 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 3. Convai (https://convai.com) — Best for conversational NPCs in Unity/Unreal. Pricing: Free tier + paid
 4. Ludo.ai (https://ludo.ai) — Best for game ideation, market research and assets. Pricing: Free tier + paid
 5. Rosebud AI (https://rosebud.ai) — Best for vibe coding playable games from prompts. Pricing: Free tier + paid
+6. WhoDunnitAI (https://www.whodunnitai.com/) — Voice-driven murder mystery where you interrogate AI suspects out loud. Pricing: Indie launch; check site for current pricing
+7. Table Canon (https://tablecanon.app/) — Turns tabletop RPG session audio into recaps and prep notes for game masters. Pricing: Indie launch; check site for current pricing
 
 ## Tool pages
 - Cursor: https://zachlaboyteaux-boop.github.io/ailoadout/tools/cursor/
@@ -259,6 +290,37 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 - Otter.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/otter-ai-education/
 - Goblin Tools: https://zachlaboyteaux-boop.github.io/ailoadout/tools/goblin-tools/
 - Zotero: https://zachlaboyteaux-boop.github.io/ailoadout/tools/zotero/
+- Pulse Local: https://zachlaboyteaux-boop.github.io/ailoadout/tools/pulse-local/
+- PDFtoMP3: https://zachlaboyteaux-boop.github.io/ailoadout/tools/pdftomp3/
+- Agent.reviews: https://zachlaboyteaux-boop.github.io/ailoadout/tools/agent-reviews/
+- Breadcrumb: https://zachlaboyteaux-boop.github.io/ailoadout/tools/breadcrumb/
+- Lathoa: https://zachlaboyteaux-boop.github.io/ailoadout/tools/lathoa/
+- Scry: https://zachlaboyteaux-boop.github.io/ailoadout/tools/scry/
+- OzBrain: https://zachlaboyteaux-boop.github.io/ailoadout/tools/ozbrain/
+- 1667: https://zachlaboyteaux-boop.github.io/ailoadout/tools/1667/
+- Deltix: https://zachlaboyteaux-boop.github.io/ailoadout/tools/deltix/
+- Cactus Needle: https://zachlaboyteaux-boop.github.io/ailoadout/tools/cactus-needle/
+- Offrun: https://zachlaboyteaux-boop.github.io/ailoadout/tools/offrun/
+- Zeph: https://zachlaboyteaux-boop.github.io/ailoadout/tools/zeph/
+- RxFilmStudio: https://zachlaboyteaux-boop.github.io/ailoadout/tools/rxfilmstudio/
+- Academa: https://zachlaboyteaux-boop.github.io/ailoadout/tools/academa/
+- SubSmith: https://zachlaboyteaux-boop.github.io/ailoadout/tools/subsmith/
+- WhoDunnitAI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/whodunnitai/
+- Airy: https://zachlaboyteaux-boop.github.io/ailoadout/tools/airy/
+- Knowable: https://zachlaboyteaux-boop.github.io/ailoadout/tools/knowable/
+- HOPE: https://zachlaboyteaux-boop.github.io/ailoadout/tools/hope/
+- Polyfork: https://zachlaboyteaux-boop.github.io/ailoadout/tools/polyfork/
+- MarbleOS: https://zachlaboyteaux-boop.github.io/ailoadout/tools/marbleos/
+- SKI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/ski/
+- Echologue: https://zachlaboyteaux-boop.github.io/ailoadout/tools/echologue/
+- Lullaby Converter: https://zachlaboyteaux-boop.github.io/ailoadout/tools/lullaby-converter/
+- Autograph: https://zachlaboyteaux-boop.github.io/ailoadout/tools/autograph/
+- Daydream Studio: https://zachlaboyteaux-boop.github.io/ailoadout/tools/daydream-studio/
+- Table Canon: https://zachlaboyteaux-boop.github.io/ailoadout/tools/table-canon/
+- Shikigami: https://zachlaboyteaux-boop.github.io/ailoadout/tools/shikigami/
+- threadfork: https://zachlaboyteaux-boop.github.io/ailoadout/tools/threadfork/
+- Portraify: https://zachlaboyteaux-boop.github.io/ailoadout/tools/portraify/
+- Traccia: https://zachlaboyteaux-boop.github.io/ailoadout/tools/traccia/
 
 ## Comparisons
 - Cursor vs Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-claude-code/
