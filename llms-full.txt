@@ -86,9 +86,24 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 1. Rosebud AI (https://rosebud.ai) — Best for vibe coding browser games from prompts. Pricing: Free tier + paid
 2. Scenario (https://www.scenario.com) — Best for on-style game asset generation. Pricing: Free tier + paid
 3. Meshy (https://www.meshy.ai) — Best text/image to 3D models. Pricing: Free tier + paid
-4. Inworld AI (https://inworld.ai) — Best for AI NPC characters and voices. Pricing: Free tier + paid
-5. Tripo (https://www.tripo3d.ai) — Best fast 3D models for prototyping. Pricing: Free tier + paid
-6. Sprite Fusion (https://www.spritefusion.com/pixel-art-generator) — AI pixel-art generator, animator and tilemap editor that exports straight to game engines. Pricing: check site for current pricing
+4. PixelLab (https://www.pixellab.ai/) — Pixel-art game asset generator: sprites, 4/8-direction rotations, skeleton and text animations, tilesets, with Aseprite support. Pricing: Free to try, no card; check site for paid plans
+5. Cascadeur (https://cascadeur.com/) — AI-assisted keyframe character animation with auto-physics, mocap cleanup and AI motion generation. Pricing: Free plan; Indie $19/mo ($8/mo billed annually)
+6. Inworld AI (https://inworld.ai) — Best for AI NPC characters and voices. Pricing: Free tier + paid
+7. Tripo (https://www.tripo3d.ai) — Best fast 3D models for prototyping. Pricing: Free tier + paid
+8. Sprite Fusion (https://www.spritefusion.com/pixel-art-generator) — AI pixel-art generator, animator and tilemap editor that exports straight to game engines. Pricing: check site for current pricing
+9. Retro Diffusion (https://retrodiffusion.ai/) — AI pixel-art generator built for game sprites and tiles. Pricing: check site for current pricing
+10. God Mode AI (https://www.godmodeai.co/) — Sprite and animation generator for games: looping animations, multiple camera views, VFX, commercial license. Pricing: $29/mo (200 generations) or credit packs from $32
+11. AutoSprite (https://www.autosprite.io/) — Upload one sprite, pick a moveset, export engine-ready sprite sheets for Unity, Godot, GameMaker and Phaser. Pricing: Free plan; Starter $12/mo, Pro $29/mo
+12. Atlas (https://atlas.design/) — Governed node canvas over 100+ AI models for game, CGI and 3D asset pipelines; runs in Unreal, Unity, Blender or via API. Pricing: Pro €50/mo, Studio €200/mo
+13. Ludus AI (https://ludusengine.com/) — Unreal Engine AI toolkit: C++ and Blueprint generation, scenes, UE5 answers. Pricing: Free trial; check site for plans
+14. Coplay (https://coplay.dev/) — AI assistant inside the Unity editor that builds and edits scenes, scripts and assets. Pricing: Free plan; Pro $20/mo
+15. Bezi (https://www.bezi.com/) — Unity-aware AI assistant for debugging, code generation, shaders and prototyping. Pricing: Free tier; Pro $20/mo, Advanced $60/mo
+16. nunu.ai (https://nunu.ai/) — AI agents that playtest games and apps like a human across 60+ real devices. Pricing: Free starter credits; plans from $200/mo
+17. Sprite AI (https://www.sprite-ai.art/) — Text-to-pixel-art sprite maker for 2D games. Pricing: Free tier; paid plans up to $50/mo
+18. Jabali (https://www.jabali.ai/) — No-code AI game maker: describe a game, play and remix it in minutes. Pricing: Free to start; Premium $9.99/mo
+19. SoonLab (https://www.soonlab.ai/) — Prompt-to-playable browser game maker with edit, publish and remix. Pricing: Free starter credits; check site for plans
+20. UGCraft AI (https://www.ugcraft.ai/) — Text/image-to-3D maker for Roblox UGC accessories and clothing. Pricing: Free tier; Creator $15/mo ($9/mo billed annually)
+21. modl.ai (https://modl.ai/) — AI agents for automated game QA and playtesting, no SDK required. Pricing: Book a demo (pricing not public)
 
 ## Productivity (https://zachlaboyteaux-boop.github.io/ailoadout/productivity/)
 1. Granola (https://www.granola.ai) — Best AI meeting notes without a bot joining. Pricing: Free tier + paid
@@ -361,6 +376,21 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 - Seply: https://zachlaboyteaux-boop.github.io/ailoadout/tools/seply/
 - Attache: https://zachlaboyteaux-boop.github.io/ailoadout/tools/attache/
 - Perfectum AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/perfectum-ai/
+- PixelLab: https://zachlaboyteaux-boop.github.io/ailoadout/tools/pixellab/
+- Cascadeur: https://zachlaboyteaux-boop.github.io/ailoadout/tools/cascadeur/
+- Retro Diffusion: https://zachlaboyteaux-boop.github.io/ailoadout/tools/retro-diffusion/
+- God Mode AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/god-mode-ai/
+- AutoSprite: https://zachlaboyteaux-boop.github.io/ailoadout/tools/autosprite/
+- Atlas: https://zachlaboyteaux-boop.github.io/ailoadout/tools/atlas/
+- Ludus AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/ludus-ai/
+- Coplay: https://zachlaboyteaux-boop.github.io/ailoadout/tools/coplay/
+- Bezi: https://zachlaboyteaux-boop.github.io/ailoadout/tools/bezi/
+- nunu.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/nunu-ai/
+- Sprite AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/sprite-ai/
+- Jabali: https://zachlaboyteaux-boop.github.io/ailoadout/tools/jabali/
+- SoonLab: https://zachlaboyteaux-boop.github.io/ailoadout/tools/soonlab/
+- UGCraft AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/ugcraft-ai/
+- modl.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/modl-ai/
 
 ## Comparisons
 - Cursor vs Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-claude-code/
