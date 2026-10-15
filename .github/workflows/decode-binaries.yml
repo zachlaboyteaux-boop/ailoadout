@@ -1,20 +1,30 @@
-name: Decode base64 binaries
-# The GitHub connector can only push text, so binary assets are committed as <file>.b64
-# and this workflow decodes them into the real binary file.
+name: Build site
+# Runs on every push that touches data, the build script, or base64 assets:
+# 1) decodes <file>.b64 into binaries (the GitHub connector can only push text)
+# 2) runs scripts/build.py to regenerate loadout, tool and comparison pages, sitemap, robots, llms files
+# 3) commits any changes back to main (GitHub Pages then redeploys).
 on:
   push:
-    paths: ["**.b64"]
+    branches: [main]
+    paths: ["**.b64", "tools.json", "scripts/build.py", ".github/workflows/decode-binaries.yml"]
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: build-site
+  cancel-in-progress: false
 jobs:
-  decode:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
       - run: |
           for f in $(git ls-files '*.b64'); do base64 -d "$f" > "${f%.b64}"; done
+          python3 scripts/build.py
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || (git commit -m "Decode binary assets from .b64" && git push)
+          git diff --cached --quiet || (git commit -m "Auto-build site from tools.json" && git pull --rebase && git push)
