@@ -6,6 +6,7 @@
 - [New AI releases](https://zachlaboyteaux-boop.github.io/ailoadout/new/)
 - [Weekly newsletter](https://zachlaboyteaux-boop.github.io/ailoadout/newsletter/)
 - [Tier badges](https://zachlaboyteaux-boop.github.io/ailoadout/badge/)
+- [Sponsor / advertise](https://zachlaboyteaux-boop.github.io/ailoadout/sponsor/): Featured $49/mo, newsletter $25/issue or $75 for 4, homepage banner $99/mo
 
 ## Loadouts
 - [Best AI tools for Coding](https://zachlaboyteaux-boop.github.io/ailoadout/coding/): #1 Cursor — Best all-round AI code editor for shipping real apps fast
@@ -49,8 +50,16 @@
 - [CrewAI vs LangGraph](https://zachlaboyteaux-boop.github.io/ailoadout/compare/crewai-vs-langgraph/)
 - [Perplexity vs Grok](https://zachlaboyteaux-boop.github.io/ailoadout/compare/perplexity-vs-grok/)
 - [ElevenLabs vs Grok Voice 3.0](https://zachlaboyteaux-boop.github.io/ailoadout/compare/elevenlabs-vs-grok-voice/)
+- [ChatGPT vs Gemini](https://zachlaboyteaux-boop.github.io/ailoadout/compare/chatgpt-vs-gemini/)
+- [Claude vs Gemini](https://zachlaboyteaux-boop.github.io/ailoadout/compare/claude-vs-gemini/)
+- [Perplexity vs Gemini](https://zachlaboyteaux-boop.github.io/ailoadout/compare/perplexity-vs-gemini/)
+- [Midjourney vs ChatGPT Images](https://zachlaboyteaux-boop.github.io/ailoadout/compare/midjourney-vs-chatgpt-images/)
+- [Runway vs Kling AI](https://zachlaboyteaux-boop.github.io/ailoadout/compare/runway-vs-kling/)
+- [Notion AI vs ChatGPT](https://zachlaboyteaux-boop.github.io/ailoadout/compare/notion-ai-vs-chatgpt/)
 
 ## Best-of guides
+- [Best AI for image generation in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-image-generation/)
+- [Best AI for coding in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-coding/)
 - [Best free AI coding tools in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-free-ai-coding-tools/)
 - [Best AI for Unity developers in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-unity-devs/)
 - [Best local LLM tools in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-local-llm-tools/)
