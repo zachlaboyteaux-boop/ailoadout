@@ -606,7 +606,7 @@
    "url": "https://www.blockadelabs.com",
    "category": "3D",
    "rank": 5,
-   "verdict": "Best for 360\u00b0 skyboxes and environments",
+   "verdict": "Best for 360° skyboxes and environments",
    "pricing": "Free tier + paid",
    "tier": "B",
    "slug": "blockade-labs-skybox"
@@ -757,7 +757,7 @@
    "category": "Streamers / Creators",
    "rank": 2,
    "verdict": "Best for auto-clipping Twitch gaming highlights",
-   "pricing": "Free tier + paid",
+   "pricing": "Free preview; Premium $24.99/mo to export",
    "tier": "A",
    "slug": "eklipse"
   },
@@ -1667,7 +1667,7 @@
    "category": "Game Dev",
    "rank": 12,
    "verdict": "Governed node canvas over 100+ AI models for game, CGI and 3D asset pipelines; runs in Unreal, Unity, Blender or via API",
-   "pricing": "Pro \u20ac50/mo, Studio \u20ac200/mo",
+   "pricing": "Pro €50/mo, Studio €200/mo",
    "tier": "B",
    "slug": "atlas"
   },
