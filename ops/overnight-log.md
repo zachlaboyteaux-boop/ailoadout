@@ -46,3 +46,6 @@ Open items for Zach: verify Kit sending address; downgrade Kit to free before Oc
 - **6 new comparisons** (facts from tools.json only): Claude Code vs OpenAI Codex, Cursor vs GitHub Copilot, ChatGPT Agent vs Manus, CrewAI vs LangGraph, Perplexity vs Grok (Research), ElevenLabs vs Grok Voice 3.0.
 - Wrote `ops/featured-fulfillment.md` (what to do on each $49/mo Featured subscription or cancellation; tiers never sold).
 - Totals (local build): 17 loadouts, 97 tool pages, 22 comparisons, 12 best-of, 153 sitemap URLs.
+
+## 2026-10-15
+- ~13:10 ET Education loadout update (from School Bot review `/workspace/business/ailoadout-education-review.md`): Brisk Teaching C→A; NotebookLM URL → https://notebook.google.com/; added MagicSchool (S), SchoolAI, Diffit, Gemini, Photomath, Consensus, Perplexity (A), Curipod, Wolfram Alpha, Grammarly, Elicit, Otter.ai, Goblin Tools (B), Zotero (C). Every URL re-checked with curl (Perplexity 403 = bot block, site live) and pricing notes re-checked against official pricing pages/help docs. Socratic skipped (discontinued). Education now 20 tools. New best-of page /best/best-ai-for-teachers/.

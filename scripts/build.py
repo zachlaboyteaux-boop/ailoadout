@@ -205,6 +205,18 @@ BEST = [
     ],
   },
   {
+    "slug": "best-ai-for-teachers",
+    "title": f"Best AI for teachers in {YEAR}",
+    "desc": f"Best AI tools for teachers in {YEAR}: lesson planning, differentiation, feedback and classroom AI, ranked from our Education loadout.",
+    "intro": "Teacher gear from our Education loadout: tools for lesson planning, leveling readings, interactive lessons and safe student AI. Check your school or district's AI and privacy policies before using student data.",
+    "specs": [("MagicSchool","Education"),("Brisk Teaching","Education"),("SchoolAI","Education"),("Diffit","Education"),("Khanmigo","Education"),("Curipod","Education"),("NotebookLM","Education")],
+    "faqs": [
+      ("What is the best AI tool for teachers?", "MagicSchool is our S-tier pick for teachers: an all-in-one toolkit for lesson plans and rubrics, free for teachers. Brisk Teaching (A-tier) is a strong free browser extension."),
+      ("Is there free AI for teachers?", "Yes. MagicSchool, Curipod and Khanmigo are free for teachers; Brisk Teaching and Diffit have free tiers; SchoolAI offers a free trial. Paid plans add more features."),
+      ("What AI can students use safely in class?", "SchoolAI is built for teacher-monitored student AI chat. Always follow your school's policies."),
+    ],
+  },
+  {
     "slug": "best-ai-for-crypto-research",
     "title": f"Best AI for crypto research in {YEAR}",
     "desc": f"Best AI tools for crypto and market research in {YEAR}, from our Crypto / Finance loadout.",

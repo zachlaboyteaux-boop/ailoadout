@@ -693,7 +693,7 @@
   },
   {
    "name": "NotebookLM",
-   "url": "https://notebooklm.google.com",
+   "url": "https://notebook.google.com/",
    "category": "Education",
    "rank": 1,
    "verdict": "Best for studying your own notes and sources",
@@ -705,7 +705,7 @@
    "name": "Khanmigo",
    "url": "https://www.khanmigo.ai",
    "category": "Education",
-   "rank": 2,
+   "rank": 3,
    "verdict": "Best AI tutor that guides instead of giving answers",
    "pricing": "Free for teachers + paid",
    "tier": "A",
@@ -715,7 +715,7 @@
    "name": "ChatGPT",
    "url": "https://chatgpt.com",
    "category": "Education",
-   "rank": 3,
+   "rank": 4,
    "verdict": "Best all-purpose explainer and study buddy",
    "pricing": "Free tier + paid",
    "tier": "A",
@@ -725,7 +725,7 @@
    "name": "Duolingo",
    "url": "https://www.duolingo.com",
    "category": "Education",
-   "rank": 4,
+   "rank": 12,
    "verdict": "Best for AI-powered language practice",
    "pricing": "Free tier + paid",
    "tier": "B",
@@ -735,7 +735,7 @@
    "name": "Quizlet",
    "url": "https://quizlet.com",
    "category": "Education",
-   "rank": 5,
+   "rank": 13,
    "verdict": "Best for AI flashcards and practice tests",
    "pricing": "Free tier + paid",
    "tier": "B",
@@ -745,10 +745,10 @@
    "name": "Brisk Teaching",
    "url": "https://www.briskteaching.com",
    "category": "Education",
-   "rank": 6,
+   "rank": 5,
    "verdict": "Best AI toolkit for teachers",
    "pricing": "Free tier + paid",
-   "tier": "C",
+   "tier": "A",
    "slug": "brisk-teaching"
   },
   {
@@ -970,6 +970,146 @@
    "pricing": "Open weights",
    "tier": "A",
    "slug": "lfm2-5-24b-a2b"
+  },
+  {
+   "name": "MagicSchool",
+   "url": "https://www.magicschool.ai",
+   "category": "Education",
+   "rank": 2,
+   "verdict": "Best all-in-one AI toolkit for lesson plans and rubrics",
+   "pricing": "Free for teachers + paid Plus",
+   "tier": "S",
+   "slug": "magicschool"
+  },
+  {
+   "name": "SchoolAI",
+   "url": "https://schoolai.com",
+   "category": "Education",
+   "rank": 6,
+   "verdict": "Best for safe, teacher-monitored student AI chat",
+   "pricing": "Free trial + paid",
+   "tier": "A",
+   "slug": "schoolai"
+  },
+  {
+   "name": "Diffit",
+   "url": "https://www.diffit.me",
+   "category": "Education",
+   "rank": 7,
+   "verdict": "Best for leveling readings to any grade",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "diffit"
+  },
+  {
+   "name": "Gemini",
+   "url": "https://gemini.google.com",
+   "category": "Education",
+   "rank": 8,
+   "verdict": "Best free explainer inside Google Workspace",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "gemini-education"
+  },
+  {
+   "name": "Photomath",
+   "url": "https://www.photomath.com",
+   "category": "Education",
+   "rank": 9,
+   "verdict": "Best for step-by-step math from a photo",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "photomath"
+  },
+  {
+   "name": "Consensus",
+   "url": "https://consensus.app",
+   "category": "Education",
+   "rank": 10,
+   "verdict": "Best for finding answers in peer-reviewed papers",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "consensus"
+  },
+  {
+   "name": "Perplexity",
+   "url": "https://www.perplexity.ai",
+   "category": "Education",
+   "rank": 11,
+   "verdict": "Best cited web answers for research starts",
+   "pricing": "Free tier + paid",
+   "tier": "A",
+   "slug": "perplexity-education"
+  },
+  {
+   "name": "Curipod",
+   "url": "https://curipod.com",
+   "category": "Education",
+   "rank": 14,
+   "verdict": "Best for interactive lessons with AI writing feedback",
+   "pricing": "Free for teachers + paid",
+   "tier": "B",
+   "slug": "curipod"
+  },
+  {
+   "name": "Wolfram Alpha",
+   "url": "https://www.wolframalpha.com",
+   "category": "Education",
+   "rank": 15,
+   "verdict": "Best for exact computation and STEM checks",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "wolfram-alpha"
+  },
+  {
+   "name": "Grammarly",
+   "url": "https://www.grammarly.com",
+   "category": "Education",
+   "rank": 16,
+   "verdict": "Best for polishing essays and grammar",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "grammarly-education"
+  },
+  {
+   "name": "Elicit",
+   "url": "https://elicit.com",
+   "category": "Education",
+   "rank": 17,
+   "verdict": "Best for lit reviews and paper summaries",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "elicit-education"
+  },
+  {
+   "name": "Otter.ai",
+   "url": "https://otter.ai",
+   "category": "Education",
+   "rank": 18,
+   "verdict": "Best for recording and transcribing lectures",
+   "pricing": "Free tier + paid",
+   "tier": "B",
+   "slug": "otter-ai-education"
+  },
+  {
+   "name": "Goblin Tools",
+   "url": "https://www.goblin.tools",
+   "category": "Education",
+   "rank": 19,
+   "verdict": "Best for breaking assignments into steps (great for ADHD)",
+   "pricing": "Free + paid Pro",
+   "tier": "B",
+   "slug": "goblin-tools"
+  },
+  {
+   "name": "Zotero",
+   "url": "https://www.zotero.org",
+   "category": "Education",
+   "rank": 20,
+   "verdict": "Best free citation manager (not AI; pairs with Elicit)",
+   "pricing": "Free + paid storage",
+   "tier": "C",
+   "slug": "zotero"
   }
  ],
  "releases": [
