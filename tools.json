@@ -425,7 +425,7 @@
    "name": "Inworld AI",
    "url": "https://inworld.ai",
    "category": "Game Dev",
-   "rank": 4,
+   "rank": 6,
    "verdict": "Best for AI NPC characters and voices",
    "pricing": "Free tier + paid",
    "tier": "B",
@@ -435,7 +435,7 @@
    "name": "Tripo",
    "url": "https://www.tripo3d.ai",
    "category": "Game Dev",
-   "rank": 5,
+   "rank": 7,
    "verdict": "Best fast 3D models for prototyping",
    "pricing": "Free tier + paid",
    "tier": "B",
@@ -1465,7 +1465,7 @@
    "name": "Sprite Fusion",
    "url": "https://www.spritefusion.com/pixel-art-generator",
    "category": "Game Dev",
-   "rank": 6,
+   "rank": 8,
    "verdict": "AI pixel-art generator, animator and tilemap editor that exports straight to game engines",
    "pricing": "check site for current pricing",
    "tier": "B",
@@ -1620,6 +1620,156 @@
    "pricing": "14-day free trial; check site for current pricing",
    "tier": "C",
    "slug": "perfectum-ai"
+  },
+  {
+   "name": "PixelLab",
+   "url": "https://www.pixellab.ai/",
+   "category": "Game Dev",
+   "rank": 4,
+   "verdict": "Pixel-art game asset generator: sprites, 4/8-direction rotations, skeleton and text animations, tilesets, with Aseprite support",
+   "pricing": "Free to try, no card; check site for paid plans",
+   "tier": "A",
+   "slug": "pixellab"
+  },
+  {
+   "name": "Cascadeur",
+   "url": "https://cascadeur.com/",
+   "category": "Game Dev",
+   "rank": 5,
+   "verdict": "AI-assisted keyframe character animation with auto-physics, mocap cleanup and AI motion generation",
+   "pricing": "Free plan; Indie $19/mo ($8/mo billed annually)",
+   "tier": "A",
+   "slug": "cascadeur"
+  },
+  {
+   "name": "Retro Diffusion",
+   "url": "https://retrodiffusion.ai/",
+   "category": "Game Dev",
+   "rank": 9,
+   "verdict": "AI pixel-art generator built for game sprites and tiles",
+   "pricing": "check site for current pricing",
+   "tier": "B",
+   "slug": "retro-diffusion"
+  },
+  {
+   "name": "God Mode AI",
+   "url": "https://www.godmodeai.co/",
+   "category": "Game Dev",
+   "rank": 10,
+   "verdict": "Sprite and animation generator for games: looping animations, multiple camera views, VFX, commercial license",
+   "pricing": "$29/mo (200 generations) or credit packs from $32",
+   "tier": "B",
+   "slug": "god-mode-ai"
+  },
+  {
+   "name": "AutoSprite",
+   "url": "https://www.autosprite.io/",
+   "category": "Game Dev",
+   "rank": 11,
+   "verdict": "Upload one sprite, pick a moveset, export engine-ready sprite sheets for Unity, Godot, GameMaker and Phaser",
+   "pricing": "Free plan; Starter $12/mo, Pro $29/mo",
+   "tier": "B",
+   "slug": "autosprite"
+  },
+  {
+   "name": "Atlas",
+   "url": "https://atlas.design/",
+   "category": "Game Dev",
+   "rank": 12,
+   "verdict": "Governed node canvas over 100+ AI models for game, CGI and 3D asset pipelines; runs in Unreal, Unity, Blender or via API",
+   "pricing": "Pro \u20ac50/mo, Studio \u20ac200/mo",
+   "tier": "B",
+   "slug": "atlas"
+  },
+  {
+   "name": "Ludus AI",
+   "url": "https://ludusengine.com/",
+   "category": "Game Dev",
+   "rank": 13,
+   "verdict": "Unreal Engine AI toolkit: C++ and Blueprint generation, scenes, UE5 answers",
+   "pricing": "Free trial; check site for plans",
+   "tier": "B",
+   "slug": "ludus-ai"
+  },
+  {
+   "name": "Coplay",
+   "url": "https://coplay.dev/",
+   "category": "Game Dev",
+   "rank": 14,
+   "verdict": "AI assistant inside the Unity editor that builds and edits scenes, scripts and assets",
+   "pricing": "Free plan; Pro $20/mo",
+   "tier": "B",
+   "slug": "coplay"
+  },
+  {
+   "name": "Bezi",
+   "url": "https://www.bezi.com/",
+   "category": "Game Dev",
+   "rank": 15,
+   "verdict": "Unity-aware AI assistant for debugging, code generation, shaders and prototyping",
+   "pricing": "Free tier; Pro $20/mo, Advanced $60/mo",
+   "tier": "B",
+   "slug": "bezi"
+  },
+  {
+   "name": "nunu.ai",
+   "url": "https://nunu.ai/",
+   "category": "Game Dev",
+   "rank": 16,
+   "verdict": "AI agents that playtest games and apps like a human across 60+ real devices",
+   "pricing": "Free starter credits; plans from $200/mo",
+   "tier": "B",
+   "slug": "nunu-ai"
+  },
+  {
+   "name": "Sprite AI",
+   "url": "https://www.sprite-ai.art/",
+   "category": "Game Dev",
+   "rank": 17,
+   "verdict": "Text-to-pixel-art sprite maker for 2D games",
+   "pricing": "Free tier; paid plans up to $50/mo",
+   "tier": "C",
+   "slug": "sprite-ai"
+  },
+  {
+   "name": "Jabali",
+   "url": "https://www.jabali.ai/",
+   "category": "Game Dev",
+   "rank": 18,
+   "verdict": "No-code AI game maker: describe a game, play and remix it in minutes",
+   "pricing": "Free to start; Premium $9.99/mo",
+   "tier": "C",
+   "slug": "jabali"
+  },
+  {
+   "name": "SoonLab",
+   "url": "https://www.soonlab.ai/",
+   "category": "Game Dev",
+   "rank": 19,
+   "verdict": "Prompt-to-playable browser game maker with edit, publish and remix",
+   "pricing": "Free starter credits; check site for plans",
+   "tier": "C",
+   "slug": "soonlab"
+  },
+  {
+   "name": "UGCraft AI",
+   "url": "https://www.ugcraft.ai/",
+   "category": "Game Dev",
+   "rank": 20,
+   "verdict": "Text/image-to-3D maker for Roblox UGC accessories and clothing",
+   "pricing": "Free tier; Creator $15/mo ($9/mo billed annually)",
+   "tier": "C",
+   "slug": "ugcraft-ai"
+  },
+  {
+   "name": "modl.ai",
+   "url": "https://modl.ai/",
+   "category": "Game Dev",
+   "rank": 21,
+   "verdict": "AI agents for automated game QA and playtesting, no SDK required",
+   "pricing": "Book a demo (pricing not public)",
+   "tier": "C",
+   "slug": "modl-ai"
   }
  ],
  "releases": [

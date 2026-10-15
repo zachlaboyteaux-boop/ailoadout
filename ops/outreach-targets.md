@@ -122,3 +122,28 @@ Skipped from the CSV: Feyn (site now describes custom model training, not backgr
 | Perfectum AI | C | Education | https://zachlaboyteaux-boop.github.io/ailoadout/tools/perfectum-ai/ | sales@perfectum.ai |
 
 Skipped from batch 2: AI3DGen and Image to 3D Studio (generic image-to-3D wrappers, duplicate Opolyo), Animove AI (Wan 2.2 wrapper), TalkPix AI (multi-model wrapper grab-bag), Animarrow and Vindeo (waitlist only), Zapters (app 'coming soon'), Canovaccio (empty JS shell, can't verify), Titlo (lower-thirds designer, not AI), Egleze (curated podcast news site, not an AI tool).
+
+
+### Batch 3: AI game dev tools (Dave, vetted 2026-10-15)
+
+| Tool | Tier | Loadout | Page | Contact | Notes |
+|---|---|---|---|---|---|
+| PixelLab | A | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/pixellab/ | none found (check site) |  |
+| Cascadeur | A | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/cascadeur/ | info@cascadeur.com | Funded/established: low-likelihood buyer |
+| Retro Diffusion | B | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/retro-diffusion/ | none found (check site) |  |
+| God Mode AI | B | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/god-mode-ai/ | gavinli@godmodeai.co | Founder address |
+| AutoSprite | B | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/autosprite/ | hello@autosprite.io |  |
+| Atlas | B | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/atlas/ | hello@atlas.design |  |
+| Ludus AI | B | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/ludus-ai/ | hello@ludusengine.com |  |
+| Coplay | B | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/coplay/ | support@coplay.dev | Support inbox |
+| Bezi | B | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/bezi/ | security@bezi.com | NOT a sales contact (security@ from privacy policy); find another route before outreach |
+| nunu.ai | B | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/nunu-ai/ | team@nunu.ai |  |
+| Sprite AI | C | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/sprite-ai/ | https://www.sprite-ai.art/contact | Contact form |
+| Jabali | C | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/jabali/ | support@jabali.ai |  |
+| SoonLab | C | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/soonlab/ | support@soonlab.ai | BetaList May 22, 2026 |
+| UGCraft AI | C | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/ugcraft-ai/ | support@ugcraft.ai | BetaList Apr 18, 2026 |
+| modl.ai | C | Game Dev | https://zachlaboyteaux-boop.github.io/ailoadout/tools/modl-ai/ | contact@modl.ai | Enterprise, demo-only |
+
+Already listed (not re-added; funded, low-likelihood $49 buyers): Ludo.ai (contact form https://ludo.ai/contact), Convai (sales@convai.com), Rosebud AI (support@rosebudai.com). Layer is also funded, but it was skipped (see below).
+
+Skipped from batch 3: Ludo.ai, Convai, Rosebud AI (duplicates); Layer (pivoted to a general 300+ model creative platform, not game-specific, and skipped in batch 1); Charisma.ai (site now pitches corporate training and brand campaigns, no games); Promethean AI (pivoted to asset management, site last updated 2024, no public pricing or contact). Nobody contacted.
