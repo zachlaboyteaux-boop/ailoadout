@@ -51,6 +51,7 @@
 - [Best local LLM tools in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-local-llm-tools/)
 - [Best AI for Twitch streamers in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-twitch-streamers/)
 - [Best AI for students in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-students/)
+- [Best AI for teachers in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-teachers/)
 - [Best AI for crypto research in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-crypto-research/)
 - [Best AI music for YouTube in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-music-for-youtube/)
 - [Best free AI chatbots in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-free-ai-chatbots/)

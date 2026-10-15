@@ -101,12 +101,26 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 6. Mubert (https://mubert.com) — Best royalty-free background music for streams. Pricing: Free tier + paid
 
 ## Education (https://zachlaboyteaux-boop.github.io/ailoadout/education/)
-1. NotebookLM (https://notebooklm.google.com) — Best for studying your own notes and sources. Pricing: Free tier + paid
-2. Khanmigo (https://www.khanmigo.ai) — Best AI tutor that guides instead of giving answers. Pricing: Free for teachers + paid
-3. ChatGPT (https://chatgpt.com) — Best all-purpose explainer and study buddy. Pricing: Free tier + paid
-4. Duolingo (https://www.duolingo.com) — Best for AI-powered language practice. Pricing: Free tier + paid
-5. Quizlet (https://quizlet.com) — Best for AI flashcards and practice tests. Pricing: Free tier + paid
-6. Brisk Teaching (https://www.briskteaching.com) — Best AI toolkit for teachers. Pricing: Free tier + paid
+1. NotebookLM (https://notebook.google.com/) — Best for studying your own notes and sources. Pricing: Free tier + paid
+2. MagicSchool (https://www.magicschool.ai) — Best all-in-one AI toolkit for lesson plans and rubrics. Pricing: Free for teachers + paid Plus
+3. Khanmigo (https://www.khanmigo.ai) — Best AI tutor that guides instead of giving answers. Pricing: Free for teachers + paid
+4. ChatGPT (https://chatgpt.com) — Best all-purpose explainer and study buddy. Pricing: Free tier + paid
+5. Brisk Teaching (https://www.briskteaching.com) — Best AI toolkit for teachers. Pricing: Free tier + paid
+6. SchoolAI (https://schoolai.com) — Best for safe, teacher-monitored student AI chat. Pricing: Free trial + paid
+7. Diffit (https://www.diffit.me) — Best for leveling readings to any grade. Pricing: Free tier + paid
+8. Gemini (https://gemini.google.com) — Best free explainer inside Google Workspace. Pricing: Free tier + paid
+9. Photomath (https://www.photomath.com) — Best for step-by-step math from a photo. Pricing: Free tier + paid
+10. Consensus (https://consensus.app) — Best for finding answers in peer-reviewed papers. Pricing: Free tier + paid
+11. Perplexity (https://www.perplexity.ai) — Best cited web answers for research starts. Pricing: Free tier + paid
+12. Duolingo (https://www.duolingo.com) — Best for AI-powered language practice. Pricing: Free tier + paid
+13. Quizlet (https://quizlet.com) — Best for AI flashcards and practice tests. Pricing: Free tier + paid
+14. Curipod (https://curipod.com) — Best for interactive lessons with AI writing feedback. Pricing: Free for teachers + paid
+15. Wolfram Alpha (https://www.wolframalpha.com) — Best for exact computation and STEM checks. Pricing: Free tier + paid
+16. Grammarly (https://www.grammarly.com) — Best for polishing essays and grammar. Pricing: Free tier + paid
+17. Elicit (https://elicit.com) — Best for lit reviews and paper summaries. Pricing: Free tier + paid
+18. Otter.ai (https://otter.ai) — Best for recording and transcribing lectures. Pricing: Free tier + paid
+19. Goblin Tools (https://www.goblin.tools) — Best for breaking assignments into steps (great for ADHD). Pricing: Free + paid Pro
+20. Zotero (https://www.zotero.org) — Best free citation manager (not AI; pairs with Elicit). Pricing: Free + paid storage
 
 ## Streamers / Creators (https://zachlaboyteaux-boop.github.io/ailoadout/creators/)
 1. OpusClip (https://www.opus.pro) — Best for turning long videos into viral shorts. Pricing: Free tier + paid
@@ -231,6 +245,20 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 - Muse Wonder: https://zachlaboyteaux-boop.github.io/ailoadout/tools/muse-wonder/
 - Muse Wonder: https://zachlaboyteaux-boop.github.io/ailoadout/tools/muse-wonder-chat/
 - LFM2.5-24B-A2B: https://zachlaboyteaux-boop.github.io/ailoadout/tools/lfm2-5-24b-a2b/
+- MagicSchool: https://zachlaboyteaux-boop.github.io/ailoadout/tools/magicschool/
+- SchoolAI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/schoolai/
+- Diffit: https://zachlaboyteaux-boop.github.io/ailoadout/tools/diffit/
+- Gemini: https://zachlaboyteaux-boop.github.io/ailoadout/tools/gemini-education/
+- Photomath: https://zachlaboyteaux-boop.github.io/ailoadout/tools/photomath/
+- Consensus: https://zachlaboyteaux-boop.github.io/ailoadout/tools/consensus/
+- Perplexity: https://zachlaboyteaux-boop.github.io/ailoadout/tools/perplexity-education/
+- Curipod: https://zachlaboyteaux-boop.github.io/ailoadout/tools/curipod/
+- Wolfram Alpha: https://zachlaboyteaux-boop.github.io/ailoadout/tools/wolfram-alpha/
+- Grammarly: https://zachlaboyteaux-boop.github.io/ailoadout/tools/grammarly-education/
+- Elicit: https://zachlaboyteaux-boop.github.io/ailoadout/tools/elicit-education/
+- Otter.ai: https://zachlaboyteaux-boop.github.io/ailoadout/tools/otter-ai-education/
+- Goblin Tools: https://zachlaboyteaux-boop.github.io/ailoadout/tools/goblin-tools/
+- Zotero: https://zachlaboyteaux-boop.github.io/ailoadout/tools/zotero/
 
 ## Comparisons
 - Cursor vs Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-claude-code/
@@ -262,6 +290,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 - Best local LLM tools in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-local-llm-tools/
 - Best AI for Twitch streamers in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-twitch-streamers/
 - Best AI for students in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-students/
+- Best AI for teachers in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-teachers/
 - Best AI for crypto research in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-crypto-research/
 - Best AI music for YouTube in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-music-for-youtube/
 - Best free AI chatbots in 2026: https://zachlaboyteaux-boop.github.io/ailoadout/best/best-free-ai-chatbots/
