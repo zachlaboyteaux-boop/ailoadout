@@ -52,6 +52,8 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 4. Kling AI (https://klingai.com) — Best motion quality for the price. Pricing: Free tier + paid
 5. CapCut (https://www.capcut.com) — Best for quick social edits with AI. Pricing: Free tier + paid
 6. RxFilmStudio (https://filmstudio.rxlab.app) — Native macOS app to score, narrate, caption and render films with an AI agent. Pricing: Indie launch; check site for current pricing
+7. Recastia (https://recastia.com/) — Turns one PDF into a video, slides, flipbook, podcast or landing page. Pricing: check site for current pricing
+8. explain.ink (https://explain.ink/) — Hand-drawn whiteboard explainer videos from a topic, script or document. Pricing: check site for current pricing
 
 ## Voice / Audio (https://zachlaboyteaux-boop.github.io/ailoadout/voice/)
 1. ElevenLabs (https://elevenlabs.io) — Best voices, cloning and dubbing. Pricing: Free tier + paid
@@ -62,6 +64,8 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 6. PDFtoMP3 (https://pdftomp3.com/connect-ai/) — Turns PDFs into audiobooks by connecting your own Codex or Claude plus a speech API key. Pricing: Indie launch; check site for current pricing
 7. Zeph (https://zephclick.com) — Voice-first push-to-talk hardware for dictation and talking to your agents. Pricing: Indie launch; check site for current pricing
 8. Airy (https://airy.so) — Free text-to-speech studio for creators plus a low-cost TTS API. Pricing: Indie launch; check site for current pricing
+9. StudioEditor (https://studioeditor.io/) — Browser-based audio and video podcast editor with AI enhancement and AutoDuck. Pricing: Free account with 60 credits; check site for current pricing
+10. Seply (https://seply.org/) — AI speaker separation that splits a mixed recording into one WAV per speaker, 30+ languages. Pricing: check site for current pricing
 
 ## Writing (https://zachlaboyteaux-boop.github.io/ailoadout/writing/)
 1. Claude (https://claude.ai) — Best natural-sounding long-form writing. Pricing: Free tier + paid
@@ -76,6 +80,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 4. Elicit (https://elicit.com) — Best for academic papers. Pricing: Free tier + paid
 5. Grok (https://grok.com) — Best for real-time research across X and the web. Pricing: Free tier + paid
 6. Scry (https://scry.io/) — Research add-on for ChatGPT or Claude that reads forums, papers, filings and markets for you. Pricing: Indie launch; check site for current pricing
+7. Attache (https://attache.news/) — AI news briefing that calls you each morning; ask questions and go deeper by phone. Pricing: Free week of Premium, then $19.99/mo (up to 10 hrs/month)
 
 ## Game Dev (https://zachlaboyteaux-boop.github.io/ailoadout/game-dev/)
 1. Rosebud AI (https://rosebud.ai) — Best for vibe coding browser games from prompts. Pricing: Free tier + paid
@@ -83,6 +88,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 3. Meshy (https://www.meshy.ai) — Best text/image to 3D models. Pricing: Free tier + paid
 4. Inworld AI (https://inworld.ai) — Best for AI NPC characters and voices. Pricing: Free tier + paid
 5. Tripo (https://www.tripo3d.ai) — Best fast 3D models for prototyping. Pricing: Free tier + paid
+6. Sprite Fusion (https://www.spritefusion.com/pixel-art-generator) — AI pixel-art generator, animator and tilemap editor that exports straight to game engines. Pricing: check site for current pricing
 
 ## Productivity (https://zachlaboyteaux-boop.github.io/ailoadout/productivity/)
 1. Granola (https://www.granola.ai) — Best AI meeting notes without a bot joining. Pricing: Free tier + paid
@@ -111,6 +117,10 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 5. Blockade Labs Skybox (https://www.blockadelabs.com) — Best for 360° skyboxes and environments. Pricing: Free tier + paid
 6. Kaedim (https://www.kaedim3d.com) — Best for studio-grade game-ready assets. Pricing: Paid
 7. Polyfork (https://polyfork.dev/try) — 3D assets defined in code with tweakable knobs for shape, palette and parts. Pricing: Indie launch; check site for current pricing
+8. Opolyo (https://opolyo.com/) — Photo or text prompt to a closed, textured 3D model in one to three minutes; image-to-STL for 3D printing. Pricing: Free version available; check site for current pricing
+9. ArchVizr (https://www.archvizr.com/) — Upload a SketchUp, Revit or CAD export and get a photoreal architectural render in seconds. Pricing: First render free; check site for current pricing
+10. CAD Scene (https://cadscene.com/) — Architect-built AI rendering: turns CAD/model views into photoreal architectural images. Pricing: First renders free; check site for current pricing
+11. Prompt2CAD (https://prompt2cad.com/) — Describe a part or piece of furniture in plain language and get editable parametric CAD, cut lists and exports. Pricing: Free trial with 160 credits, then pay-as-you-go
 
 ## Music (https://zachlaboyteaux-boop.github.io/ailoadout/music/)
 1. Suno (https://suno.com) — Best for full songs with vocals from a prompt. Pricing: Free tier + paid
@@ -122,6 +132,9 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 7. Lullaby Converter (https://lullabyconverter.com) — AI that turns any song into a music-box lullaby that follows the real tune. Pricing: Indie launch; check site for current pricing
 8. Autograph (https://autographmusic.com) — Handwritten music notation app for iPad and Mac that you can also drive with Claude via MCP. Pricing: Indie launch; check site for current pricing
 9. Daydream Studio (https://labs.daydream.live/studio/) — Virtual recording studio where you book AI session players for your track. Pricing: Indie launch; check site for current pricing
+10. Songbrain (https://www.songbrain.ai/) — Scores your song's strongest moments and renders ready-to-post music video clips. Pricing: Free analysis + 7 reels; check site for current pricing
+11. ToneMirror (https://www.tonemirror.so/) — Matches any song's guitar or bass tone to the amp, pickups and pedals you actually own. Pricing: check site for current pricing
+12. VocalDock (https://vocaldock.com/) — Vocal remover, stem splitter, noise remover, voice clone and free BPM/key tools in the browser. Pricing: Some tools free; check site for current pricing
 
 ## Education (https://zachlaboyteaux-boop.github.io/ailoadout/education/)
 1. NotebookLM (https://notebook.google.com/) — Best for studying your own notes and sources. Pricing: Free tier + paid
@@ -149,6 +162,7 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 23. SubSmith (https://subsmith.app) — Turns videos into language-learning material with transcripts, instant definitions and Anki export. Pricing: Indie launch; check site for current pricing
 24. Knowable (https://useknowable.ai/) — Camera-based AI tutor app that coaches students through textbook problems. Pricing: Indie launch; check site for current pricing
 25. HOPE (https://usehope.app) — Personalized daily math practice for grades 2-12 with progress shown to parents. Pricing: Indie launch; check site for current pricing
+26. Perfectum AI (https://perfectum.ai/) — AI-native LMS that builds courses from prompts and docs, with cohorts, certificates and licensing. Pricing: 14-day free trial; check site for current pricing
 
 ## Streamers / Creators (https://zachlaboyteaux-boop.github.io/ailoadout/creators/)
 1. OpusClip (https://www.opus.pro) — Best for turning long videos into viral shorts. Pricing: Free tier + paid
@@ -157,6 +171,12 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 4. Captions (https://www.captions.ai) — Best for AI captions, edits and talking videos. Pricing: Free tier + paid
 5. Descript (https://www.descript.com) — Best for editing videos by editing text. Pricing: Free tier + paid
 6. CapCut (https://www.capcut.com) — Best free all-in-one social editor. Pricing: Free tier + paid
+7. Esseeoh (https://www.esseeoh.com/) — Auto-clips long YouTube uploads into Shorts with AI-scored titles and auto-publishing. Pricing: check site for current pricing
+8. Reelyze (https://getreelyze.com/) — AI reel analyzer for Instagram, TikTok and Shorts that shows where viewers drop off and what to make next. Pricing: check site for current pricing
+9. Sekondo (https://sekondo.app/en/) — Connects ChatGPT or Claude to Photoshop, Premiere, After Effects and other Adobe apps so you edit by talking. Pricing: 7-day free trial; check site for current pricing
+10. Vidfora (https://vidfora.com/) — Finds YouTube outlier videos in your niche and helps turn them into your next idea. Pricing: Free plan; check site for current pricing
+11. SchedPilot (https://schedpilot.com/) — Social media scheduler built for AI agents, with MCP for Claude, ChatGPT, Cursor and more. Pricing: Free trial; check site for current pricing
+12. SpotScribe (https://spotscribe.io/) — Pulls transcripts from Spotify and other podcasts, with AI summaries and chat-with-episode. Pricing: Free to start; check site for current pricing
 
 ## Open-Source & Local Models (https://zachlaboyteaux-boop.github.io/ailoadout/local-models/)
 1. Ollama (https://ollama.com) — Best one-command way to run models locally. Pricing: Free / open source
@@ -321,6 +341,26 @@ Last updated 2026-10-15. Source: https://zachlaboyteaux-boop.github.io/ailoadout
 - threadfork: https://zachlaboyteaux-boop.github.io/ailoadout/tools/threadfork/
 - Portraify: https://zachlaboyteaux-boop.github.io/ailoadout/tools/portraify/
 - Traccia: https://zachlaboyteaux-boop.github.io/ailoadout/tools/traccia/
+- Opolyo: https://zachlaboyteaux-boop.github.io/ailoadout/tools/opolyo/
+- ArchVizr: https://zachlaboyteaux-boop.github.io/ailoadout/tools/archvizr/
+- CAD Scene: https://zachlaboyteaux-boop.github.io/ailoadout/tools/cad-scene/
+- Prompt2CAD: https://zachlaboyteaux-boop.github.io/ailoadout/tools/prompt2cad/
+- Sprite Fusion: https://zachlaboyteaux-boop.github.io/ailoadout/tools/sprite-fusion/
+- Recastia: https://zachlaboyteaux-boop.github.io/ailoadout/tools/recastia/
+- explain.ink: https://zachlaboyteaux-boop.github.io/ailoadout/tools/explain-ink/
+- Esseeoh: https://zachlaboyteaux-boop.github.io/ailoadout/tools/esseeoh/
+- Reelyze: https://zachlaboyteaux-boop.github.io/ailoadout/tools/reelyze/
+- Sekondo: https://zachlaboyteaux-boop.github.io/ailoadout/tools/sekondo/
+- Vidfora: https://zachlaboyteaux-boop.github.io/ailoadout/tools/vidfora/
+- SchedPilot: https://zachlaboyteaux-boop.github.io/ailoadout/tools/schedpilot/
+- SpotScribe: https://zachlaboyteaux-boop.github.io/ailoadout/tools/spotscribe/
+- Songbrain: https://zachlaboyteaux-boop.github.io/ailoadout/tools/songbrain/
+- ToneMirror: https://zachlaboyteaux-boop.github.io/ailoadout/tools/tonemirror/
+- VocalDock: https://zachlaboyteaux-boop.github.io/ailoadout/tools/vocaldock/
+- StudioEditor: https://zachlaboyteaux-boop.github.io/ailoadout/tools/studioeditor/
+- Seply: https://zachlaboyteaux-boop.github.io/ailoadout/tools/seply/
+- Attache: https://zachlaboyteaux-boop.github.io/ailoadout/tools/attache/
+- Perfectum AI: https://zachlaboyteaux-boop.github.io/ailoadout/tools/perfectum-ai/
 
 ## Comparisons
 - Cursor vs Claude Code: https://zachlaboyteaux-boop.github.io/ailoadout/compare/cursor-vs-claude-code/
