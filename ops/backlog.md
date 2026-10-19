@@ -26,7 +26,7 @@ Voice: neutral "we rank", light gamer flavor. Budget: $0 unless Zach approves sp
 - Wire `/dashboard/` Visitors panel to GoatCounter (needs API token from Zach, or public counter enabled).
 - ~~Stripe fulfillment checklist doc in ops/~~ DONE 2026-10-15 12:00 (`ops/featured-fulfillment.md`).
 - More comparisons as tools land (2026-10-15 12:00: +6, 22 total).
-- Long-tail best-of ideas from existing data: best AI for teachers, best AI meeting notes, best AI for YouTube Shorts editing, best open-source AI tools, best AI voice generators.
+- ~~Long-tail best-of ideas from existing data~~ DONE (teachers 2026-10-15; meeting notes, voice generators, open-source, YouTube Shorts, 3D model generators, academic research, music production 2026-10-18). Next long-tail ideas: best AI for architects/archviz, best AI for podcasters, best offline AI apps for iPhone/Mac, best AI for game prototyping.
 
 ## P3 — Product
 14. User voting / "suggest a tier change" (needs a backend; consider free tier of a form service).

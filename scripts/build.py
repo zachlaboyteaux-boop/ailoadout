@@ -334,6 +334,92 @@ BEST += [
     ],
   },
 ]
+BEST += [
+  {
+    "slug": "best-ai-meeting-notes",
+    "title": f"Best AI meeting notes apps in {YEAR}",
+    "desc": f"The best AI meeting note-takers in {YEAR}: Granola, Otter.ai and more, ranked S/A/B/C from our Productivity loadout.",
+    "intro": "Meeting-notes gear from our Productivity loadout: apps that transcribe and summarize your calls. Recording rules differ by place and company; tell people when a meeting is being transcribed.",
+    "specs": [("Granola","Productivity"),("Otter.ai","Productivity"),("threadfork","Productivity")],
+    "faqs": [
+      ("What is the best AI meeting notes app?", "Granola is our S-tier pick for AI meeting notes without a bot joining the call. Otter.ai (A-tier) is our pick for transcripts across meeting apps."),
+      ("Granola or Otter.ai?", "Pick Granola if you want notes without a bot in the meeting; pick Otter.ai if you need transcripts across meeting apps. Both have a free tier plus paid plans in our data. See our Granola vs Otter.ai comparison."),
+      ("Is there a local-first option?", "threadfork (C-tier) is a newer indie app for local-first AI meeting notes on your Mac. Check its site for current pricing."),
+    ],
+  },
+  {
+    "slug": "best-ai-voice-generators",
+    "title": f"Best AI voice generators in {YEAR}",
+    "desc": f"The best AI voice and text-to-speech tools in {YEAR}: ElevenLabs, Grok Voice 3.0, Speechify and more, ranked.",
+    "intro": "Voice gear from our Voice / Audio loadout: text-to-speech, voice cloning, read-aloud apps and real-time voice models. Only clone voices you have the rights to use.",
+    "specs": [("ElevenLabs","Voice / Audio"),("Grok Voice 3.0","Voice / Audio"),("Speechify","Voice / Audio"),("Airy","Voice / Audio")],
+    "faqs": [
+      ("What is the best AI voice generator?", "ElevenLabs is S-tier in our Voice / Audio loadout for the best voices, cloning and dubbing. It has a free tier plus paid plans."),
+      ("What is best for real-time voice agents?", "Grok Voice 3.0 (A-tier) is our pick as a speech-to-speech model for real-time voice agents. It is a paid API."),
+      ("What is best for listening to documents?", "Speechify (B-tier) is our pick for having docs, PDFs and web pages read aloud. It has a free tier; Premium is $29/mo in our data."),
+    ],
+  },
+  {
+    "slug": "best-open-source-ai-tools",
+    "title": f"Best open-source and open-weights AI tools in {YEAR}",
+    "desc": f"The best open-source AI tools and open-weights models in {YEAR}: Ollama, DeepSeek, Stable Diffusion, llama.cpp and more, ranked.",
+    "intro": "From our Open-Source & Local Models loadout, only entries our data lists as open source or open weights. Open-weights licenses vary (Stable Diffusion's Community License, for example), so read each license before commercial use.",
+    "specs": [("Ollama","Open-Source & Local Models"),("LFM2.5-24B-A2B","Open-Source & Local Models"),("DeepSeek","Open-Source & Local Models"),("Stable Diffusion","Open-Source & Local Models"),("Open WebUI","Open-Source & Local Models"),("llama.cpp","Open-Source & Local Models"),("LocalAI","Open-Source & Local Models"),("Jan","Open-Source & Local Models"),("ComfyUI","Open-Source & Local Models")],
+    "faqs": [
+      ("What is the best open-source AI tool?", "Ollama is S-tier in our Open-Source & Local Models loadout as the best one-command way to run models locally. It is free and open source."),
+      ("What are the best open-weights models?", "DeepSeek (A-tier) is our pick for open-weights reasoning and coding models to run locally; LFM2.5-24B-A2B (A-tier) for an open MoE built for on-device agents; Stable Diffusion (A-tier) for local image generation."),
+      ("What is the best open-source ChatGPT-style interface?", "Open WebUI (B-tier) is our pick for a self-hosted ChatGPT-style interface."),
+    ],
+  },
+  {
+    "slug": "best-ai-for-youtube-shorts",
+    "title": f"Best AI for YouTube Shorts and TikTok clips in {YEAR}",
+    "desc": f"The best AI tools for turning long videos into Shorts, TikToks and Reels in {YEAR}: OpusClip, StreamLadder, Captions and more.",
+    "intro": "Short-form gear from our Streamers / Creators loadout: clippers that find highlights, reframe to vertical, and add captions. Free tiers and export limits change; check each site.",
+    "specs": [("OpusClip","Streamers / Creators"),("StreamLadder","Streamers / Creators"),("Captions","Streamers / Creators"),("Descript","Streamers / Creators"),("CapCut","Streamers / Creators"),("Esseeoh","Streamers / Creators")],
+    "faqs": [
+      ("What is the best AI for YouTube Shorts?", "OpusClip is S-tier in our Streamers / Creators loadout for turning long videos into viral shorts. It has a free tier plus paid plans."),
+      ("What is best for vertical clips from live streams?", "StreamLadder (A-tier) is our pick for vertical clips from streams. For Twitch gaming highlights, see our best AI for Twitch streamers guide."),
+      ("What is best for captions?", "Captions (B-tier) is our pick for AI captions, edits and talking videos; CapCut (C-tier) is our pick for a free all-in-one social editor."),
+    ],
+  },
+  {
+    "slug": "best-ai-3d-model-generators",
+    "title": f"Best AI 3D model generators in {YEAR}",
+    "desc": f"The best text-to-3D and image-to-3D AI tools in {YEAR}: Meshy, Tripo, Rodin (Hyper3D) and more, ranked from our 3D loadout.",
+    "intro": "Mesh-making gear from our 3D loadout: tools that turn a prompt or image into a 3D model. Check each tool's license terms before using models in a commercial project.",
+    "specs": [("Meshy","3D"),("Tripo","3D"),("Rodin (Hyper3D)","3D"),("Kaedim","3D"),("Opolyo","3D")],
+    "faqs": [
+      ("What is the best AI 3D model generator?", "Meshy is S-tier in our 3D loadout as the best all-round text/image to 3D tool. Tripo (A-tier) is fastest for prototypes, and Rodin (Hyper3D) (A-tier) is our pick for high-detail production-ready 3D."),
+      ("Is there a free AI 3D model generator?", "Meshy, Tripo and Rodin (Hyper3D) each have a free tier plus paid plans in our data. Kaedim is paid."),
+      ("Can AI make 3D models for 3D printing?", "Opolyo (C-tier) turns a photo or text prompt into a closed, textured 3D model and offers image-to-STL for 3D printing. Check its site for current pricing."),
+    ],
+  },
+  {
+    "slug": "best-ai-for-academic-research",
+    "title": f"Best AI for academic research and papers in {YEAR}",
+    "desc": f"The best AI tools for finding, reading and reviewing academic papers in {YEAR}: Elicit, Undermind, Litmaps and more, ranked.",
+    "intro": "Paper-hunting gear from our Research / Search loadout. AI can miss or misread sources, so always open and check the papers you cite, and follow your institution's AI rules.",
+    "specs": [("NotebookLM","Research / Search"),("Elicit","Research / Search"),("Undermind","Research / Search"),("Litmaps","Research / Search"),("Anara","Research / Search"),("AnswerThis","Research / Search"),("Moonlight","Research / Search")],
+    "faqs": [
+      ("What is the best AI for academic papers?", "Elicit (B-tier) is our pick for academic papers. Undermind (B-tier) is a deep literature search agent that reads full texts, and Litmaps (B-tier) maps citations and sends alerts."),
+      ("What is best for studying my own sources?", "NotebookLM (A-tier) is our pick for studying your own docs, with audio overviews."),
+      ("Are there free AI research tools?", "In our data, Elicit and NotebookLM have free tiers; Undermind, Litmaps, Anara, AnswerThis and Moonlight have free plans with paid upgrades. Check each site for limits."),
+    ],
+  },
+  {
+    "slug": "best-ai-music-production-tools",
+    "title": f"Best AI music production tools in {YEAR}: stems, mixing and mastering",
+    "desc": f"The best AI tools for music producers in {YEAR}: stem splitting, mixing, mastering, songwriting and transcription, ranked from our Music loadout.",
+    "intro": "Studio gear from our Music loadout for people making their own tracks, not generating whole songs. For full-song generators like Suno, see the Music loadout and our best AI music for YouTube guide.",
+    "specs": [("LALAL.AI","Music"),("Stable Audio","Music"),("Masterchannel","Music"),("RoEx","Music"),("Hookpad","Music"),("Klangio","Music"),("Songmastr","Music")],
+    "faqs": [
+      ("What is the best AI stem splitter?", "LALAL.AI is A-tier in our Music loadout as a best-in-class AI stem splitter and vocal remover. It is paid from $9.99/mo in our data."),
+      ("What is the best AI mastering tool?", "Masterchannel (B-tier, from $15/mo) is our pick for AI mastering modeled on pro engineers. RoEx (B-tier) mixes and masters uploaded stems, and Songmastr (C-tier) offers free mastering to a reference track (7 free per week)."),
+      ("Can AI turn audio into sheet music?", "Klangio (B-tier) transcribes audio and YouTube into sheet music and MIDI."),
+    ],
+  },
+]
 FULL_BEST = []
 for b in BEST:
     ts = tools_by_specs(b["specs"])
