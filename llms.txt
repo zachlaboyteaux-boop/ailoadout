@@ -80,6 +80,13 @@
 - [Best AI for game assets in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-game-assets/)
 - [Best AI for NPCs in games in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-npcs/)
 - [Best AI agent builders and frameworks in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-agent-builders/)
+- [Best AI meeting notes apps in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-meeting-notes/)
+- [Best AI voice generators in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-voice-generators/)
+- [Best open-source and open-weights AI tools in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-open-source-ai-tools/)
+- [Best AI for YouTube Shorts and TikTok clips in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-youtube-shorts/)
+- [Best AI 3D model generators in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-3d-model-generators/)
+- [Best AI for academic research and papers in 2026](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-for-academic-research/)
+- [Best AI music production tools in 2026: stems, mixing and mastering](https://zachlaboyteaux-boop.github.io/ailoadout/best/best-ai-music-production-tools/)
 
 ## Data
 - [tools.json](https://zachlaboyteaux-boop.github.io/ailoadout/tools.json): machine-readable list of all tools and releases
